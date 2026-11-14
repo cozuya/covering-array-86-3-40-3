@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "Please cite this construction and formal verification, identify the commit consulted, and retain the prior-construction credits."
+title: "A Covering Array with 86 Rows, 40 Columns, and Three Symbols"
+type: software
+license: Apache-2.0
+authors:
+  - family-names: Ozols
+    given-names: Chris
+    website: "https://github.com/cozuya"
+url: "https://cozuya.github.io/improvements/covering-array-86-3-40-3"
+repository-code: "https://github.com/cozuya/covering-array-86-3-40-3"
+abstract: >-
+  An explicit CA(86;3,40,3) with a Lean 4.28.0 kernel-checked proof of
+  CAN(3,40,3) <= 86. It improves the best previously located public upper
+  bound from 87 to 86 according to a supplied prior-art audit with research
+  cutoff November 14, 2026. The construction was obtained by postoptimizing
+  Bai XunDi's 87-row extension of the Shokri–Moura lineage. By Chris Ozols,
+  with AI-assisted construction, verification, and formalization. All 266,760
+  coverage requirements are checked with decide +kernel; there is no native
+  evaluation axiom and no Mathlib dependency. Optimality and absolute
+  historical priority are not established. Third-party material retains its
+  original license; see NOTICE.
+keywords:
+  - covering array
+  - combinatorial design
+  - combinatorial testing
+  - ternary array
+  - upper bound
+  - Lean 4
+  - formal verification
+preferred-citation:
+  type: report
+  title: "A Covering Array with 86 Rows, 40 Columns, and Three Symbols"
+  authors:
+    - family-names: Ozols
+      given-names: Chris
+  url: "https://github.com/cozuya/covering-array-86-3-40-3"
+references:
+  - type: data
+    title: "Covering arrays: verified improvements to the ca-tools table (data, certificates, verification code, Lean sources)"
+    authors:
+      - family-names: Bai
+        given-names: XunDi
+    year: 2026
+    doi: "10.5281/zenodo.23787055"
+  - type: article
+    title: "New Families of Strength-3 Covering Arrays Using Linear Feedback Shift Register Sequences"
+    authors:
+      - family-names: Shokri
+        given-names: Kianoosh
+      - family-names: Moura
+        given-names: Lucia
+    year: 2025
+    doi: "10.1002/jcd.21963"

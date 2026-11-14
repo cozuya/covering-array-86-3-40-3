@@ -1,0 +1,16 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--fresh",
+    "CA86"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 157.789,
+  "largest_process_max_rss_kib": 593100,
+  "sampled_peak_tree_rss_kib": 696588,
+  "sampled_peak_tree_pss_kib": 614972,
+  "sampling_interval_seconds": 0.2,
+  "samples": 766
+}

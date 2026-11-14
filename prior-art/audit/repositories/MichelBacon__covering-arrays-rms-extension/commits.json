@@ -1,0 +1,388 @@
+[
+  {
+    "sha": "7a38bca67a5894309d3a2f30304e5c4d64f93048",
+    "node_id": "C_kwDOVFAk-9oAKDdhMzhiY2E2N2E1ODk0MzA5ZDNhMmYzMDMwNGU1YzRkNjRmOTMwNDg",
+    "commit": {
+      "author": {
+        "name": "Mick Bergeron",
+        "email": "mickaelbergeron14@gmail.com",
+        "date": "2026-10-26T21:40:03Z"
+      },
+      "committer": {
+        "name": "Mick Bergeron",
+        "email": "mickaelbergeron14@gmail.com",
+        "date": "2026-10-26T21:40:03Z"
+      },
+      "message": "README: related work (Shokri-Moura 2-plication, crossover table), nuanced novelty caveat; R-contribution synced with CAs PR #72 (k_RMScopiesCA), obsolete patch removed\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "a2c6494d3df4187d4eb2a1bf0ee3d76c60f99b62",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/trees/a2c6494d3df4187d4eb2a1bf0ee3d76c60f99b62"
+      },
+      "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/commits/7a38bca67a5894309d3a2f30304e5c4d64f93048",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/7a38bca67a5894309d3a2f30304e5c4d64f93048",
+    "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/7a38bca67a5894309d3a2f30304e5c4d64f93048",
+    "comments_url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/7a38bca67a5894309d3a2f30304e5c4d64f93048/comments",
+    "author": {
+      "login": "MichelBacon",
+      "id": 48594719,
+      "node_id": "MDQ6VXNlcjQ4NTk0NzE5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48594719?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MichelBacon",
+      "html_url": "https://github.com/MichelBacon",
+      "followers_url": "https://api.github.com/users/MichelBacon/followers",
+      "following_url": "https://api.github.com/users/MichelBacon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MichelBacon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MichelBacon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MichelBacon/subscriptions",
+      "organizations_url": "https://api.github.com/users/MichelBacon/orgs",
+      "repos_url": "https://api.github.com/users/MichelBacon/repos",
+      "events_url": "https://api.github.com/users/MichelBacon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MichelBacon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "MichelBacon",
+      "id": 48594719,
+      "node_id": "MDQ6VXNlcjQ4NTk0NzE5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48594719?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MichelBacon",
+      "html_url": "https://github.com/MichelBacon",
+      "followers_url": "https://api.github.com/users/MichelBacon/followers",
+      "following_url": "https://api.github.com/users/MichelBacon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MichelBacon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MichelBacon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MichelBacon/subscriptions",
+      "organizations_url": "https://api.github.com/users/MichelBacon/orgs",
+      "repos_url": "https://api.github.com/users/MichelBacon/repos",
+      "events_url": "https://api.github.com/users/MichelBacon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MichelBacon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "79e9c34f23e8d19ee5a8470ebc83e7076e9c56f9",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/79e9c34f23e8d19ee5a8470ebc83e7076e9c56f9",
+        "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/79e9c34f23e8d19ee5a8470ebc83e7076e9c56f9"
+      }
+    ]
+  },
+  {
+    "sha": "79e9c34f23e8d19ee5a8470ebc83e7076e9c56f9",
+    "node_id": "C_kwDOVFAk-9oAKDc5ZTljMzRmMjNlOGQxOWVlNWE4NDcwZWJjODNlNzA3NmU5YzU2Zjk",
+    "commit": {
+      "author": {
+        "name": "Mickael Bergeron",
+        "email": "mickael.bergeron.pro@gmail.com",
+        "date": "2026-10-23T00:13:49Z"
+      },
+      "committer": {
+        "name": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2026-10-23T00:13:49Z"
+      },
+      "message": "R: limit RMScopies to tested parameters (RMScopies_tested), as suggested by U. Groemping\n\n- RMScopies_tested: 328 (q, m) combinations whose R output was verified\n  exhaustively (ca_verify.c from ca-tools; q = 19 via identity with verified arrays).\n- RMScopiesCA / N_RMScopiesCA only use tested combinations (smallest tested\n  m' >= m, then columns dropped); all 78 improved entries are covered.\n- RMScopies(q, m, tested_only = FALSE) for exploration.\n- Verification log: R-contribution/RMScopies_tested_verification.csv.\n- Tests: 81 expectations.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN",
+      "tree": {
+        "sha": "e07c180b4eb748793a3eba980b5fae218f73a56f",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/trees/e07c180b4eb748793a3eba980b5fae218f73a56f"
+      },
+      "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/commits/79e9c34f23e8d19ee5a8470ebc83e7076e9c56f9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQPqJCAuY\n/FfAO1eYz2ri1XqEzyCk8sOm2QlkiplLbMq+CYVIqt863fPrTZgL5HHb1ACbcj6P8rhGerQUDhzC\noQk=\n-----END SSH SIGNATURE-----",
+        "payload": "tree e07c180b4eb748793a3eba980b5fae218f73a56f\nparent 2c4edea203588336ca9724cbb540a3a83939b2c7\nauthor Mickael Bergeron <mickael.bergeron.pro@gmail.com> 1792714429 -0400\ncommitter Claude <noreply@anthropic.com> 1792714429 -0400\n\nR: limit RMScopies to tested parameters (RMScopies_tested), as suggested by U. Groemping\n\n- RMScopies_tested: 328 (q, m) combinations whose R output was verified\n  exhaustively (ca_verify.c from ca-tools; q = 19 via identity with verified arrays).\n- RMScopiesCA / N_RMScopiesCA only use tested combinations (smallest tested\n  m' >= m, then columns dropped); all 78 improved entries are covered.\n- RMScopies(q, m, tested_only = FALSE) for exploration.\n- Verification log: R-contribution/RMScopies_tested_verification.csv.\n- Tests: 81 expectations.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN\n",
+        "verified_at": "2026-10-23T00:13:52Z"
+      }
+    },
+    "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/79e9c34f23e8d19ee5a8470ebc83e7076e9c56f9",
+    "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/79e9c34f23e8d19ee5a8470ebc83e7076e9c56f9",
+    "comments_url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/79e9c34f23e8d19ee5a8470ebc83e7076e9c56f9/comments",
+    "author": null,
+    "committer": {
+      "login": "claude",
+      "id": 81847,
+      "node_id": "MDQ6VXNlcjgxODQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claude",
+      "html_url": "https://github.com/claude",
+      "followers_url": "https://api.github.com/users/claude/followers",
+      "following_url": "https://api.github.com/users/claude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+      "organizations_url": "https://api.github.com/users/claude/orgs",
+      "repos_url": "https://api.github.com/users/claude/repos",
+      "events_url": "https://api.github.com/users/claude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claude/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2c4edea203588336ca9724cbb540a3a83939b2c7",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/2c4edea203588336ca9724cbb540a3a83939b2c7",
+        "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/2c4edea203588336ca9724cbb540a3a83939b2c7"
+      }
+    ]
+  },
+  {
+    "sha": "2c4edea203588336ca9724cbb540a3a83939b2c7",
+    "node_id": "C_kwDOVFAk-9oAKDJjNGVkZWEyMDM1ODgzMzZjYTk3MjRjYmI1NDBhM2E4MzkzOWIyYzc",
+    "commit": {
+      "author": {
+        "name": "Mickael Bergeron",
+        "email": "mickael.bergeron.pro@gmail.com",
+        "date": "2026-10-12T12:44:53Z"
+      },
+      "committer": {
+        "name": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2026-10-12T12:44:53Z"
+      },
+      "message": "README: arrays also verified with ca-tools' ca_verify; comparison with the 2026-08-23 ca-tools table\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN",
+      "tree": {
+        "sha": "4f0defc3dcda4be2497f6d4c5e6bb5354ed8e2d1",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/trees/4f0defc3dcda4be2497f6d4c5e6bb5354ed8e2d1"
+      },
+      "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/commits/2c4edea203588336ca9724cbb540a3a83939b2c7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQBuu/vAu\nBDCh5+7Te5AtJkvoJHypsLIuqDIYwvhifOPMNX7rg4llG+IFL6gn+beDQVjtEFFreiKhabJu1Lss\nYQ8=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 4f0defc3dcda4be2497f6d4c5e6bb5354ed8e2d1\nparent 7631182a0e4011cc36f888dbc965f670895b0f69\nauthor Mickael Bergeron <mickael.bergeron.pro@gmail.com> 1791809093 -0400\ncommitter Claude <noreply@anthropic.com> 1791809093 -0400\n\nREADME: arrays also verified with ca-tools' ca_verify; comparison with the 2026-08-23 ca-tools table\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN\n",
+        "verified_at": "2026-10-12T12:44:56Z"
+      }
+    },
+    "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/2c4edea203588336ca9724cbb540a3a83939b2c7",
+    "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/2c4edea203588336ca9724cbb540a3a83939b2c7",
+    "comments_url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/2c4edea203588336ca9724cbb540a3a83939b2c7/comments",
+    "author": null,
+    "committer": {
+      "login": "claude",
+      "id": 81847,
+      "node_id": "MDQ6VXNlcjgxODQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claude",
+      "html_url": "https://github.com/claude",
+      "followers_url": "https://api.github.com/users/claude/followers",
+      "following_url": "https://api.github.com/users/claude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+      "organizations_url": "https://api.github.com/users/claude/orgs",
+      "repos_url": "https://api.github.com/users/claude/repos",
+      "events_url": "https://api.github.com/users/claude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claude/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7631182a0e4011cc36f888dbc965f670895b0f69",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/7631182a0e4011cc36f888dbc965f670895b0f69",
+        "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/7631182a0e4011cc36f888dbc965f670895b0f69"
+      }
+    ]
+  },
+  {
+    "sha": "7631182a0e4011cc36f888dbc965f670895b0f69",
+    "node_id": "C_kwDOVFAk-9oAKDc2MzExODJhMGU0MDExY2MzNmY4ODhkYmM5NjVmNjcwODk1YjBmNjk",
+    "commit": {
+      "author": {
+        "name": "Mickael Bergeron",
+        "email": "mickael.bergeron.pro@gmail.com",
+        "date": "2026-10-12T12:41:00Z"
+      },
+      "committer": {
+        "name": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2026-10-12T12:41:00Z"
+      },
+      "message": "Remove __pycache__, add .gitignore\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN",
+      "tree": {
+        "sha": "292502db790795e01fa73978be0de158fa030e51",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/trees/292502db790795e01fa73978be0de158fa030e51"
+      },
+      "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/commits/7631182a0e4011cc36f888dbc965f670895b0f69",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQD36pKjt\nB+GgGtDlCZOJ9Q4IwqBpySmvBLtif1Z/Mb2YTWj+iTn9kJBgaI0bBdgLGGUZ8DBEC7QfPWb5g2t9\n+A8=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 292502db790795e01fa73978be0de158fa030e51\nparent 1f4e29f251ad10e66f910a06fd474f1ae53257e7\nauthor Mickael Bergeron <mickael.bergeron.pro@gmail.com> 1791808860 -0400\ncommitter Claude <noreply@anthropic.com> 1791808860 -0400\n\nRemove __pycache__, add .gitignore\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN\n",
+        "verified_at": "2026-10-12T12:41:03Z"
+      }
+    },
+    "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/7631182a0e4011cc36f888dbc965f670895b0f69",
+    "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/7631182a0e4011cc36f888dbc965f670895b0f69",
+    "comments_url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/7631182a0e4011cc36f888dbc965f670895b0f69/comments",
+    "author": null,
+    "committer": {
+      "login": "claude",
+      "id": 81847,
+      "node_id": "MDQ6VXNlcjgxODQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claude",
+      "html_url": "https://github.com/claude",
+      "followers_url": "https://api.github.com/users/claude/followers",
+      "following_url": "https://api.github.com/users/claude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+      "organizations_url": "https://api.github.com/users/claude/orgs",
+      "repos_url": "https://api.github.com/users/claude/repos",
+      "events_url": "https://api.github.com/users/claude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claude/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1f4e29f251ad10e66f910a06fd474f1ae53257e7",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/1f4e29f251ad10e66f910a06fd474f1ae53257e7",
+        "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/1f4e29f251ad10e66f910a06fd474f1ae53257e7"
+      }
+    ]
+  },
+  {
+    "sha": "1f4e29f251ad10e66f910a06fd474f1ae53257e7",
+    "node_id": "C_kwDOVFAk-9oAKDFmNGUyOWYyNTFhZDEwZTY2ZjkxMGEwNmZkNDc0ZjFhZTUzMjU3ZTc",
+    "commit": {
+      "author": {
+        "name": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2026-10-12T12:40:24Z"
+      },
+      "committer": {
+        "name": "Claude",
+        "email": "noreply@anthropic.com",
+        "date": "2026-10-12T12:40:24Z"
+      },
+      "message": "Support prime powers q (GF(q) arithmetic): 18 more improved entries (v = 8, 9)\n\n- gf.py: GF(q) tables for q = p^n, field axioms checked exhaustively.\n- rms_base.py, construct_one_copy.py, construct_layers.py now work over GF(q);\n  for prime q the output is byte-identical to the previous version.\n- New verified arrays for v = 8 (k = 74-81) and v = 9 (k = 92-101);\n  improvements.csv now lists 78 entries.\n- README: complete proof (including the m = 1 case and prime powers).\n- R-contribution: RMScopies for prime powers via lhs::create_galois_field,\n  q = 2 guarded, tests extended (60 expectations), patch regenerated.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN",
+      "tree": {
+        "sha": "d5606cebd71e62014375b451394fbcaa190e6ded",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/trees/d5606cebd71e62014375b451394fbcaa190e6ded"
+      },
+      "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/commits/1f4e29f251ad10e66f910a06fd474f1ae53257e7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQOV59X9f\ndQvDpYFZ39aCH4tKA47oMrTbTN/fE9ULs2NB/s2xU2TT/3o4FztVSzvZVhNS6/KfWgwJfLlP/xxp\nOQU=\n-----END SSH SIGNATURE-----",
+        "payload": "tree d5606cebd71e62014375b451394fbcaa190e6ded\nparent c3bc2312c0a134b1cb8de16dfb7df56cad21fce8\nauthor Claude <noreply@anthropic.com> 1791808824 -0400\ncommitter Claude <noreply@anthropic.com> 1791808824 -0400\n\nSupport prime powers q (GF(q) arithmetic): 18 more improved entries (v = 8, 9)\n\n- gf.py: GF(q) tables for q = p^n, field axioms checked exhaustively.\n- rms_base.py, construct_one_copy.py, construct_layers.py now work over GF(q);\n  for prime q the output is byte-identical to the previous version.\n- New verified arrays for v = 8 (k = 74-81) and v = 9 (k = 92-101);\n  improvements.csv now lists 78 entries.\n- README: complete proof (including the m = 1 case and prime powers).\n- R-contribution: RMScopies for prime powers via lhs::create_galois_field,\n  q = 2 guarded, tests extended (60 expectations), patch regenerated.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN\n",
+        "verified_at": "2026-10-12T12:40:28Z"
+      }
+    },
+    "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/1f4e29f251ad10e66f910a06fd474f1ae53257e7",
+    "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/1f4e29f251ad10e66f910a06fd474f1ae53257e7",
+    "comments_url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/1f4e29f251ad10e66f910a06fd474f1ae53257e7/comments",
+    "author": {
+      "login": "claude",
+      "id": 81847,
+      "node_id": "MDQ6VXNlcjgxODQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claude",
+      "html_url": "https://github.com/claude",
+      "followers_url": "https://api.github.com/users/claude/followers",
+      "following_url": "https://api.github.com/users/claude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+      "organizations_url": "https://api.github.com/users/claude/orgs",
+      "repos_url": "https://api.github.com/users/claude/repos",
+      "events_url": "https://api.github.com/users/claude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claude/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "claude",
+      "id": 81847,
+      "node_id": "MDQ6VXNlcjgxODQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/claude",
+      "html_url": "https://github.com/claude",
+      "followers_url": "https://api.github.com/users/claude/followers",
+      "following_url": "https://api.github.com/users/claude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+      "organizations_url": "https://api.github.com/users/claude/orgs",
+      "repos_url": "https://api.github.com/users/claude/repos",
+      "events_url": "https://api.github.com/users/claude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/claude/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c3bc2312c0a134b1cb8de16dfb7df56cad21fce8",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/c3bc2312c0a134b1cb8de16dfb7df56cad21fce8",
+        "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/c3bc2312c0a134b1cb8de16dfb7df56cad21fce8"
+      }
+    ]
+  },
+  {
+    "sha": "c3bc2312c0a134b1cb8de16dfb7df56cad21fce8",
+    "node_id": "C_kwDOVFAk-9oAKGMzYmMyMzEyYzBhMTM0YjFjYjhkZTE2ZGZiN2RmNTZjYWQyMWZjZTg",
+    "commit": {
+      "author": {
+        "name": "Mickael Bergeron",
+        "email": "mickael.bergeron.pro@gmail.com",
+        "date": "2026-10-11T16:26:05Z"
+      },
+      "committer": {
+        "name": "Mickael Bergeron",
+        "email": "mickael.bergeron.pro@gmail.com",
+        "date": "2026-10-11T16:26:05Z"
+      },
+      "message": "New upper bounds for strength-3 covering arrays (RMS construction + shifted copies)\n\n- Constructions (Python): RMS base, one shifted copy, general layered construction\n- Independent brute-force checkers (Python, C)\n- 13 verified arrays and the list of 60 improved table entries\n- R implementation for the CAs package (RMScopies), with docs, tests and git patch\n- Write-up with proof sketch (README.md and PDF)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN",
+      "tree": {
+        "sha": "012726e408b7a05049e8e81f952170de47c1b1ab",
+        "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/trees/012726e408b7a05049e8e81f952170de47c1b1ab"
+      },
+      "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/git/commits/c3bc2312c0a134b1cb8de16dfb7df56cad21fce8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQGFHQm6+\nHPKkLjPtdAYUDwVvujPorRzMnBKVOZk94KORiNZlo8EhLABQ8HyAMhllqPxBd7c2p89dVNut3nd5\n4Ak=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 012726e408b7a05049e8e81f952170de47c1b1ab\nauthor Mickael Bergeron <mickael.bergeron.pro@gmail.com> 1791735965 -0400\ncommitter Mickael Bergeron <mickael.bergeron.pro@gmail.com> 1791735965 -0400\n\nNew upper bounds for strength-3 covering arrays (RMS construction + shifted copies)\n\n- Constructions (Python): RMS base, one shifted copy, general layered construction\n- Independent brute-force checkers (Python, C)\n- 13 verified arrays and the list of 60 improved table entries\n- R implementation for the CAs package (RMScopies), with docs, tests and git patch\n- Write-up with proof sketch (README.md and PDF)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016kJVGYEHcVo8hHYdVCWAbN\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/c3bc2312c0a134b1cb8de16dfb7df56cad21fce8",
+    "html_url": "https://github.com/MichelBacon/covering-arrays-rms-extension/commit/c3bc2312c0a134b1cb8de16dfb7df56cad21fce8",
+    "comments_url": "https://api.github.com/repos/MichelBacon/covering-arrays-rms-extension/commits/c3bc2312c0a134b1cb8de16dfb7df56cad21fce8/comments",
+    "author": null,
+    "committer": null,
+    "parents": []
+  }
+]

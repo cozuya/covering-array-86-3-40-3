@@ -1,0 +1,84 @@
+[
+  {
+    "sha": "7859243f8167b22ce8891885579ce39f4df8594b",
+    "node_id": "C_kwDONo-S-toAKDc4NTkyNDNmODE2N2IyMmNlODg5MTg4NTU3OWNlMzlmNGRmODU5NGI",
+    "commit": {
+      "author": {
+        "name": "Ulrike Gr\u00f6mping",
+        "email": "ugroempi@users.noreply.github.com",
+        "date": "2026-11-14T14:34:09Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-11-14T14:34:09Z"
+      },
+      "message": "Order `Ns_derive`/`Ns_fuse` columns with internet-based constructions last, eCAN absolutely last (#94)\n\n* Order `Ns_derive`/`Ns_fuse` columns with internet-based constructions last, eCAN absolutely last (#94) \n* increment version to development version 0.25-2 and modify DESCRIPTION and NEWS accordingly, reflecting improved order for Ns\n\n---------\n\nCo-authored-by: ugroempi <4357614+ugroempi@users.noreply.github.com>\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>",
+      "tree": {
+        "sha": "b1dc1cf2d218d807e462a5340b0b5e917e99e915",
+        "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/b1dc1cf2d218d807e462a5340b0b5e917e99e915"
+      },
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/commits/7859243f8167b22ce8891885579ce39f4df8594b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq+HFhCRC1aQ7uu5UhlAAAx6gQAEfrqy777rtorbOaK/5A9bK+\n72SRAzxal3JDL7PgyBDXuGZHvBKN8xv0aeORJi+ApGNuM2PkTVQf0EQsmRK715/g\nvci1TE+4TmKgtXnrxmDiKZdbQ4mWKHZoAYwYLbtafgtdidKveren7EfBrbrloVDR\n5WFcNIomMWKvqLAwXOH4DS72DWhHn/Yv4yIVdgEGI/vjRnbo8rbWkJpe10Mom7ej\n/7cavoNc16niWwwelWKVx1oHY5h8kKqDLBqqLdOXUM1LZQTJ8vKlXlUsqsUsxPTm\nAurdGAk2rxYmG+tL7KQx1mByNQjGXbr0V7rIeaod8GLhcxrZdRuIViq/bfoSUtIv\nzHki54+1M3Eb5gYYyjsL4w+AnIUuU7N1EStdW/deakFNiqtl7IMeBKZhzk1YThAu\n+uDQosBswuWmmPWrdbdnQucDo+J+8TnIiWXXJpldwgCZyl9cX7bB8STqVwYzform\niA9AsY73CoQ6m7HCNk0X2zCFw2gIqofLAFH3L0vVt9LISt38TdhxU5i3hDZviTaL\ntACQGPIY1f3124OYvN62/k/hbxMwIaHkMkAcUsF8jTGYboMfJTy+MzGiRK4NdyBt\nHXAc+1VAyIWQyOzvcWR5ZvL/NhUTbUaM9WXAWGr4oWUNFoFi3DEv/c5EjExHLy+c\nZM6GUmvoDg2cs6LCYvEI\n=r4l5\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree b1dc1cf2d218d807e462a5340b0b5e917e99e915\nparent e28ac4f93e2495299c22724dfeea597d5a79396e\nauthor Ulrike Gr\u00f6mping <ugroempi@users.noreply.github.com> 1794666849 +0100\ncommitter GitHub <noreply@github.com> 1794666849 +0100\n\nOrder `Ns_derive`/`Ns_fuse` columns with internet-based constructions last, eCAN absolutely last (#94)\n\n* Order `Ns_derive`/`Ns_fuse` columns with internet-based constructions last, eCAN absolutely last (#94) \n* increment version to development version 0.25-2 and modify DESCRIPTION and NEWS accordingly, reflecting improved order for Ns\n\n---------\n\nCo-authored-by: ugroempi <4357614+ugroempi@users.noreply.github.com>\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>",
+        "verified_at": "2026-11-14T14:34:09Z"
+      }
+    },
+    "url": "https://api.github.com/repos/ugroempi/CAs/commits/7859243f8167b22ce8891885579ce39f4df8594b",
+    "html_url": "https://github.com/ugroempi/CAs/commit/7859243f8167b22ce8891885579ce39f4df8594b",
+    "comments_url": "https://api.github.com/repos/ugroempi/CAs/commits/7859243f8167b22ce8891885579ce39f4df8594b/comments",
+    "author": {
+      "login": "ugroempi",
+      "id": 4357614,
+      "node_id": "MDQ6VXNlcjQzNTc2MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4357614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ugroempi",
+      "html_url": "https://github.com/ugroempi",
+      "followers_url": "https://api.github.com/users/ugroempi/followers",
+      "following_url": "https://api.github.com/users/ugroempi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ugroempi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ugroempi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ugroempi/subscriptions",
+      "organizations_url": "https://api.github.com/users/ugroempi/orgs",
+      "repos_url": "https://api.github.com/users/ugroempi/repos",
+      "events_url": "https://api.github.com/users/ugroempi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ugroempi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e28ac4f93e2495299c22724dfeea597d5a79396e",
+        "url": "https://api.github.com/repos/ugroempi/CAs/commits/e28ac4f93e2495299c22724dfeea597d5a79396e",
+        "html_url": "https://github.com/ugroempi/CAs/commit/e28ac4f93e2495299c22724dfeea597d5a79396e"
+      }
+    ]
+  }
+]

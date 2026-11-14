@@ -1,0 +1,12 @@
+/.lake/
+/.tools/
+/.build/
+__pycache__/
+*.pyc
+*.olean
+*.ilean
+*.olean.private
+*.olean.server
+*.c.o
+.DS_Store
+*~

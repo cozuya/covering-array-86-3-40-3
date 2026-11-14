@@ -1,0 +1,822 @@
+[
+  {
+    "sha": "9ee9b02896dfc0528650d2e04f5edf7bf52d128c",
+    "node_id": "C_kwDOVa5A0NoAKDllZTliMDI4OTZkZmMwNTI4NjUwZDJlMDRmNWVkZjdiZjUyZDEyOGM",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-13T19:05:06Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-13T19:05:06Z"
+      },
+      "message": "v1.10: 3 new parameter sets and 8 improved, CA(291; 3, 32, 5), CA(884; 3, 58, 7), CA(N; 4, 48, v) for v = 20 to 22\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "362cb31b96fe88f23d31a6fd22769bade99d0c8e",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/362cb31b96fe88f23d31a6fd22769bade99d0c8e"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/9ee9b02896dfc0528650d2e04f5edf7bf52d128c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/9ee9b02896dfc0528650d2e04f5edf7bf52d128c",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/9ee9b02896dfc0528650d2e04f5edf7bf52d128c",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/9ee9b02896dfc0528650d2e04f5edf7bf52d128c/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4f6ff4682f42dd5f39209fe17689263a45c5b622",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/4f6ff4682f42dd5f39209fe17689263a45c5b622",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/4f6ff4682f42dd5f39209fe17689263a45c5b622"
+      }
+    ]
+  },
+  {
+    "sha": "4f6ff4682f42dd5f39209fe17689263a45c5b622",
+    "node_id": "C_kwDOVa5A0NoAKDRmNmZmNDY4MmY0MmRkNWYzOTIwOWZlMTc2ODkyNjNhNDVjNWI2MjI",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-11T16:53:16Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-11T16:53:16Z"
+      },
+      "message": "v1.9: 5 new parameter sets and 41 improved, CA(6871; 4, 38, 6), CA(7195; 4, 39, 6), CA(N; 4, k, 6) for k = 24 to 37, CA(36615; 4, 29, 10)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "79501eb6b25d264e0e7e7f30e2269adcb84eb396",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/79501eb6b25d264e0e7e7f30e2269adcb84eb396"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/4f6ff4682f42dd5f39209fe17689263a45c5b622",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/4f6ff4682f42dd5f39209fe17689263a45c5b622",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/4f6ff4682f42dd5f39209fe17689263a45c5b622",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/4f6ff4682f42dd5f39209fe17689263a45c5b622/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "87d5265abae8ced0fa6289eaea211c93bea65d0b",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/87d5265abae8ced0fa6289eaea211c93bea65d0b",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/87d5265abae8ced0fa6289eaea211c93bea65d0b"
+      }
+    ]
+  },
+  {
+    "sha": "87d5265abae8ced0fa6289eaea211c93bea65d0b",
+    "node_id": "C_kwDOVa5A0NoAKDg3ZDUyNjVhYmFlOGNlZDBmYTYyODllYWVhMjExYzkzYmVhNjVkMGI",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-08T20:58:03Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-08T20:58:03Z"
+      },
+      "message": "v1.8: 21 new parameter sets (first three at strength 6) and 28 improved, CA(3516; 4, 14, 6), CA(3786; 4, 15, 6), CA(6254; 4, k, 6) for k = 26 to 29\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "649f63e7f485f30d2dfe85e7d3e7a17a7ec86aff",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/649f63e7f485f30d2dfe85e7d3e7a17a7ec86aff"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/87d5265abae8ced0fa6289eaea211c93bea65d0b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/87d5265abae8ced0fa6289eaea211c93bea65d0b",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/87d5265abae8ced0fa6289eaea211c93bea65d0b",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/87d5265abae8ced0fa6289eaea211c93bea65d0b/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ffc2dc4592d00c10212252c29e79c7c98727c473",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/ffc2dc4592d00c10212252c29e79c7c98727c473",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/ffc2dc4592d00c10212252c29e79c7c98727c473"
+      }
+    ]
+  },
+  {
+    "sha": "ffc2dc4592d00c10212252c29e79c7c98727c473",
+    "node_id": "C_kwDOVa5A0NoAKGZmYzJkYzQ1OTJkMDBjMTAyMTIyNTJjMjllNzljN2M5ODcyN2M0NzM",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-04T22:52:25Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-04T22:52:25Z"
+      },
+      "message": "drop __pycache__, ignore it\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "0331a48e2e499f436db7c9c9342662de9f95eb35",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/0331a48e2e499f436db7c9c9342662de9f95eb35"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/ffc2dc4592d00c10212252c29e79c7c98727c473",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/ffc2dc4592d00c10212252c29e79c7c98727c473",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/ffc2dc4592d00c10212252c29e79c7c98727c473",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/ffc2dc4592d00c10212252c29e79c7c98727c473/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1cb3b0ab73d957c79841399c4fb1abe792557611",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/1cb3b0ab73d957c79841399c4fb1abe792557611",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/1cb3b0ab73d957c79841399c4fb1abe792557611"
+      }
+    ]
+  },
+  {
+    "sha": "1cb3b0ab73d957c79841399c4fb1abe792557611",
+    "node_id": "C_kwDOVa5A0NoAKDFjYjNiMGFiNzNkOTU3Yzc5ODQxMzk5YzRmYjFhYmU3OTI1NTc2MTE",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-04T22:52:10Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-04T22:52:10Z"
+      },
+      "message": "generators/shokri-thesis: deterministic builder for the five arrays from the constructions cited in K. Shokri's thesis\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "a5eb628bc177fb4520392a08e2a79502eb11592b",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/a5eb628bc177fb4520392a08e2a79502eb11592b"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/1cb3b0ab73d957c79841399c4fb1abe792557611",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/1cb3b0ab73d957c79841399c4fb1abe792557611",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/1cb3b0ab73d957c79841399c4fb1abe792557611",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/1cb3b0ab73d957c79841399c4fb1abe792557611/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "abd04aa8f8b8ee32cb7b2b7fbb1614e30484d320",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/abd04aa8f8b8ee32cb7b2b7fbb1614e30484d320",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/abd04aa8f8b8ee32cb7b2b7fbb1614e30484d320"
+      }
+    ]
+  },
+  {
+    "sha": "abd04aa8f8b8ee32cb7b2b7fbb1614e30484d320",
+    "node_id": "C_kwDOVa5A0NoAKGFiZDA0YWE4ZjhiOGVlMzJjYjdiMmI3ZmJiMTYxNGUzMDQ4NGQzMjA",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-04T18:07:40Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-04T18:07:40Z"
+      },
+      "message": "v1.7: 33 new parameter sets and 13 improved, CA(6445;4,37,6) and the line CA(N;4,k,6) for k = 11 to 39, a PGL(2,5) x cyclic family, post-optimisation at strengths 3 to 5\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "80bad47c963f24227538b165ec74a254ac1c61ac",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/80bad47c963f24227538b165ec74a254ac1c61ac"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/abd04aa8f8b8ee32cb7b2b7fbb1614e30484d320",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/abd04aa8f8b8ee32cb7b2b7fbb1614e30484d320",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/abd04aa8f8b8ee32cb7b2b7fbb1614e30484d320",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/abd04aa8f8b8ee32cb7b2b7fbb1614e30484d320/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "25265e6d1675f1a53b2379f7b7e6c73f36d7f153",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/25265e6d1675f1a53b2379f7b7e6c73f36d7f153",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/25265e6d1675f1a53b2379f7b7e6c73f36d7f153"
+      }
+    ]
+  },
+  {
+    "sha": "25265e6d1675f1a53b2379f7b7e6c73f36d7f153",
+    "node_id": "C_kwDOVa5A0NoAKDI1MjY1ZTZkMTY3NWYxYTUzYjIzNzlmN2I3ZTZjNzNmMzZkN2YxNTM",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-02T07:33:03Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-02T07:33:03Z"
+      },
+      "message": "v1.6: eight parameter sets from post-optimisation of Bai XunDi's record arrays, CA(6947;4,35,6), CA(7037;4,36,6), CA(2646;5,13,4) and five at strength 3; CA(2205;3,16,10) marked overtaken",
+      "tree": {
+        "sha": "65d2f015fb13f66237eeee95acfd68951ce1d40c",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/65d2f015fb13f66237eeee95acfd68951ce1d40c"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/25265e6d1675f1a53b2379f7b7e6c73f36d7f153",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/25265e6d1675f1a53b2379f7b7e6c73f36d7f153",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/25265e6d1675f1a53b2379f7b7e6c73f36d7f153",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/25265e6d1675f1a53b2379f7b7e6c73f36d7f153/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dfbc7aeb9dc915ad4eb2b3c92a709f9387ed35dd",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/dfbc7aeb9dc915ad4eb2b3c92a709f9387ed35dd",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/dfbc7aeb9dc915ad4eb2b3c92a709f9387ed35dd"
+      }
+    ]
+  },
+  {
+    "sha": "dfbc7aeb9dc915ad4eb2b3c92a709f9387ed35dd",
+    "node_id": "C_kwDOVa5A0NoAKGRmYmM3YWViOWRjOTE1YWQ0ZWIyYjNjOTJhNzA5ZjkzODdlZDM1ZGQ",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-01T18:32:03Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-11-01T18:32:03Z"
+      },
+      "message": "v1.5: CA(2616;4,10,6), CA(3216;4,12,6), CA(6559;4,27,6), CA(3556;4,9,7)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "ebd155e7cf87d89ad71147982f8e3fec48d75370",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/ebd155e7cf87d89ad71147982f8e3fec48d75370"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/dfbc7aeb9dc915ad4eb2b3c92a709f9387ed35dd",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/dfbc7aeb9dc915ad4eb2b3c92a709f9387ed35dd",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/dfbc7aeb9dc915ad4eb2b3c92a709f9387ed35dd",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/dfbc7aeb9dc915ad4eb2b3c92a709f9387ed35dd/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a45edf26d364f35bdac475bf5a7846d9ee007e65",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/a45edf26d364f35bdac475bf5a7846d9ee007e65",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/a45edf26d364f35bdac475bf5a7846d9ee007e65"
+      }
+    ]
+  },
+  {
+    "sha": "a45edf26d364f35bdac475bf5a7846d9ee007e65",
+    "node_id": "C_kwDOVa5A0NoAKGE0NWVkZjI2ZDM2NGYzNWJkYWM0NzViZjVhNzg0NmQ5ZWUwMDdlNjU",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-10-31T21:41:31Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-10-31T21:41:31Z"
+      },
+      "message": "README: 31 current improvements, eight overtaken by Bai XunDi\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "9045cf4fc366e55f011cb45121fb3ba1b424fab6",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/9045cf4fc366e55f011cb45121fb3ba1b424fab6"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/a45edf26d364f35bdac475bf5a7846d9ee007e65",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/a45edf26d364f35bdac475bf5a7846d9ee007e65",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/a45edf26d364f35bdac475bf5a7846d9ee007e65",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/a45edf26d364f35bdac475bf5a7846d9ee007e65/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1055d56057cec5d889e536ab5f5fbd85e355e9f0",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/1055d56057cec5d889e536ab5f5fbd85e355e9f0",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/1055d56057cec5d889e536ab5f5fbd85e355e9f0"
+      }
+    ]
+  },
+  {
+    "sha": "1055d56057cec5d889e536ab5f5fbd85e355e9f0",
+    "node_id": "C_kwDOVa5A0NoAKDEwNTVkNTYwNTdjZWM1ZDg4OWU1MzZhYjVmNWZiZDg1ZTM1NWU5ZjA",
+    "commit": {
+      "author": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-10-30T20:31:58Z"
+      },
+      "committer": {
+        "name": "tns-research",
+        "email": "246315628+tns-research@users.noreply.github.com",
+        "date": "2026-10-30T20:31:58Z"
+      },
+      "message": "v1.4: 28 new parameter sets (13 strength 3, 15 strength 4), CA(1006;4,8,5), CA(1957;4,8,6), CA(3240;4,12,6), with their search programs\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+      "tree": {
+        "sha": "069354febf6d5ba40ae41412717ba8d356938ee4",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/069354febf6d5ba40ae41412717ba8d356938ee4"
+      },
+      "url": "https://api.github.com/repos/tns-research/covering-array-records/git/commits/1055d56057cec5d889e536ab5f5fbd85e355e9f0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/1055d56057cec5d889e536ab5f5fbd85e355e9f0",
+    "html_url": "https://github.com/tns-research/covering-array-records/commit/1055d56057cec5d889e536ab5f5fbd85e355e9f0",
+    "comments_url": "https://api.github.com/repos/tns-research/covering-array-records/commits/1055d56057cec5d889e536ab5f5fbd85e355e9f0/comments",
+    "author": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "tns-research",
+      "id": 246315628,
+      "node_id": "U_kgDODq56bA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246315628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tns-research",
+      "html_url": "https://github.com/tns-research",
+      "followers_url": "https://api.github.com/users/tns-research/followers",
+      "following_url": "https://api.github.com/users/tns-research/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tns-research/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tns-research/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tns-research/subscriptions",
+      "organizations_url": "https://api.github.com/users/tns-research/orgs",
+      "repos_url": "https://api.github.com/users/tns-research/repos",
+      "events_url": "https://api.github.com/users/tns-research/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tns-research/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e89f6694b0d1d4d33cb46e740aec7af7230d0a71",
+        "url": "https://api.github.com/repos/tns-research/covering-array-records/commits/e89f6694b0d1d4d33cb46e740aec7af7230d0a71",
+        "html_url": "https://github.com/tns-research/covering-array-records/commit/e89f6694b0d1d4d33cb46e740aec7af7230d0a71"
+      }
+    ]
+  }
+]

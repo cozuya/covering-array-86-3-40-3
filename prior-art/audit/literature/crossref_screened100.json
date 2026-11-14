@@ -1,0 +1,1434 @@
+[
+  {
+    "title": [
+      "CAs: Creating Covering Arrays"
+    ],
+    "doi": "10.32614/cran.package.cas",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Mixed Covering Arrays on Hypergraphs"
+    ],
+    "doi": "10.1007/s00373-025-03007-3",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Sequence Covering and Packing Arrays"
+    ],
+    "doi": "10.32920/26883661.v1",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Sequence Covering and Packing Arrays"
+    ],
+    "doi": "10.32920/26883661",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "On de Bruijn Covering Sequences and Arrays"
+    ],
+    "doi": "10.1109/isit57864.2024.10619219",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Mixed-Level Covering, Locating, and\u00a0Detecting Arrays via Cyclotomy"
+    ],
+    "doi": "10.1007/978-3-031-52969-6_4",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Effectively computing high strength mixed covering arrays with constraints"
+    ],
+    "doi": "10.1016/j.jpdc.2023.104791",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "caverify: Fast Strength-t Coverage Verification for Covering Arrays"
+    ],
+    "doi": "10.32614/cran.package.caverify",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "New Upper Bounds for Covering Arrays of Order Seven"
+    ],
+    "doi": "10.3390/math12121908",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Towards Accessibility of Covering Arrays for Practitioners of Combinatorial Testing"
+    ],
+    "doi": "10.1109/icstw64639.2025.10962463",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "cafast: Fast Companions to the 'CAs' Package for Covering Arrays"
+    ],
+    "doi": "10.32614/cran.package.cafast",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "EFFICIENT STORAGE AND COMPRESSION OF COVERING ARRAYS USING ADVANCED ENCODING TECHNIQUES"
+    ],
+    "doi": "10.52326/jes.utm.2025.32(1).04",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "New bounds on the covering radius of orthogonal arrays of even strength"
+    ],
+    "doi": "10.1007/s10801-026-01578-9",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "New Families of Strength\u20103 Covering Arrays Using Linear Feedback Shift Register Sequences"
+    ],
+    "doi": "10.1002/jcd.21963",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Improved Sequence Covering Arrays of Strengths 3 to 8 Using a Greedy Post-Optimization Approach"
+    ],
+    "doi": "10.1109/access.2026.3751934",
+    "date": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "A Tuple-Oriented Sampling Method for Generating Small Pairwise Covering Arrays in Configurable Software Systems"
+    ],
+    "doi": "10.1145/3808176",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Existence of 3 anti-cocircular truncated M\u00f6bius planes and constructions of strength-4 covering arrays"
+    ],
+    "doi": "10.2139/ssrn.6172504",
+    "date": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering"
+    ],
+    "doi": "10.1215/9781478059684-003",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "SplitCA: An Effective Tool for Generating 4-wise Covering Arrays for Large-Scale Highly Configurable Systems"
+    ],
+    "doi": "10.1145/3832783.3834623",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Weight Vector Definition for MOEA/D-Based Algorithms Using Augmented Covering Arrays for Many-Objective Optimization"
+    ],
+    "doi": "10.3390/math12111680",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Geometric Covering Number: Covering Points with\u00a0Curves"
+    ],
+    "doi": "10.1007/978-3-031-52213-0_7",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Critiques:"
+    ],
+    "doi": "10.2307/jj.8441694.15",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          16
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering covid"
+    ],
+    "doi": "10.1016/s0262-4079(25)00009-0",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "About covering spaces, covering and action groupoids"
+    ],
+    "doi": "10.1063/5.0290308",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Spaces"
+    ],
+    "doi": "10.1007/978-3-032-09219-9_3",
+    "date": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Israel:"
+    ],
+    "doi": "10.2307/jj.35003805.9",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Gaza"
+    ],
+    "doi": "10.1163/18739865-01703004",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Wall covering"
+    ],
+    "doi": "10.4324/9780429322600-9",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering America"
+    ],
+    "doi": "10.2307/jj.38401839",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Pinwheel Covering"
+    ],
+    "doi": "10.1007/978-3-031-92935-9_12",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Page"
+    ],
+    "doi": "10.1109/isgtasia63446.2025.11431253",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Spaces"
+    ],
+    "doi": "10.1007/978-3-662-70602-2_8",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Digital covering spaces, Pseudo covering spaces, and related works"
+    ],
+    "doi": "10.1142/s179383092550034x",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Truthful interval covering"
+    ],
+    "doi": "10.1007/s10458-024-09673-6",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering by Centralizers"
+    ],
+    "doi": "10.1007/s00605-026-02165-7",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          17
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Muslim Women"
+    ],
+    "doi": "10.4324/9781003763659-2",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Approximating $$\\delta $$-Covering"
+    ],
+    "doi": "10.1007/978-3-031-81396-2_5",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Trades Uncovered"
+    ],
+    "doi": "10.2139/ssrn.4993867",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "2 Covering spaces"
+    ],
+    "doi": "10.1515/9783111340043-002",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering the War"
+    ],
+    "doi": "10.4324/9781032643830-6",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          21
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Super covering maps"
+    ],
+    "doi": "10.1007/jhep02(2026)086",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Truthful Interval Covering"
+    ],
+    "doi": "10.24963/ijcai.2024/307",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Covid-19"
+    ],
+    "doi": "10.4324/9781003382300",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Trades Uncovered"
+    ],
+    "doi": "10.2139/ssrn.6486595",
+    "date": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Short-covering bubbles"
+    ],
+    "doi": "10.1016/j.jet.2024.105846",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Matching and Covering"
+    ],
+    "doi": "10.1201/9781032666549-12",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Erd\u0151s Covering Systems"
+    ],
+    "doi": "10.1017/9781009490559.003",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "(Un)Covering Crisis:"
+    ],
+    "doi": "10.18584/iipj.2024.15.3.17721",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering the Game"
+    ],
+    "doi": "10.5040/9798881869687.ch-004",
+    "date": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Planned Events"
+    ],
+    "doi": "10.4324/9781003537502-14",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "\u2018Covering Our Tracks\u2019"
+    ],
+    "doi": "10.1080/13688804.2026.2720665",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Trades Uncovered"
+    ],
+    "doi": "10.2139/ssrn.6073259",
+    "date": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering the Mirrors"
+    ],
+    "doi": "10.2307/jj.17681854.8",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Conductive floor covering"
+    ],
+    "doi": "10.1016/b978-0-443-22047-0.00021-0",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Trades Uncovered"
+    ],
+    "doi": "10.2139/ssrn.5236012",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Pair-Covering Codes"
+    ],
+    "doi": "10.1109/isit57864.2024.10619609",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Major Epidemics/Pandemics"
+    ],
+    "doi": "10.1007/978-3-031-49084-2_16",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Homothetic Covering of Crosspolytopes"
+    ],
+    "doi": "10.3390/math13040546",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays and Dynamic Arrays"
+    ],
+    "doi": "10.1007/979-8-8688-0802-9_3",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "\u2018Covering' the Changing Climate"
+    ],
+    "doi": "10.4324/9781003660217-3",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering sponges with tubes"
+    ],
+    "doi": "10.54330/afm.163515",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Quantitative covering and equidistribution"
+    ],
+    "doi": "10.1007/s40687-025-00562-2",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Randomness in Bin Covering"
+    ],
+    "doi": "10.51939/scores25.4",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Sterile Surgical Items"
+    ],
+    "doi": "10.1002/aorn.70059",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering (on) the News"
+    ],
+    "doi": "10.2307/jj.18654643.4",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          13
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Construction of Covering Sets"
+    ],
+    "doi": "10.5539/jmr.v18n1p59",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Matching, Covering and Packing"
+    ],
+    "doi": "10.1007/978-3-662-70107-2_2",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "A Covering pursuit game"
+    ],
+    "doi": "10.1112/mtk.70063",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Near-optimal covering sequences"
+    ],
+    "doi": "10.1007/s10623-026-01934-7",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Land Reclamation, Soil-Covering"
+    ],
+    "doi": "10.1007/978-981-99-2086-0_27",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Regular Functional Covering Numbers"
+    ],
+    "doi": "10.1093/imrn/rnag035",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering the Musical Bases"
+    ],
+    "doi": "10.1093/oxfordhb/9780190061869.013.15",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering\n                    <i>Gastronomica</i>"
+    ],
+    "doi": "10.1525/gfc.2025.25.4.18",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Deterministic Replacement Path Covering"
+    ],
+    "doi": "10.1145/3673760",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Sparsity in\u00a0Covering Solutions"
+    ],
+    "doi": "10.1007/978-3-031-55601-2_9",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Law and Justice"
+    ],
+    "doi": "10.5040/9798881825645.ch-013",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Minimum volume covering ellipsoids"
+    ],
+    "doi": "10.21914/anziamj.v64.17956",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "\u1e24\u0101fi\u1e93\u2019s Flaw-covering p\u012br"
+    ],
+    "doi": "10.1163/2212943x-12340020",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering Palestine and Israel"
+    ],
+    "doi": "10.1093/9780198945246.003.0095",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering All the Bases"
+    ],
+    "doi": "10.5040/9798881847937.ch-005",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Shortest covering paths and other covering walks: Refinements and prospects for subtour prevention"
+    ],
+    "doi": "10.1016/j.compenvurbsys.2024.102247",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Local Search and a Construction Scan for Covering-Design and Lottery-Covering Tables"
+    ],
+    "doi": "10.20944/preprints202610.2905.v1",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          29
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Benders Decomposition Approach for Generalized Maximal Covering and Partial Set Covering Location Problems"
+    ],
+    "doi": "10.3390/sym17091417",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering and the uncovered set"
+    ],
+    "doi": "10.4337/9781802207750.00031",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "On interval covering salesman problem"
+    ],
+    "doi": "10.1504/ijaip.2024.138569",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1007/979-8-8688-0149-5_5",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1017/9781009260350.006",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1007/979-8-8688-0224-9_9",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1007/978-3-658-48759-1_7",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1201/9781003222118-4",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          17
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "The Angular Set Covering Problem"
+    ],
+    "doi": "10.1109/access.2024.3416871",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1201/9781003454502-5",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "On interval covering salesman problem"
+    ],
+    "doi": "10.1504/ijaip.2024.10063943",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "On Nearly Perfect Covering Codes"
+    ],
+    "doi": "10.1109/tit.2025.3528303",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1201/9781003345916-13",
+    "date": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          16
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Covering International Conflicts and Crises"
+    ],
+    "doi": "10.5040/9798881845568.ch-016",
+    "date": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Fundamental and universal covering groups"
+    ],
+    "doi": "10.1016/b978-0-443-13697-9.00025-4",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Curves, points, incidences and covering"
+    ],
+    "doi": "10.46298/dmtcs.16899",
+    "date": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1201/9781003544319-4",
+    "date": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          29
+        ]
+      ]
+    }
+  },
+  {
+    "title": [
+      "Arrays"
+    ],
+    "doi": "10.1007/978-3-658-43574-5_5",
+    "date": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+]

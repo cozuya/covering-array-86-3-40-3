@@ -1,0 +1,160 @@
+[
+  {
+    "sha": "040a6225bfee76461eb98b793cfa61b52c3c1798",
+    "node_id": "C_kwDOVS-FxdoAKDA0MGE2MjI1YmZlZTc2NDYxZWI5OGI3OTNjZmE2MWI1MmMzYzE3OTg",
+    "commit": {
+      "author": {
+        "name": "Chris Dzoba",
+        "email": "Chris@Dzoba.com",
+        "date": "2026-10-21T20:08:08Z"
+      },
+      "committer": {
+        "name": "Chris Dzoba",
+        "email": "Chris@Dzoba.com",
+        "date": "2026-10-21T20:08:08Z"
+      },
+      "message": "ca129 README: say only that the family-optimality computation is in progress",
+      "tree": {
+        "sha": "d134064059786d22961de4e14165bb2a5acb7cc7",
+        "url": "https://api.github.com/repos/dzoba/covering-arrays-2026/git/trees/d134064059786d22961de4e14165bb2a5acb7cc7"
+      },
+      "url": "https://api.github.com/repos/dzoba/covering-arrays-2026/git/commits/040a6225bfee76461eb98b793cfa61b52c3c1798",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/dzoba/covering-arrays-2026/commits/040a6225bfee76461eb98b793cfa61b52c3c1798",
+    "html_url": "https://github.com/dzoba/covering-arrays-2026/commit/040a6225bfee76461eb98b793cfa61b52c3c1798",
+    "comments_url": "https://api.github.com/repos/dzoba/covering-arrays-2026/commits/040a6225bfee76461eb98b793cfa61b52c3c1798/comments",
+    "author": {
+      "login": "dzoba",
+      "id": 857664,
+      "node_id": "MDQ6VXNlcjg1NzY2NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/857664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dzoba",
+      "html_url": "https://github.com/dzoba",
+      "followers_url": "https://api.github.com/users/dzoba/followers",
+      "following_url": "https://api.github.com/users/dzoba/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dzoba/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dzoba/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dzoba/subscriptions",
+      "organizations_url": "https://api.github.com/users/dzoba/orgs",
+      "repos_url": "https://api.github.com/users/dzoba/repos",
+      "events_url": "https://api.github.com/users/dzoba/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dzoba/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dzoba",
+      "id": 857664,
+      "node_id": "MDQ6VXNlcjg1NzY2NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/857664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dzoba",
+      "html_url": "https://github.com/dzoba",
+      "followers_url": "https://api.github.com/users/dzoba/followers",
+      "following_url": "https://api.github.com/users/dzoba/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dzoba/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dzoba/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dzoba/subscriptions",
+      "organizations_url": "https://api.github.com/users/dzoba/orgs",
+      "repos_url": "https://api.github.com/users/dzoba/repos",
+      "events_url": "https://api.github.com/users/dzoba/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dzoba/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3b536d66f1ae911b31af518f42756f1733c14980",
+        "url": "https://api.github.com/repos/dzoba/covering-arrays-2026/commits/3b536d66f1ae911b31af518f42756f1733c14980",
+        "html_url": "https://github.com/dzoba/covering-arrays-2026/commit/3b536d66f1ae911b31af518f42756f1733c14980"
+      }
+    ]
+  },
+  {
+    "sha": "3b536d66f1ae911b31af518f42756f1733c14980",
+    "node_id": "C_kwDOVS-FxdoAKDNiNTM2ZDY2ZjFhZTkxMWIzMWFmNTE4ZjQyNzU2ZjE3MzNjMTQ5ODA",
+    "commit": {
+      "author": {
+        "name": "Chris Dzoba",
+        "email": "Chris@Dzoba.com",
+        "date": "2026-10-21T20:03:39Z"
+      },
+      "committer": {
+        "name": "Chris Dzoba",
+        "email": "Chris@Dzoba.com",
+        "date": "2026-10-21T20:06:18Z"
+      },
+      "message": "New covering arrays of strength 3 and 4\n\nSeven covering arrays below the November 2024 snapshot of Colbourn's\ntables. Strength 3: CA(165;3,7,5), CA(165;3,8,5), CA(218;3,11,5),\nCA(476;3,10,7), CA(556;3,11,7) and CA(633;3,12,7). Strength 4:\nCA(129;4,8,3).\n\nIncluded: the checkers with run_all.sh and logs (three for the\nstrength-3 arrays, two for the strength-4 array), negative controls,\nevery certified intermediate array of the v=7 searches, the\nconstructions (the extension lemma behind the 218 with its proof, the\nAGL(1,5) starters of the 165, the AGL(1,3) starters of the 129, the\ntabu search program) and the k=13 argument for linear and\ndoubling-shaped arrays.",
+      "tree": {
+        "sha": "745d6a0785ea15e02e6408da137b90598bd7b042",
+        "url": "https://api.github.com/repos/dzoba/covering-arrays-2026/git/trees/745d6a0785ea15e02e6408da137b90598bd7b042"
+      },
+      "url": "https://api.github.com/repos/dzoba/covering-arrays-2026/git/commits/3b536d66f1ae911b31af518f42756f1733c14980",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/dzoba/covering-arrays-2026/commits/3b536d66f1ae911b31af518f42756f1733c14980",
+    "html_url": "https://github.com/dzoba/covering-arrays-2026/commit/3b536d66f1ae911b31af518f42756f1733c14980",
+    "comments_url": "https://api.github.com/repos/dzoba/covering-arrays-2026/commits/3b536d66f1ae911b31af518f42756f1733c14980/comments",
+    "author": {
+      "login": "dzoba",
+      "id": 857664,
+      "node_id": "MDQ6VXNlcjg1NzY2NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/857664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dzoba",
+      "html_url": "https://github.com/dzoba",
+      "followers_url": "https://api.github.com/users/dzoba/followers",
+      "following_url": "https://api.github.com/users/dzoba/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dzoba/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dzoba/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dzoba/subscriptions",
+      "organizations_url": "https://api.github.com/users/dzoba/orgs",
+      "repos_url": "https://api.github.com/users/dzoba/repos",
+      "events_url": "https://api.github.com/users/dzoba/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dzoba/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dzoba",
+      "id": 857664,
+      "node_id": "MDQ6VXNlcjg1NzY2NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/857664?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dzoba",
+      "html_url": "https://github.com/dzoba",
+      "followers_url": "https://api.github.com/users/dzoba/followers",
+      "following_url": "https://api.github.com/users/dzoba/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dzoba/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dzoba/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dzoba/subscriptions",
+      "organizations_url": "https://api.github.com/users/dzoba/orgs",
+      "repos_url": "https://api.github.com/users/dzoba/repos",
+      "events_url": "https://api.github.com/users/dzoba/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dzoba/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": []
+  }
+]

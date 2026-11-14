@@ -1,0 +1,17 @@
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j1",
+    "-t0",
+    "Audit.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.406,
+  "largest_process_max_rss_kib": 456716,
+  "sampled_peak_tree_rss_kib": 560004,
+  "sampled_peak_tree_pss_kib": 481654,
+  "sampling_interval_seconds": 0.2,
+  "samples": 2
+}

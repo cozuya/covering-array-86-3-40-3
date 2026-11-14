@@ -1,0 +1,215 @@
+[
+  {
+    "file": "openalex_ternary.json",
+    "bytes": 1064713,
+    "url": "https://api.openalex.org/works?search=ternary%20covering%20arrays&per-page=50",
+    "works": 50,
+    "titles": [
+      [
+        "Computation of Ternary Covering Arrays Using a Grid",
+        2004,
+        "https://doi.org/10.1007/978-3-540-30176-9_31"
+      ],
+      [
+        "New Bounds for Ternary Covering Arrays Using a Parallel Simulated Annealing",
+        2012,
+        "https://doi.org/10.1155/2012/897027"
+      ],
+      [
+        "A Heuristic Approach for Constructing Ternary Covering Arrays Using Trinomial Coefficients",
+        2010,
+        "https://doi.org/10.1007/978-3-642-16952-6_58"
+      ],
+      [
+        "Using Grid Computing for Constructing Ternary Covering Arrays",
+        2012,
+        "https://doi.org/10.5772/36019"
+      ],
+      [
+        "A branch and bound algorithm for ternary covering arrays construction using trinomial coefficients",
+        2010,
+        null
+      ],
+      [
+        "Covering and radius-covering arrays: Constructions and classification",
+        2010,
+        "https://doi.org/10.1016/j.dam.2010.03.008"
+      ],
+      [
+        "Methods to Construct Uniform Covering Arrays",
+        2019,
+        "https://doi.org/10.1109/access.2019.2907057"
+      ],
+      [
+        "CAs: Creating Covering Arrays",
+        2026,
+        "https://doi.org/10.32614/cran.package.cas"
+      ],
+      [
+        "Optimal shortening of uniform covering arrays",
+        2017,
+        "https://doi.org/10.1371/journal.pone.0189283"
+      ],
+      [
+        "A two-stage algorithm for combinatorial testing",
+        2016,
+        "https://doi.org/10.1007/s11590-016-1012-x"
+      ],
+      [
+        "A New Algorithm for Post-Processing Covering Arrays",
+        2015,
+        "https://doi.org/10.14569/ijacsa.2015.061234"
+      ],
+      [
+        "Constructing Covering Arrays using Parallel Computing and Grid Computing",
+        2012,
+        "https://doi.org/10.4995/thesis/10251/17027"
+      ],
+      [
+        "Covering Array Bounds Using Analytical Techniques",
+        2014,
+        "https://doi.org/10.48550/arxiv.1405.2844"
+      ],
+      [
+        "Covering Arrays from Maximal Sequences over Finite Fields",
+        2017,
+        "https://doi.org/10.22215/etd/2017-11936"
+      ],
+      [
+        "GPU-based parallel computing methods for constructing covering arrays",
+        2015,
+        null
+      ]
+    ]
+  },
+  {
+    "file": "openalex_shokri.json",
+    "bytes": 13249,
+    "url": "https://api.openalex.org/works/https://doi.org/10.1002/jcd.21963",
+    "works": 0,
+    "titles": []
+  },
+  {
+    "file": "crossref_ternary.json",
+    "bytes": 224479,
+    "url": "https://api.crossref.org/works?query.bibliographic=ternary%20covering%20arrays&rows=50",
+    "works": 50,
+    "titles": [
+      [
+        [
+          "Using Grid Computing for Constructing Ternary Covering Arrays"
+        ],
+        null,
+        "10.5772/36019"
+      ],
+      [
+        [
+          "Combinatorial Constructions Of Ordered Orthogonal Arrays &amp; Ordered Covering Arrays"
+        ],
+        null,
+        "10.32920/ryerson.14662638"
+      ],
+      [
+        [
+          "Hybrid strength two covering array constructions: using cover starters to create covering arrays"
+        ],
+        null,
+        "10.22215/etd/2010-08757"
+      ],
+      [
+        [
+          "Combinatorial Constructions Of Ordered Orthogonal Arrays &amp; Ordered Covering Arrays"
+        ],
+        null,
+        "10.32920/ryerson.14662638.v1"
+      ],
+      [
+        [
+          "Sequence Covering and Packing Arrays"
+        ],
+        null,
+        "10.32920/26883661.v1"
+      ],
+      [
+        [
+          "Sequence Covering and Packing Arrays"
+        ],
+        null,
+        "10.32920/26883661"
+      ],
+      [
+        [
+          "CAs: Creating Covering Arrays"
+        ],
+        null,
+        "10.32614/cran.package.cas"
+      ],
+      [
+        [
+          "Covering Arrays from Maximal Sequences over Finite Fields"
+        ],
+        null,
+        "10.22215/etd/2017-11936"
+      ],
+      [
+        [
+          "New Bounds for Ternary Covering Arrays Using a Parallel Simulated Annealing"
+        ],
+        null,
+        "10.1155/2012/897027"
+      ],
+      [
+        [
+          "\u25a0 Sequence-Covering Arrays"
+        ],
+        null,
+        "10.1201/b14957-15"
+      ],
+      [
+        [
+          "Balanced covering arrays: A classification of covering arrays and packing arrays via exact methods"
+        ],
+        null,
+        "10.1002/jcd.21876"
+      ],
+      [
+        [
+          "Constructing Covering Arrays using Parallel Computing and Grid Computing"
+        ],
+        null,
+        "10.4995/thesis/10251/17027"
+      ],
+      [
+        [
+          "Figure 2: Joining two covering arrays by weaken-product based combinatorial join."
+        ],
+        null,
+        "10.7717/peerjcs.720/fig-2"
+      ],
+      [
+        [
+          "An algorithm for generating very large covering arrays"
+        ],
+        null,
+        "10.6028/nist.ir.7308"
+      ],
+      [
+        [
+          "Projection - product and asymptotic constructions of mixed level covering arrays"
+        ],
+        null,
+        "10.22215/etd/2009-09116"
+      ]
+    ]
+  },
+  {
+    "file": "semanticscholar_ternary.json",
+    "error": "HTTP Error 429: Too Many Requests",
+    "body": "{\"message\": \"Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form\", \"code\": \"429\"}"
+  },
+  {
+    "file": "scholar.html",
+    "error": "HTTP Error 429: Too Many Requests",
+    "body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<html>\n<head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"><meta name=\"viewport\" content=\"initial-scale=1\"><title>https://scholar.google.com/scholar?q=%22covering%20arrays%22%20%2286%22%20%2240%22</title></head>\n<bo"
+  }
+]

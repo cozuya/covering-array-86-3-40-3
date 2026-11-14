@@ -1,0 +1,274 @@
+#!/usr/bin/env python3
+"""Build the CA86 prior-art handoff; this does not generate arrays."""
+from pathlib import Path
+import json, html, re
+from reportlab.pdfgen import canvas
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
+from reportlab.lib import colors
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib.enums import TA_LEFT
+from reportlab.lib.pagesizes import A4
+
+ROOT = Path(__file__).resolve().parents[2]
+OUT = ROOT / 'audit'
+OUT.mkdir(exist_ok=True)
+FONT = Path('/usr/share/fonts/truetype/dejavu')
+for name, file in [('DV','DejaVuSans.ttf'),('DV-Bold','DejaVuSans-Bold.ttf'),('DV-Italic','DejaVuSans-Oblique.ttf'),('DVM','DejaVuSansMono.ttf')]:
+    font_path = FONT/file
+    if not font_path.is_file() and name == 'DV-Italic':
+        font_path = FONT/'DejaVuSans.ttf'
+    pdfmetrics.registerFont(TTFont(name, str(font_path)))
+pdfmetrics.registerFontFamily('DV', normal='DV', bold='DV-Bold', italic='DV-Italic', boldItalic='DV-Bold')
+
+NAVY = colors.HexColor('#152c42')
+TEAL = colors.HexColor('#006e70')
+GRAY = colors.HexColor('#52616d')
+PALE = colors.HexColor('#edf4f7')
+styles = getSampleStyleSheet()
+styles.add(ParagraphStyle(name='BodyX', fontName='DV', fontSize=9.4, leading=13.4, spaceAfter=8, textColor=NAVY))
+styles.add(ParagraphStyle(name='SmallX', parent=styles['BodyX'], fontSize=8.0, leading=11.2, spaceAfter=6))
+styles.add(ParagraphStyle(name='CellX', parent=styles['BodyX'], fontSize=8.0, leading=10.8, spaceAfter=0))
+styles.add(ParagraphStyle(name='CellHeadX', parent=styles['CellX'], fontName='DV-Bold', textColor=colors.white))
+styles.add(ParagraphStyle(name='HeadX', parent=styles['BodyX'], fontName='DV-Bold', fontSize=18, leading=23, spaceAfter=14))
+styles.add(ParagraphStyle(name='SubX', parent=styles['BodyX'], fontName='DV-Bold', fontSize=11.5, leading=15.5, spaceBefore=8, spaceAfter=7))
+styles.add(ParagraphStyle(name='VerdictX', parent=styles['BodyX'], fontName='DV-Bold', fontSize=28, leading=34, textColor=TEAL, spaceAfter=13))
+styles.add(ParagraphStyle(name='MonoX', parent=styles['SmallX'], fontName='DVM', fontSize=7.7, leading=11.2))
+
+sources = [
+ ('S01','ca-tools: fixed November 13 commit and bounds/provenance tables','2026-11-13','https://github.com/chrispbsmolen/ca-tools/tree/26270ecbd9dadd43a463cf5637606cb964577e4f','Actual CSVs, array, commit history, issues and submissions inspected. The observed main branch matched this pin.'),
+ ('S02','Bai XunDi: original construction dataset, version 1.0','2026-10-30','https://doi.org/10.5281/zenodo.23787055','Original records.csv, arrays_t3.zip, per-file metadata, versions and hashes inspected; six relevant ternary arrays checked.'),
+ ('S03','Bai: affine-plane companion paper','2026-10-30','https://doi.org/10.5281/zenodo.23787051','Full original PDF inspected; small-q families have too few columns.'),
+ ('S04','Bai: original Singer/237-record companion paper','2026-10-30','https://doi.org/10.5281/zenodo.23787053','Full original PDF, including postoptimization and row-deletion/tabu description, inspected.'),
+ ('S05','Shokri and Moura: strength-three covering-array construction paper','2025-02-14','https://doi.org/10.1002/jcd.21963','Full theorem statements 4.7, 4.8, 4.10, 4.13 and Corollary 4.12 inspected.'),
+ ('S06','Shokri: CMS Winter Meeting abstract','2023-12-01 to 2023-12-04','https://www2.cms.math.ca/Events/winter23/res/pdf/cdt-ks.pdf','Conference abstract already states the q-plication family. Exact abstract upload day not established.'),
+ ('S07','Shokri: University of Ottawa thesis','2026-01-09','https://ruor.uottawa.ca/items/af3baefe-75a0-4b04-8bf0-7a5d0422dd5b','Full thesis inspected; Chapter 5 maps the construction lineage and theorem numbering.'),
+ ('S08','Avila-George, Torres-Jimenez and Hernández: New Bounds for Ternary Covering Arrays Using a Parallel Simulated Annealing','2012-08-26','https://doi.org/10.1155/2012/897027','Publisher date and Table 2(a): t=3, k=40, previous 90, new 89.'),
+ ('S09','Preserved Colbourn table: ternary strength three','snapshot 2024-11','https://www.data2intelligence.de/ColbournTables/t3v3.html','Exact-target N=89; preservation context in ugroempi/CAs ColbournTables.md.'),
+ ('S10','Colbourn, Kéri, Rivas Soriano and Schlage-Puchta: Covering and Radius-Covering Arrays','2010','https://old.sztaki.hu/~keri/arrays/Colbourn_Keri_Rivas-Soriano_Schlage-Puchta.pdf','Primary Lemma 3.1 (fusion) and equation (7) (derivation) inspected. DOI 10.1016/j.dam.2010.03.008.'),
+ ('S11','Castoldi et al.: Recursive constructions for covering schemes of strength 3','online 2024-02-21; issue 2025','https://doi.org/10.3934/amc.2024005','Primary publication; public author full text retrieved at ResearchGate publication 378413470. Recurrences and seeds inspected.'),
+ ('S12','Cohen, Colbourn and Ling: Constructing strength three covering arrays with augmented annealing','journal 2008','https://cse.unl.edu/~myra/papers/auga.pdf','Indexed author full text, Theorem 3 and ingredient strengths inspected; resolves a secondary-source error.'),
+ ('S13','Grömping: Implementing uniform covering arrays based on the Colbourn tables','2026-01-02','https://www1.bht-berlin.de/FB_II/reports/Report-2026-001.pdf','86-page technical report used to route construction references. Section 7.8.3 has the strength typo described in this audit.'),
+ ('S14','NIST IPOG-F ternary strength-three output table','retrieved 2026-11-14','https://math.nist.gov/coveringarrays/ipof/tables/table.3.3.html','k=40 gives N=118. This is an algorithm output collection, not a best-known-bound catalogue.'),
+ ('S15','Sitjar: covering-array-records','version 1.10, 2026-11-13','https://github.com/tns-research/covering-array-records','Current README, tree, records, release/issue history inspected; closest ternary small-row record is 82×34.'),
+ ('S16','Canli: Quantavane covering arrays','first deposit 2026-10-31; repository 2026-11-11','https://github.com/arhancanli/quantavane-covering-arrays','196 families, 448,049 claimed improved cells and 277 submission rows inspected. DOI 10.5281/zenodo.23839216.'),
+ ('S17','Bergeron: RMS extension covering arrays','retrieved 2026-11-14','https://github.com/MichelBacon/covering-arrays-rms-extension','Actual stated formula and parameters checked; q=4 first width-40 instance has 288 rows before fusion.'),
+ ('S18','Dwyer: CA_Database','latest commit observed 2024-09-06','https://github.com/aadwyer/CA_Database','Recursive tree and named array parameters inspected; qualifying minimum 471 at strength four.'),
+ ('S19','Grömping: CAs package repository and historical catalogue','current release retrieved 2026-11-14','https://github.com/ugroempi/CAs','Code, catalogue objects, 95 issue/PR bodies, 17 PRs, 5 releases and 100 comments inspected.'),
+ ('S20','Optimal shortening of uniform covering arrays','2017-12-21','https://doi.org/10.1371/journal.pone.0189283','Full text plus all three supplemental ZIPs inspected: 562 array headers, 55 directly relevant source arrays, minimum 123 rows.'),
+ ('S21','Sarkar: CoveringArray experimental outputs','retrieved 2026-11-14','https://github.com/ksarkar/CoveringArray','20 actual ternary strength-three output tables inspected; target outputs range from 119 to 221 rows.'),
+ ('S22','Dzoba: covering-arrays-2026','2026-10-21','https://github.com/dzoba/covering-arrays-2026','Seven records and 133 intermediates; relevant arrays have at most 12 columns.'),
+ ('S23','Bai: revised Singer paper','2026-11-08','https://doi.org/10.5281/zenodo.24054350','Full later paper inspected; fixed original deposit retained for priority.'),
+ ('S24','Bai: elliptic/genus-two curve families','2026-11-08','https://doi.org/10.5281/zenodo.24055371','Full later family formulas inspected; first ternary elliptic substitution already exceeds 86.'),
+ ('S25','Shokri, Moura and Stevens: strength-four follow-on','arXiv 2025-10','https://arxiv.org/abs/2510.13122','Relevant family substitutions checked; neither small-row target nor a useful stronger-array implication.'),
+ ('S26','Invariant sets and covering schemes','2026-04-27','https://doi.org/10.1007/s12095-026-00890-2','Full primary text inspected; nonbinary family has strength k−1 and exponential size, other main family is binary.'),
+ ('S27','Later strength-two covering schemes','2026','https://doi.org/10.1002/jcd.70037','Full primary text inspected; no strength-two ingredient below those already used in the optimistic closure.'),
+ ('S28','Torres-Jimenez and Izquierdo-Marquez: extended permutation vectors','2018-02-20','https://doi.org/10.1007/s10623-018-0465-6','Public family statement checked. Computational results for 18 improved arrays not obtained in full.'),
+ ('S29','IRSI strength-three construction note','2026-10-15','https://irsi.ai/notes/ca-strength3-note/','Stated arc-based formula and tables checked. Listed arrays have too few columns and much larger row counts.'),
+ ('S30','Numaro covering-array announcement','2026-07-03','https://numaro.tech/research/covering-arrays-colbourn-2026/','Eight displayed examples checked; complete claimed list of 40 improvements not linked.'),
+ ('S31','Shi Ce and Tao Aiyuan: mixed arrays of strength at least three','2018-12-28','https://doi.org/10.12387/C2018058','Abstract/references obtained. Numerical full text blocked by a human CAPTCHA; not bypassed.'),
+ ('S32','Akhtar, Colbourn and Syrotiuk: mixed arrays via cyclotomy','2024-06-16','https://doi.org/10.1007/978-3-031-52969-6_4','Public abstract/references inspected; numerical chapter remained paywalled.'),
+ ('S33','Castoldi et al.: Covering schemes of strength t','2023-06-22','https://doi.org/10.1007/s10623-023-01252-2','Public abstract concerns applications with three to five factors; full predecessor text not obtained.'),
+ ('S34','ca-tools: original Bai submission PR 34','2026-11-02','https://github.com/chrispbsmolen/ca-tools/pull/34','Submission, claims table, DOI and array ingestion history inspected.'),
+ ('S35','ca-tools: contribution policy','retrieved 2026-11-14','https://github.com/chrispbsmolen/ca-tools/blob/26270ecbd9dadd43a463cf5637606cb964577e4f/CONTRIBUTING.md','Array/certificate submission path, VERIFIED tier and AI-assisted search disclosure rules checked.'),
+ ('S36','Nayeri, Colbourn and Konjevod: postoptimization','IWOCA 2009','https://organicorigami.com/thrackle/papers/iwoca2009.pdf','Primary whole-row deletion and relocation procedure; proceedings DOI 10.1007/978-3-642-10217-2_40.'),
+ ('S37','Nurmela: Upper bounds for covering arrays by tabu search','2004-03-29','https://doi.org/10.1016/S0166-218X(03)00291-9','Primary indexed full text; tabu search and targeted single-cell moves predate the candidate.'),
+ ('S38','Grey: new covering-array constructions','2026-11-02','https://doi.org/10.5281/zenodo.23877721','Actual paper/source files inspected; listed widths 10–12, doubled example width 20.'),
+ ('S39','Smolen: cyclic CPHF records','2026-10-31','https://doi.org/10.5281/zenodo.23848283','Actual TeX records inspected; ternary higher-strength examples derive to 295 or 404 rows.'),
+]
+(OUT/'source_index.json').write_text(json.dumps([dict(id=i,title=t,date=d,url=u,inspection=n) for i,t,d,u,n in sources],indent=2,ensure_ascii=False)+'\n')
+URLS={i:u for i,t,d,u,n in sources}
+story=[]
+plain=[]
+def p(text, style='BodyX'):
+    story.append(Paragraph(text,styles[style])); plain.append(re.sub('<[^>]+>','',html.unescape(text)))
+def h(text): p(text,'HeadX')
+def sub(text): p(text,'SubX')
+def refs(*ids): return ' '.join(f'<a href="{URLS[i]}" color="#006e70">[{i}]</a>' for i in ids)
+def new(title): story.append(PageBreak()); plain.append('\n\f\n'); h(title)
+def table(headers,rows,widths):
+    data=[[Paragraph(str(x),styles['CellHeadX']) for x in headers]]
+    data += [[Paragraph(str(x),styles['CellX']) for x in row] for row in rows]
+    t=Table(data,colWidths=widths,repeatRows=1,hAlign='LEFT')
+    t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),NAVY),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),7),('RIGHTPADDING',(0,0),(-1,-1),7),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.white,PALE]),('LINEBELOW',(0,0),(-1,0),0.5,NAVY),('LINEBELOW',(0,1),(-1,-1),0.25,colors.HexColor('#cfdae0'))]))
+    story.append(t);story.append(Spacer(1,9))
+    plain.append(' | '.join(headers));plain.extend(' | '.join(re.sub('<[^>]+>','',str(x)) for x in row) for row in rows)
+
+p('LIKELY NOVEL','VerdictX')
+h('CA86: CA(86; 3, 40, 3)')
+p('Independent prior-art investigation • Research cutoff: November 14, 2026','SmallX')
+sub('Executive conclusion')
+p('<b>The evidence supports submitting CAN(3,40,3) ≤ 86 as a new best-known upper bound.</b> This investigation found no earlier public array, verified theorem substitution, or inspected dataset entry establishing 86 or fewer rows for 40 ternary columns. The strongest verified exact-target predecessor has 87 rows. '+refs('S01','S02'))
+p('The closest disconfirming lead is unusually close: Bai’s original October 30 deposit contains <b>CA(86;3,39,3)</b> alongside <b>CA(87;3,40,3)</b>. The former lacks one column; no inspected extension theorem supplies it without additional search. Independent exhaustive verification of the latter found every row essential: deleting any row loses at least 25 required interactions. '+refs('S02'))
+p('This conclusion rests on source files and parameter calculations beyond the maintained table: original deposits, historical bounds, larger-alphabet and higher-strength records, recursive constructions, supplementary arrays, independent repositories, recent unmerged submissions, and citation searches. The result is a strong research assessment, not a proof that no undiscovered disclosure exists.')
+sub('Claim identity and verification boundary')
+table(['Item','Audit status'],[
+ ('Claim','86 rows; strength 3; 40 columns; alphabet size 3. Consequence: CAN(3,40,3) ≤ 86.'),
+ ('Candidate verification','The supplied brief reports multiple exhaustive verifiers. Only the brief was attached; the candidate matrix and search code were not available for this audit.'),
+ ('Independent verification here','The older 87×40 and five neighboring Bai arrays were independently checked. The candidate’s own coverage and equivalence class were not rechecked.'),
+ ('Scope','Prior art and mathematical implications only. No new array search, external submission, or contact with authors or maintainers.'),
+], [113,386])
+p('Candidate SHA-256 supplied in the brief:','SmallX')
+p('7dc7ab1e231dce3cde5cc1c6b35c4911f341<br/>45fd4dfe5d80f8ea26b235b27f8a','MonoX')
+p('Separate outcomes: <b>numerical bound — likely novel; published explicit witness — none found; broad optimization method — established; specific block-swap novelty — unresolved without its implementation.</b>','SmallX')
+
+new('1. Strongest prior-art candidates')
+table(['Source / date','Actual result','Why it mattered','Disposition'],[
+ ('Bai original dataset<br/>Oct 30, 2026 [S02]','CA(86;3,39,3)','Same row count; immediate construction lineage.','One column short; no justified free extension found.'),
+ ('Bai original dataset<br/>Oct 30, 2026 [S02]','CA(87;3,40,3)','Exact-target predecessor. Could a row already be redundant?','All 87 rows essential; minimum 25 unique witnesses per row.'),
+ ('Shokri–Moura<br/>announced 2023; journal 2025 [S05–S07]','CA(87;3,39,3); wider ternary families start at 110 rows.','An overlooked parameter choice could defeat novelty.','Exact substitutions do not reach ≤86 with ≥40 columns.'),
+ ('Avila-George et al.<br/>Aug 26, 2012 [S08]','CAN(3,40,3) ≤ 89','Original exact-target historical bound.','Prior art, but weaker than 86.'),
+ ('Sitjar, v1.10<br/>Nov 13, 2026 [S15]','CA(82;3,34,3)','Independent, recent lower-row record.','Six columns short; no verified extension to 40.'),
+ ('Recursive schemes<br/>online 2024; issue 2025 [S11]','A ≤28-row ternary scheme on ≥40 columns would imply ≤84 rows.','Potential theorem-only conflict.','Even optimistic closure of inspected recurrences and seeds reaches at most 18 columns at this budget.'),
+ ('Cohen–Colbourn–Ling<br/>2008 [S12]','Product theorem for kℓ columns.','Secondary typo suggests an apparent 86-row product.','Primary theorem requires both base arrays to have strength 3; proposed 14-row ingredient is invalid.'),
+ ('Larger alphabet / higher strength [S01,S10]','Best scanned guarantees: 182, 145, 304 rows.','Could imply the target after fusion or derivation.','No qualifying ≤86 consequence under the checked reductions.'),
+ ('PLOS shortening supplements<br/>Dec 21, 2017 [S20]','562 stored array headers; smallest directly relevant source has 123 rows.','A result might be hidden in supplements.','All three archives inspected; no target witness.'),
+], [116,112,134,137])
+p('A smaller row count alone does not dominate the claim. Row/column permutations and symbol relabelings preserve dimensions, and neither the 86×39 nor the 82×34 witness has 40 columns. A further optimization or unproved extension would be new work, not an already established consequence.','SmallX')
+
+new('2. Established record history')
+table(['Earliest evidenced date','Result / event','What the date establishes'],[
+ ('August 26, 2012','89 rows at t=3, k=40, v=3.','Publisher date and Table 2(a) directly inspected; the paper records 90 as the previous comparison value. [S08]'),
+ ('December 1–4, 2023','q-plication family announced at CMS Winter Meeting.','Relevant construction lineage, giving 87×39 at q=3; not an exact-target improvement. [S06]'),
+ ('November 2024 snapshot','Colbourn reference table still has 89 at k=40.','A preserved historical snapshot, distinct from later package implementations. [S09]'),
+ ('February 14, 2025','Shokri–Moura journal first online.','Full construction theorem; q=3 still gives 39 columns. [S05]'),
+ ('October 30, 2026 deposit','Bai explicitly publishes 87×40 and 86×39.','Oldest exact 87×40 disclosure verified in this investigation. Original files and per-file timestamps checked. [S02]'),
+ ('November 2, 2026','ca-tools ingests Bai’s 87×40 array.','Submission/ingestion date, not the array’s first public date. [S34]'),
+ ('November 13–14, 2026','Pinned ca-tools snapshot and observed main give 87.','Commit 26270ec…77e4f; main matched the pin during inspection. [S01]'),
+ ('November 14, 2026','CA86’s claimed 86×40 witness.','Date supplied by the user. No earlier equal-or-stronger public disclosure found.'),
+], [108,165,226])
+sub('Two priority traps resolved')
+p('The older table labels the 89-row result with a Chateauneuf–Kreher doubling construction. That method’s 2002 date does not establish that the complete numerical bound was known in 2002. The earliest directly inspected exact-target 89-row publication here is the 2012 paper. This is an evidenced history, not a claim that every intermediate bound has been recovered. '+refs('S08','S09','S13'))
+p('An old dataset record can acquire newer files. Here, the original archive and CSV have matching October 30 file-created/modified metadata and matching downloaded checksums; the versions endpoint reports one version. Thus the 87×40 priority date is supported by the actual files, not merely the record’s title or creation date. Raw UTC metadata is included in the evidence bundle. '+refs('S02'))
+p('No inspected same-day November 14 submission supplies an equal-or-stronger result, so no unresolved same-day ordering issue was found. The audit preserves the pinned snapshot even if a live table changes later.','SmallX')
+
+new('3. Shokri–Moura and Bai lineage')
+p('The q-plication theorem gives N = 5q³ − 6q² + 2q and k = q(q² + q + 1). At q=3 this is <b>N=87, k=39</b>. Bai’s 40th column is a computationally repaired extension, not present in that theorem. '+refs('S05','S07','S02'))
+table(['Published ternary specialization','Rows','Columns'],[
+ ('Base LFSR array',53,13),('Theorem 4.7: 2-plication',69,26),('Theorem 4.8: q-plication',87,39),('Theorem 4.10: (q+1)-plication',110,52),('Theorem 4.13: (q²−q+1)-plication',135,91),('Corollary 4.12: q²-plication',135,117),
+], [337,81,81])
+p('Corollary 4.12 specifically includes q=3: its 135-row specialization is stronger than the unrestricted theorem’s 137 rows. For q=4, 2-plication first reaches 40 columns with CA(184;3,42,4), which ordinary fusion reduces to 182 ternary rows. The base family first reaches width 40 at q=7: 685×57, or 677 after ordinary fusion. These are exact substitutions, not optimized-array lower bounds. '+refs('S05','S10'))
+sub('What the original dataset actually contains')
+p('All six deposited ternary strength-three witnesses were independently checked: 69×26, 72×27, 86×39, 87×40, 88×41 and 90×42. Every one has complete coverage. The 86×39 and 87×40 files match the deposited manifest hashes. The 301-entry record table has 82 entries with t≥3, k≥40 and v≥3; no inspected standard reduction improves on 87. '+refs('S02'))
+p('For 87×40, the independent checker enumerated all 9,880 column triples and all 27 symbol triples, or 266,760 requirements. Zero were missing. Each row uniquely witnesses 25–273 requirements; 15,772 requirements have exactly one witness. This rules out a hidden one-row deletion of that published matrix.')
+sub('Later and neighboring families')
+p('Bai’s affine-plane constructions use k=q+2 or q+3, so q=3 supplies too few columns. In the strength-four Singer family N=2q⁴−q−2j, k=2q+2, the first width-40 case after fusion to alphabet three is q=19, j=16, yielding 260,591 rows. The elliptic family N=2qᵗ−qᵗ⁻¹−2j already gives 221 at q=5, t=3, j=2 and grows thereafter. The later strength-four Shokri–Moura–Stevens families likewise produce much larger qualifying bounds. '+refs('S03','S04','S23','S24','S25'))
+p('The fixed October 30 Zenodo identifiers are used for priority. A mutable alphaXiv alias now points to a November 8 revision and is not reliable evidence for which table was originally present.','SmallX')
+
+new('4. Larger and stronger source arrays')
+p('The audit independently parsed the fixed CSVs and evaluated every ordering of the two ordinary reductions below while retaining at least strength three, alphabet three and 40 columns. A source may also be projected to fewer columns, lower strength, or a smaller alphabet without increasing its rows. '+refs('S01','S10'))
+p('<b>Fusion:</b> (N,t,k,v) → (N−2,t,k,v−1), for v&gt;3.<br/><b>Derivation:</b> (N,t,k,v) → (⌊N/v⌋,t−1,k−1,v), for t&gt;3.<br/>Fusion is CKRS Lemma 3.1; derivation is equation (7). The special three-row fusion saving for strength two was not applied to strength three. '+refs('S10'))
+table(['Inspected table','Total entries','t≥3, k≥40, v≥3','Smallest obtained N'],[
+ ('Pinned ca_frame.csv','9,627','4,689','87'),
+ ('Pinned ca_table.csv provenance','15,572','9,329','87'),
+ ('Frozen Colbourn catalogue','13,641','8,752','89'),
+ ('ca-tools derived.csv','1,082','830','348'),
+ ('Bai original records.csv','301','82','87'),
+], [214,86,107,92])
+p('The direct ternary strength-three subsets contain 110 frame entries and 113 provenance entries at width ≥40, matching the brief’s counts. The broader audit covers the thousands of additional stronger or larger-alphabet inputs, rather than stopping at those two subsets. Tables overlap; the counts are not distinct discoveries.','SmallX')
+table(['Source class in pinned frame','Best checked implication'],[
+ ('Ternary strength 3','CA(87;3,40,3) gives 87.'),
+ ('Larger alphabet, strength 3','CA(184;3,42,4) → 184−2 = 182.'),
+ ('Ternary, strength at least 4','CA(436;4,41,3) → ⌊436/3⌋ = 145 on 40 columns.'),
+ ('Larger alphabet and higher strength','CA(1225;4,41,4) → ⌊1225/4⌋−2 = 304 on 40 columns.'),
+], [207,292])
+p('<b>Interpretation:</b> these are the best upper bounds produced by the stated transformations on the inspected inputs. They are not lower bounds excluding bespoke row coincidences, a new repair search, or an uninspected theorem. No entry or reduction in this finite audit gives ≤86. The included audit_tables.py reproduces the calculation and the 87-row coverage/essentiality check.')
+p('The repository’s issue history documents cases where the frame omits some derived results. The audit therefore checked the separate derived table and current submission discussions, rather than assuming the frame was complete. None of the inspected omissions affects this target. '+refs('S01'))
+
+new('5. Recursive and alternate representations')
+sub('A consequential product-construction error')
+p('Cohen–Colbourn–Ling Theorem 3 requires two strength-three base arrays. Its product bound is CAN(3,kℓ,v) ≤ CAN(3,k,v) + CAN(3,ℓ,v) + CAN(2,ℓ,v)·DCAN(2,k,v). Grömping’s report §7.8.3 incorrectly labels the second base ingredient strength two. The tempting arithmetic 27+14+9·5=86 therefore uses an inadmissible 14-row ingredient and is not prior art for the target. The primary theorem and proof resolve the ambiguity. '+refs('S12','S13'))
+sub('Covering schemes')
+p('A ternary scheme with M rows develops to a covering array with 3M rows, so ≤28 scheme rows on ≥40 columns would be a concrete conflict. The 2024/2025 recursive paper was obtained as public author full text; the initial publisher access gap was resolved. Let Cₜ(k)=CSN(t,k,ℤ₃). Its relevant recurrences are: '+refs('S11'))
+p('C₃(k+1) ≤ C₃(k)+6<br/>C₃(2k) ≤ C₃(k)+2C₂(k)<br/>C₃(kℓ) ≤ C₃(k)+C₃(ℓ)+(C₂(k)−1)(C₂(ℓ)−1)−1<br/>C₃(k+ℓ−2) ≤ C₃(k)+C₃(ℓ)−1','SmallX')
+p('An exhaustive finite closure of these recurrences, projection and the paper’s strongest ternary seeds (9 rows at width 4, 11 at width 6, 14 at width 8) reaches at most <b>18 columns within 28 rows</b>, even with unrealistically cheap strength-two ingredients: 3 at width 3, 4 at width 4 and 5 at every larger width. Using lower ingredient costs enlarges the attainable parameter set; failure in this relaxation rules out this particular recursive route. The script and results are included.')
+p('These strength-two ingredient costs use the paper’s all-differences covering-scheme convention. CCL’s nonzero-only difference covering arrays use a different convention; their minima are not interchangeable. Later 2026 scheme papers give no qualifying seed or smaller ingredient that closes the gap. '+refs('S11','S12','S26','S27'))
+sub('Orthogonal, higher-strength and mixed arrays')
+p('A direct ternary strength-four source with ≥40 columns and ≤86 rows is impossible by a simple slicing argument: fix two columns, leaving nine slices that each cover all pairs on ≥38 columns. Each slice needs ≥9 rows. At exactly 9 it would be an OA(9;2,38,3), but orthogonality of the two contrasts per column gives at most four columns. Every slice therefore needs ≥10 rows, so N≥90. Higher strength also implies strength four.')
+p('A ternary strength-three orthogonal array on 40 columns obeys the Rao bound N≥1+2·40+4·39=237. A linear-code construction with dual distance ≥4 is an OA and has the same obstruction. For mixed arrays, at least 40 columns must each have ≥3 symbols; binary columns cannot count toward the target. Accessible mixed-level results supplied no qualifying witness or demonstrated reduction. Relevant full-text gaps are listed in Section 9.')
+
+new('6. Independent repositories and deposits')
+table(['Collection actually inspected','Coverage / strongest relevant observation'],[
+ ('Sitjar [S15]','299 tree entries, 221 named arrays, 104 current record claims / 109 parameter rows. Near miss 82×34. Best checked higher-strength derivation: 633/3 = 211 at width 99.'),
+ ('Canli / Quantavane [S16]','196 family rows, 448,049 improved-cell claims, 277 submission rows. No ternary strength-three improved cell. Best checked derivation/fusion consequence: 605−2(5−3)=601 from CA(605;3,247,5).'),
+ ('Bergeron RMS extensions [S17]','q=3 family reaches only 26 columns. First q=4 width-40 instance: m=19, L=10, N=2·4³+4²·10=288; ordinary fusion gives 286.'),
+ ('Dwyer [S18]','1,587 tree entries and 298 named CA files. 41 direct-eligible files; minimum N=471 at (t,k,v)=(4,43,3). Derivation gives 157 at width 42.'),
+ ('CAs package [S19]','436-entry tree plus issues, PRs, comments and releases. Frozen comparison bound is 89; implemented target construction is 103. These have different meanings.'),
+ ('Dzoba [S22]','Seven record arrays and 133 intermediates; relevant widths at most 12.'),
+ ('Sarkar [S21]','20 actual ternary strength-three output tables. k=40 outputs include 119, 121, 123, 126 and 221.'),
+ ('Other public code','Readmes/trees screened for geo909/m-sequences, huayaow/DPSO, GIST-NJU/CCAG, j-carlos-perez/covering-arrays, mleithner/ca2, LiJiaHua1024 cyclic/binary work; maochy/CAG-RCR README only because its tree endpoint failed.'),
+], [139,360])
+sub('Beyond repository descriptions')
+p('All three PLOS 2017 supplement archives were downloaded and their 562 headers inspected, including 55 source arrays with t≥3, k≥40 and v≥3. The smallest directly relevant one has 123 rows on 40 ternary columns; the reported new bounds table is strength two. Grey’s deposited constructions have widths 10–12, or 20 after the displayed doubling. Smolen’s large ternary strength-five/six records derive to 295 and 404 rows. '+refs('S20','S38','S39'))
+p('For ca-tools, 78 issue/PR objects and 68 PR records were retrieved, with targeted discussion threads and claim files inspected. Recent PRs 76–79, including November 14 material, concern much larger or different parameter sets. PR 34 establishes Bai ingestion. The pin and observed current table were compared directly. '+refs('S01','S34'))
+p('The external-family minima above describe the reductions actually checked. They do not exclude an unpublished, array-specific optimization. Hash manifests and raw public metadata make the inspected repository states identifiable.','SmallX')
+
+new('7. Search coverage and representative queries')
+p('Research used two web search engines, direct public repository/deposit APIs, primary full texts, machine-readable tables and actual construction files. Searches were pursued independently across lineage, general literature and external repositories; promising conflicts were checked against primary statements rather than accepted from snippets.')
+table(['Source family','Actual coverage and limits'],[
+ ('Record collections','ca-tools current/pinned/provenance/derived tables; frozen Colbourn tables; NIST ACTS/IPOG-F; CAs and Dwyer; original Bai archive.'),
+ ('Academic discovery','OpenAlex and Crossref: 50 ternary-query results each, plus 100 recent covering-array results each (300 retrieved records, with overlaps). Shokri’s five indexed direct citing works were routed and checked.'),
+ ('Papers, theses, proceedings','Primary 2012, 2010 reduction, 2008 product, 2025 Shokri, 2024/2025 scheme and 2026 follow-on papers; Shokri Ottawa thesis; Pender SFU thesis; CMS abstract; IWOCA postoptimization proceedings; PLOS supplements.'),
+ ('arXiv / Semantic Scholar / Scholar','Individual arXiv papers and Semantic Scholar-hosted PDFs retrieved. Direct arXiv search failed; Semantic Scholar API returned 429; direct Google Scholar unavailable. Indexed searches supplemented these routes.'),
+ ('Public code / archives','GitHub API discovery and actual repository data; Zenodo versions and files; institutional repositories. GitLab and Codeberg checked through indexed search, not exhaustive platform enumeration.'),
+ ('Informal disclosures','Indexed queries for MathOverflow, public discussions, mailing-list material, Reddit, X and Bluesky; GitHub issue/PR/release discussions inspected directly where relevant. No concrete target claim found.'),
+], [125,374])
+sub('Representative substantive query groups')
+p('<b>Exact and variant notation:</b> “CAN(3,40,3)”; “CA(86;3,40,3)”; “CA(86,3,40,3)”; “CA_86_3_40_3”; “3, 40, 3”; “86-run”; and variants with 81, 85 or 87 rows.','SmallX')
+p('<b>Conceptual and indirect:</b> “ternary covering array 40 columns”; “strength 3 40 factors 3 levels”; q-plication; larger alphabets, fusion, derivation, mixed-level arrays, orthogonal arrays, coding constructions and recursive covering schemes.','SmallX')
+p('<b>Source-specific and multilingual:</b> site:github.com, site:arxiv.org, site:zenodo.org, site:scholar.google.com and site:mathoverflow.net; Spanish “arreglos de cobertura” and Chinese covering-array terminology with 40/86. Exact strings are preserved in the query log.','SmallX')
+p('The evidence bundle includes exact agent query logs, a consolidated root log, source metadata, and retrieval outcomes. Bounded relevance queries and indexed social searches are not presented as complete database exports or exhaustive community coverage.','SmallX')
+
+new('8. Novelty assessment and recommendation')
+table(['Level','Assessment','Reason'],[
+ ('1. Numerical bound','LIKELY NOVEL','No prior public result found establishing CAN(3,40,3) ≤ 86. The strongest verified exact predecessor is 87; nearest same-row predecessor has only 39 columns.'),
+ ('2. Explicit construction','No prior qualifying witness found','No inspected explicit array with ≤86 rows and ≥40 ternary columns. Candidate file absent, so this audit does not claim a direct isomorphism comparison or independent candidate validation.'),
+ ('3. Search method','Broad ingredients established; exact refinement unassessed','Tabu search and postoptimization/row deletion have extensive prior art. Bai’s own paper describes deletion followed by tabu repair. Specific block-swap design requires actual algorithm/code and comparisons.'),
+], [97,133,269])
+p('Nurmela’s tabu work dates to 2004; whole-row postoptimization appears in Nayeri–Colbourn–Konjevod’s 2009 proceedings paper. Bai’s October 2026 methods already use row deletion and tabu repair, sometimes after a column extension. These facts qualify an algorithmic novelty claim without undermining a new numerical witness. '+refs('S37','S36','S04'))
+sub('Recommended claim')
+p('“We exhibit a CA(86;3,40,3), improving the best previously located public upper bound for CAN(3,40,3) from 87 to 86. The construction was obtained by postoptimizing Bai XunDi’s 87-row extension of the Shokri–Moura lineage.”')
+p('Use “new best-known upper bound,” not an exact value for CAN. The investigation supports that claim as of November 14, 2026, subject to the matrix satisfying the supplied verifier claims.')
+sub('Recommended submission destination and evidence')
+p('<b>First destination: the maintained ca-tools record table.</b> Its current policy accepts explicit arrays/certificates through the submissions directory and distinguishes exact VERIFIED entries from screening. It accepts AI-assisted searches with appropriate disclosure and credit. No submission was made in this investigation. '+refs('S35'))
+p('A reviewable submission should include: (1) the canonical 86×40 text matrix and its SHA-256; (2) an exhaustive verifier and output for all 266,760 requirements, ideally retaining the independent reviewer implementation; (3) authorship and discovery timestamp; (4) exact parent-array hash, Bai dataset DOI and Shokri–Moura citation; (5) a reproducible description of deletion, repair and block swaps, including seeds/software versions when available; and (6) this prior-art audit or a concise equivalent explaining the 86×39 near miss and why the former exact-target bound is 87.')
+p('A versioned public data deposit with a short computational note is the appropriate durable scholarly companion. A standalone journal claim about the search technique should wait until the block-swapping mechanism and comparative evidence support a separate contribution. The numerical record can be submitted on the strength of a valid explicit witness.')
+
+new('9. Remaining gaps and reproducibility')
+sub('Residual coverage gaps')
+p('No concrete unresolved public claim at ≤86 rows and ≥40 ternary columns was found. The following sources remain incompletely accessible: the obsolete Torres-Jimenez construction repository; the computational results for 18 improved arrays in the 2018 extended-permutation-vector paper; the Shi–Tao 2018 mixed-array full text; the 2024 mixed cyclotomy chapter; the 2023 covering-scheme predecessor; and Numaro’s undisplayed full list of 40 claimed improvements. Accessible abstracts, formulas and examples did not expose a qualifying result. '+refs('S28','S31','S32','S33','S30'))
+p('The CK2002 original full text was not obtained, but its doubling inequality was independently checked through later primary statements; the 89-row historical bound is directly evidenced by the 2012 table. The 2024/2025 recursive-scheme full-text gap was closed by a public author copy. Private Bai search code and unfinished candidates were not deposited; their existence is not evidence of a public prior numerical result.')
+p('These gaps limit an absolute priority claim. They do not supply a specific competing construction, so the appropriate verdict is LIKELY NOVEL rather than INDETERMINATE.')
+sub('Reproduce the finite checks')
+p('The accompanying ZIP contains fixed inputs, hashes, scripts, results, source indexes and search logs. Run the following from the extracted directory:','SmallX')
+p('python3 audit_tables.py inputs reproduced_audit.json<br/>python3 lineage/verify_prior_arrays.py<br/>python3 lineage/check_published_scheme_closure.py','MonoX')
+p('The main audit uses Python’s standard library. It parses integer-valued CSV fields, checks all orders of ordinary fusion and derivation, and exhaustively checks the published 87×40 matrix. The lineage checker verifies the six original neighboring arrays; the scheme script performs only parameter arithmetic. No script searches for or creates a new covering array.','SmallX')
+sub('Critical identities')
+p('Pinned ca-tools commit:<br/>26270ecbd9dadd43a463cf5637606cb964577e4f','MonoX')
+p('Published 87×40 SHA-256:<br/>677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158','MonoX')
+p('Published 86×39 SHA-256:<br/>bf5b1110505449dd2e9e00c08f03558d381effc09f2c9e921ff40f4ca82d0f20','MonoX')
+p('Original ZIP MD5: 3dd14604ef2cb50661c959089149acdf<br/>Original records.csv MD5: f70d093a028f797e53ac6c6041c95b1e','MonoX')
+p('The source index distinguishes a publication date, an observed version/commit date and a retrieval date. The raw original per-file timestamps remain in UTC to preserve exact metadata. Publicly licensed data are attributed in the bundle; journal full texts are not redistributed.','SmallX')
+
+for start in range(0,len(sources),13):
+    new(f'Source guide {start//13+1} / 3')
+    for sid,title,date,url,note in sources[start:start+13]:
+        p(f'<b>{sid} — {html.escape(title)}</b><br/>{html.escape(date)}. {html.escape(note)}<br/><a href="{url}" color="#006e70">{html.escape(url)}</a>','SmallX')
+
+def footer(c,doc):
+    c.saveState()
+    w,h=A4
+    c.setStrokeColor(colors.HexColor('#d5dfe4')); c.setLineWidth(.5); c.line(48,42,w-48,42)
+    c.setFont('DV',7.2);c.setFillColor(GRAY)
+    c.drawString(48,29,'CA86 prior-art audit · November 14, 2026')
+    c.drawRightString(w-48,29,str(doc.page))
+    if doc.page>1:
+        c.setFont('DV',7.1);c.drawString(48,h-31,'CAN(3,40,3) ≤ 86  |  LIKELY NOVEL')
+    c.restoreState()
+
+pdf=ROOT/'CA86_Prior_Art_Report.pdf'
+doc=SimpleDocTemplate(str(pdf),pagesize=A4,rightMargin=48,leftMargin=48,topMargin=49,bottomMargin=58,title='LIKELY NOVEL — CA86 CA(86;3,40,3) prior-art audit',author='Independent research audit',subject='Numerical record, construction lineage, public prior art, reproducibility')
+doc.build(story,onFirstPage=footer,onLaterPages=footer)
+(OUT/'report.txt').write_text('\n\n'.join(plain)+'\n')
+print(pdf)

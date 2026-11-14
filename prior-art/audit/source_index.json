@@ -1,0 +1,275 @@
+[
+  {
+    "id": "S01",
+    "title": "ca-tools: fixed November 13 commit and bounds/provenance tables",
+    "date": "2026-11-13",
+    "url": "https://github.com/chrispbsmolen/ca-tools/tree/26270ecbd9dadd43a463cf5637606cb964577e4f",
+    "inspection": "Actual CSVs, array, commit history, issues and submissions inspected. The observed main branch matched this pin."
+  },
+  {
+    "id": "S02",
+    "title": "Bai XunDi: original construction dataset, version 1.0",
+    "date": "2026-10-30",
+    "url": "https://doi.org/10.5281/zenodo.23787055",
+    "inspection": "Original records.csv, arrays_t3.zip, per-file metadata, versions and hashes inspected; six relevant ternary arrays checked."
+  },
+  {
+    "id": "S03",
+    "title": "Bai: affine-plane companion paper",
+    "date": "2026-10-30",
+    "url": "https://doi.org/10.5281/zenodo.23787051",
+    "inspection": "Full original PDF inspected; small-q families have too few columns."
+  },
+  {
+    "id": "S04",
+    "title": "Bai: original Singer/237-record companion paper",
+    "date": "2026-10-30",
+    "url": "https://doi.org/10.5281/zenodo.23787053",
+    "inspection": "Full original PDF, including postoptimization and row-deletion/tabu description, inspected."
+  },
+  {
+    "id": "S05",
+    "title": "Shokri and Moura: strength-three covering-array construction paper",
+    "date": "2025-02-14",
+    "url": "https://doi.org/10.1002/jcd.21963",
+    "inspection": "Full theorem statements 4.7, 4.8, 4.10, 4.13 and Corollary 4.12 inspected."
+  },
+  {
+    "id": "S06",
+    "title": "Shokri: CMS Winter Meeting abstract",
+    "date": "2023-12-01 to 2023-12-04",
+    "url": "https://www2.cms.math.ca/Events/winter23/res/pdf/cdt-ks.pdf",
+    "inspection": "Conference abstract already states the q-plication family. Exact abstract upload day not established."
+  },
+  {
+    "id": "S07",
+    "title": "Shokri: University of Ottawa thesis",
+    "date": "2026-01-09",
+    "url": "https://ruor.uottawa.ca/items/af3baefe-75a0-4b04-8bf0-7a5d0422dd5b",
+    "inspection": "Full thesis inspected; Chapter 5 maps the construction lineage and theorem numbering."
+  },
+  {
+    "id": "S08",
+    "title": "Avila-George, Torres-Jimenez and Hernández: New Bounds for Ternary Covering Arrays Using a Parallel Simulated Annealing",
+    "date": "2012-08-26",
+    "url": "https://doi.org/10.1155/2012/897027",
+    "inspection": "Publisher date and Table 2(a): t=3, k=40, previous 90, new 89."
+  },
+  {
+    "id": "S09",
+    "title": "Preserved Colbourn table: ternary strength three",
+    "date": "snapshot 2024-11",
+    "url": "https://www.data2intelligence.de/ColbournTables/t3v3.html",
+    "inspection": "Exact-target N=89; preservation context in ugroempi/CAs ColbournTables.md."
+  },
+  {
+    "id": "S10",
+    "title": "Colbourn, Kéri, Rivas Soriano and Schlage-Puchta: Covering and Radius-Covering Arrays",
+    "date": "2010",
+    "url": "https://old.sztaki.hu/~keri/arrays/Colbourn_Keri_Rivas-Soriano_Schlage-Puchta.pdf",
+    "inspection": "Primary Lemma 3.1 (fusion) and equation (7) (derivation) inspected. DOI 10.1016/j.dam.2010.03.008."
+  },
+  {
+    "id": "S11",
+    "title": "Castoldi et al.: Recursive constructions for covering schemes of strength 3",
+    "date": "online 2024-02-21; issue 2025",
+    "url": "https://doi.org/10.3934/amc.2024005",
+    "inspection": "Primary publication; public author full text retrieved at ResearchGate publication 378413470. Recurrences and seeds inspected."
+  },
+  {
+    "id": "S12",
+    "title": "Cohen, Colbourn and Ling: Constructing strength three covering arrays with augmented annealing",
+    "date": "journal 2008",
+    "url": "https://cse.unl.edu/~myra/papers/auga.pdf",
+    "inspection": "Indexed author full text, Theorem 3 and ingredient strengths inspected; resolves a secondary-source error."
+  },
+  {
+    "id": "S13",
+    "title": "Grömping: Implementing uniform covering arrays based on the Colbourn tables",
+    "date": "2026-01-02",
+    "url": "https://www1.bht-berlin.de/FB_II/reports/Report-2026-001.pdf",
+    "inspection": "86-page technical report used to route construction references. Section 7.8.3 has the strength typo described in this audit."
+  },
+  {
+    "id": "S14",
+    "title": "NIST IPOG-F ternary strength-three output table",
+    "date": "retrieved 2026-11-14",
+    "url": "https://math.nist.gov/coveringarrays/ipof/tables/table.3.3.html",
+    "inspection": "k=40 gives N=118. This is an algorithm output collection, not a best-known-bound catalogue."
+  },
+  {
+    "id": "S15",
+    "title": "Sitjar: covering-array-records",
+    "date": "version 1.10, 2026-11-13",
+    "url": "https://github.com/tns-research/covering-array-records",
+    "inspection": "Current README, tree, records, release/issue history inspected; closest ternary small-row record is 82×34."
+  },
+  {
+    "id": "S16",
+    "title": "Canli: Quantavane covering arrays",
+    "date": "first deposit 2026-10-31; repository 2026-11-11",
+    "url": "https://github.com/arhancanli/quantavane-covering-arrays",
+    "inspection": "196 families, 448,049 claimed improved cells and 277 submission rows inspected. DOI 10.5281/zenodo.23839216."
+  },
+  {
+    "id": "S17",
+    "title": "Bergeron: RMS extension covering arrays",
+    "date": "retrieved 2026-11-14",
+    "url": "https://github.com/MichelBacon/covering-arrays-rms-extension",
+    "inspection": "Actual stated formula and parameters checked; q=4 first width-40 instance has 288 rows before fusion."
+  },
+  {
+    "id": "S18",
+    "title": "Dwyer: CA_Database",
+    "date": "latest commit observed 2024-09-06",
+    "url": "https://github.com/aadwyer/CA_Database",
+    "inspection": "Recursive tree and named array parameters inspected; qualifying minimum 471 at strength four."
+  },
+  {
+    "id": "S19",
+    "title": "Grömping: CAs package repository and historical catalogue",
+    "date": "current release retrieved 2026-11-14",
+    "url": "https://github.com/ugroempi/CAs",
+    "inspection": "Code, catalogue objects, 95 issue/PR bodies, 17 PRs, 5 releases and 100 comments inspected."
+  },
+  {
+    "id": "S20",
+    "title": "Optimal shortening of uniform covering arrays",
+    "date": "2017-12-21",
+    "url": "https://doi.org/10.1371/journal.pone.0189283",
+    "inspection": "Full text plus all three supplemental ZIPs inspected: 562 array headers, 55 directly relevant source arrays, minimum 123 rows."
+  },
+  {
+    "id": "S21",
+    "title": "Sarkar: CoveringArray experimental outputs",
+    "date": "retrieved 2026-11-14",
+    "url": "https://github.com/ksarkar/CoveringArray",
+    "inspection": "20 actual ternary strength-three output tables inspected; target outputs range from 119 to 221 rows."
+  },
+  {
+    "id": "S22",
+    "title": "Dzoba: covering-arrays-2026",
+    "date": "2026-10-21",
+    "url": "https://github.com/dzoba/covering-arrays-2026",
+    "inspection": "Seven records and 133 intermediates; relevant arrays have at most 12 columns."
+  },
+  {
+    "id": "S23",
+    "title": "Bai: revised Singer paper",
+    "date": "2026-11-08",
+    "url": "https://doi.org/10.5281/zenodo.24054350",
+    "inspection": "Full later paper inspected; fixed original deposit retained for priority."
+  },
+  {
+    "id": "S24",
+    "title": "Bai: elliptic/genus-two curve families",
+    "date": "2026-11-08",
+    "url": "https://doi.org/10.5281/zenodo.24055371",
+    "inspection": "Full later family formulas inspected; first ternary elliptic substitution already exceeds 86."
+  },
+  {
+    "id": "S25",
+    "title": "Shokri, Moura and Stevens: strength-four follow-on",
+    "date": "arXiv 2025-10",
+    "url": "https://arxiv.org/abs/2510.13122",
+    "inspection": "Relevant family substitutions checked; neither small-row target nor a useful stronger-array implication."
+  },
+  {
+    "id": "S26",
+    "title": "Invariant sets and covering schemes",
+    "date": "2026-04-27",
+    "url": "https://doi.org/10.1007/s12095-026-00890-2",
+    "inspection": "Full primary text inspected; nonbinary family has strength k−1 and exponential size, other main family is binary."
+  },
+  {
+    "id": "S27",
+    "title": "Later strength-two covering schemes",
+    "date": "2026",
+    "url": "https://doi.org/10.1002/jcd.70037",
+    "inspection": "Full primary text inspected; no strength-two ingredient below those already used in the optimistic closure."
+  },
+  {
+    "id": "S28",
+    "title": "Torres-Jimenez and Izquierdo-Marquez: extended permutation vectors",
+    "date": "2018-02-20",
+    "url": "https://doi.org/10.1007/s10623-018-0465-6",
+    "inspection": "Public family statement checked. Computational results for 18 improved arrays not obtained in full."
+  },
+  {
+    "id": "S29",
+    "title": "IRSI strength-three construction note",
+    "date": "2026-10-15",
+    "url": "https://irsi.ai/notes/ca-strength3-note/",
+    "inspection": "Stated arc-based formula and tables checked. Listed arrays have too few columns and much larger row counts."
+  },
+  {
+    "id": "S30",
+    "title": "Numaro covering-array announcement",
+    "date": "2026-07-03",
+    "url": "https://numaro.tech/research/covering-arrays-colbourn-2026/",
+    "inspection": "Eight displayed examples checked; complete claimed list of 40 improvements not linked."
+  },
+  {
+    "id": "S31",
+    "title": "Shi Ce and Tao Aiyuan: mixed arrays of strength at least three",
+    "date": "2018-12-28",
+    "url": "https://doi.org/10.12387/C2018058",
+    "inspection": "Abstract/references obtained. Numerical full text blocked by a human CAPTCHA; not bypassed."
+  },
+  {
+    "id": "S32",
+    "title": "Akhtar, Colbourn and Syrotiuk: mixed arrays via cyclotomy",
+    "date": "2024-06-16",
+    "url": "https://doi.org/10.1007/978-3-031-52969-6_4",
+    "inspection": "Public abstract/references inspected; numerical chapter remained paywalled."
+  },
+  {
+    "id": "S33",
+    "title": "Castoldi et al.: Covering schemes of strength t",
+    "date": "2023-06-22",
+    "url": "https://doi.org/10.1007/s10623-023-01252-2",
+    "inspection": "Public abstract concerns applications with three to five factors; full predecessor text not obtained."
+  },
+  {
+    "id": "S34",
+    "title": "ca-tools: original Bai submission PR 34",
+    "date": "2026-11-02",
+    "url": "https://github.com/chrispbsmolen/ca-tools/pull/34",
+    "inspection": "Submission, claims table, DOI and array ingestion history inspected."
+  },
+  {
+    "id": "S35",
+    "title": "ca-tools: contribution policy",
+    "date": "retrieved 2026-11-14",
+    "url": "https://github.com/chrispbsmolen/ca-tools/blob/26270ecbd9dadd43a463cf5637606cb964577e4f/CONTRIBUTING.md",
+    "inspection": "Array/certificate submission path, VERIFIED tier and AI-assisted search disclosure rules checked."
+  },
+  {
+    "id": "S36",
+    "title": "Nayeri, Colbourn and Konjevod: postoptimization",
+    "date": "IWOCA 2009",
+    "url": "https://organicorigami.com/thrackle/papers/iwoca2009.pdf",
+    "inspection": "Primary whole-row deletion and relocation procedure; proceedings DOI 10.1007/978-3-642-10217-2_40."
+  },
+  {
+    "id": "S37",
+    "title": "Nurmela: Upper bounds for covering arrays by tabu search",
+    "date": "2004-03-29",
+    "url": "https://doi.org/10.1016/S0166-218X(03)00291-9",
+    "inspection": "Primary indexed full text; tabu search and targeted single-cell moves predate the candidate."
+  },
+  {
+    "id": "S38",
+    "title": "Grey: new covering-array constructions",
+    "date": "2026-11-02",
+    "url": "https://doi.org/10.5281/zenodo.23877721",
+    "inspection": "Actual paper/source files inspected; listed widths 10–12, doubled example width 20."
+  },
+  {
+    "id": "S39",
+    "title": "Smolen: cyclic CPHF records",
+    "date": "2026-10-31",
+    "url": "https://doi.org/10.5281/zenodo.23848283",
+    "inspection": "Actual TeX records inspected; ternary higher-strength examples derive to 295 or 404 rows."
+  }
+]

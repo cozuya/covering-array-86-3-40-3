@@ -1,0 +1,130 @@
+Lean (version 4.28.0, x86_64-unknown-linux-gnu, commit 7e01a1bf5c70fc6167d49c345d3bf80596e9a79b, Release)
+PACKAGE_CHECK=PASS: 210 source hashes, 48 Lean files, 105 local links, and byte-identical adapted archives
+Authenticated 86 × 40 certificate; 266,760 witness requirements; generated sources match.
+SOURCE_AUDIT=PASS: 47 Lean files, 741 kernel pair checks
+✔ [2/47] Built CA86.Certificate (181ms)
+✔ [3/47] Built CA86.Basic (192ms)
+✔ [4/47] Built CA86.Checker (205ms)
+✔ [5/47] Built CA86.Negative (188ms)
+✔ [6/47] Built CA86.Blocks.Block02 (10s)
+✔ [7/47] Built CA86.Blocks.Block01 (10s)
+✔ [8/47] Built CA86.Blocks.Block00 (11s)
+✔ [9/47] Built CA86.Blocks.Block05 (8.3s)
+✔ [10/47] Built CA86.Blocks.Block04 (8.9s)
+✔ [11/47] Built CA86.Blocks.Block03 (9.4s)
+✔ [12/47] Built CA86.Blocks.Block08 (7.1s)
+✔ [13/47] Built CA86.Blocks.Block07 (7.6s)
+✔ [14/47] Built CA86.Blocks.Block06 (7.8s)
+✔ [15/47] Built CA86.Blocks.Block11 (5.7s)
+✔ [16/47] Built CA86.Blocks.Block10 (6.1s)
+✔ [17/47] Built CA86.Blocks.Block09 (6.5s)
+✔ [18/47] Built CA86.Blocks.Block14 (4.4s)
+✔ [19/47] Built CA86.Blocks.Block13 (4.7s)
+✔ [20/47] Built CA86.Blocks.Block17 (3.6s)
+✔ [21/47] Built CA86.Blocks.Block12 (5.1s)
+✔ [22/47] Built CA86.Blocks.Block16 (4.1s)
+✔ [23/47] Built CA86.Blocks.Block20 (2.9s)
+✔ [24/47] Built CA86.Blocks.Block23 (2.1s)
+✔ [25/47] Built CA86.Blocks.Block15 (4.5s)
+✔ [26/47] Built CA86.Blocks.Block19 (3.1s)
+✔ [27/47] Built CA86.Blocks.Block26 (1.4s)
+✔ [28/47] Built CA86.Blocks.Block29 (950ms)
+✔ [29/47] Built CA86.Blocks.Block22 (2.1s)
+✔ [30/47] Built CA86.Blocks.Block32 (629ms)
+✔ [31/47] Built CA86.Blocks.Block18 (3.1s)
+✔ [32/47] Built CA86.Blocks.Block35 (435ms)
+✔ [33/47] Built CA86.Blocks.Block38 (300ms)
+✔ [34/47] Built CA86.Blocks.Block25 (1.6s)
+✔ [35/47] Built CA86.Blocks.Block28 (1.0s)
+✔ [36/47] Built CA86.Blocks.Block21 (2.3s)
+✔ [37/47] Built CA86.Blocks.Block31 (714ms)
+✔ [38/47] Built CA86.Blocks.Block34 (447ms)
+✔ [39/47] Built CA86.Blocks.Block37 (314ms)
+✔ [40/47] Built CA86.Blocks.Block24 (1.7s)
+✔ [41/47] Built CA86.Blocks.Block27 (1.1s)
+✔ [42/47] Built CA86.Blocks.Block30 (777ms)
+✔ [43/47] Built CA86.Blocks.Block33 (518ms)
+✔ [44/47] Built CA86.Blocks.Block36 (351ms)
+✔ [45/47] Built CA86.Blocks.Block39 (296ms)
+✔ [46/47] Built CA86 (238ms)
+Build completed successfully (47 jobs).
+{
+  "command": [
+    "lake",
+    "--wfail",
+    "build",
+    "CA86",
+    "CA86.Negative"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 55.449,
+  "largest_process_max_rss_kib": 1670824,
+  "sampled_peak_tree_rss_kib": 4575344,
+  "sampled_peak_tree_pss_kib": 3725376,
+  "sampling_interval_seconds": 0.2,
+  "samples": 255
+}
+def CA86.IsCoveringArray : {n k v : Nat} → (Fin n → Fin k → Fin v) → Prop :=
+fun {n k v} A => ∀ (i j l : Fin k), i < j → j < l → ∀ (a b c : Fin v), ∃ r, A r i = a ∧ A r j = b ∧ A r l = c
+def CA86.CAN₃ : Nat → Nat → Nat :=
+fun k v => if h : ∃ n, CA86.Feasible n k v then Classical.choose ⋯ else 0
+CA86.ca86_covering : CA86.IsCoveringArray CA86.certificate
+CA86.CAN_3_40_3_le_86 : CA86.CAN₃ 40 3 ≤ 86
+CA86.CAN_3_40_3_spec : CA86.Feasible (CA86.CAN₃ 40 3) 40 3 ∧ ∀ (n : Nat), CA86.Feasible n 40 3 → CA86.CAN₃ 40 3 ≤ n
+'CA86.checkPair_sound' depends on axioms: [propext, Quot.sound]
+'CA86.ca86_covering' depends on axioms: [propext, Quot.sound]
+'CA86.ca86_existence' depends on axioms: [propext, Quot.sound]
+'CA86.CAN_3_40_3_le_86' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CA86.CAN_3_40_3_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CA86.zeroArray_not_covering' depends on axioms: [propext]
+'CA86.zeroArray_checker_rejected' depends on axioms: [propext]
+CA86.Verification.exact_statement (i j l : Fin 40) :
+  i < j → j < l → ∀ (a b c : Fin 3), ∃ r, CA86.certificate r i = a ∧ CA86.certificate r j = b ∧ CA86.certificate r l = c
+CA86.Verification.exact_bound :
+  CA86.CAN₃ 40 3 ≤ 86 ∧ CA86.Feasible (CA86.CAN₃ 40 3) 40 3 ∧ ∀ (n : Nat), CA86.Feasible n 40 3 → CA86.CAN₃ 40 3 ≤ n
+'CA86.Verification.exact_statement' depends on axioms: [propext, Quot.sound]
+'CA86.Verification.exact_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j1",
+    "-t0",
+    "Verification.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.612,
+  "largest_process_max_rss_kib": 463220,
+  "sampled_peak_tree_rss_kib": 567004,
+  "sampled_peak_tree_pss_kib": 488665,
+  "sampling_interval_seconds": 0.2,
+  "samples": 3
+}
+{
+  "command": [
+    "lake",
+    "env",
+    "leanchecker",
+    "--fresh",
+    "CA86"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 157.789,
+  "largest_process_max_rss_kib": 593100,
+  "sampled_peak_tree_rss_kib": 696588,
+  "sampled_peak_tree_pss_kib": 614972,
+  "sampling_interval_seconds": 0.2,
+  "samples": 766
+}
+tests/NegativeMustFail.lean:5:2: error: Tactic `decide` proved that the proposition
+  CA86.checkPair CA86.zeroArray 0 1 #[] = true
+is false
+SOURCE_AUDIT=PASS: 47 Lean files, 741 kernel pair checks
+AXIOM_AUDIT=PASS: all nine declarations match their expected axiom sets
+NEGATIVE_CONTROL=PASS: invalid checker-true proof rejected as false
+CROSSCHECK=PASS: 86 rows; 9,880 triples; 266,760 requirements; 0 missing
+NEGATIVE_CONTROL=PASS: all-zero array misses 256,880 requirements
+Verification report written to .build/verification.json
+VERIFY_EXIT_CODE=0
+VERIFICATION PASSED: clean build, fresh kernel replay, exact statements, axioms, and negative controls.

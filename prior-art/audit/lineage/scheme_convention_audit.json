@@ -1,0 +1,36 @@
+{
+  "result": "confirmed, no numerical correction",
+  "maximum_columns_with_28_rows": 18,
+  "convention": "Castoldi CSN requires all differences including zero; nonzero-only DCA sizes cannot be inserted directly",
+  "sources": [
+    {
+      "url": "https://www.researchgate.net/publication/378413470_Recursive_constructions_for_covering_schemes_of_strength_3",
+      "refs": [
+        "turn103view0",
+        "turn95view1"
+      ],
+      "role": "CS definition, Theorem2.2 equivalence, Theorem4.4 zero-row subtraction"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jcd.21963",
+      "refs": [
+        "turn106view0",
+        "turn109view0"
+      ],
+      "role": "Section2.3 nonzero-only wording; actual Theorem2.11 includes zero row; Theorem4.6 proof Case2 uses all q differences"
+    },
+    {
+      "url": "https://cse.unl.edu/~myra/papers/auga.pdf",
+      "refs": [
+        "turn106search0"
+      ],
+      "role": "CCL Table14 indexed primary content distinguishes with/without zero sizes",
+      "access_limit": "direct web open returned502 in audit"
+    }
+  ],
+  "seed_audit": "k4=9,k6=11,k8=14; k3,5,7 by projection; other stated ternary seeds dominated",
+  "projection_audit": "Every k>=3 below available k, no row deletion",
+  "implementation_audit": "Monotone recurrences retain cheapest state per k; no k cap; full fixed-point iteration; terminates in4 rounds",
+  "literal_shokri_nonzero_substitution": "No apparent <=86 at >=40: q3 n1 lower bound87,n2 lower90,n>=3 lower108; actual n2,k13,N1=15,x4,m3 yields96 before separate duplicate-row refinement; q>=4 likewise excluded",
+  "accessed_date": "2026-11-14"
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "lake",
+    "--wfail",
+    "build",
+    "CA86",
+    "CA86.Negative"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 55.449,
+  "largest_process_max_rss_kib": 1670824,
+  "sampled_peak_tree_rss_kib": 4575344,
+  "sampled_peak_tree_pss_kib": 3725376,
+  "sampling_interval_seconds": 0.2,
+  "samples": 255
+}

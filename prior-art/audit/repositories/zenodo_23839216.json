@@ -1,0 +1,130 @@
+{
+  "created": "2026-10-31T15:20:04.652398+00:00",
+  "modified": "2026-10-31T15:20:04.959156+00:00",
+  "id": 23839216,
+  "conceptrecid": "23839215",
+  "doi": "10.5281/zenodo.23839216",
+  "conceptdoi": "10.5281/zenodo.23839215",
+  "doi_url": "https://doi.org/10.5281/zenodo.23839216",
+  "metadata": {
+    "title": "New upper bounds for covering array numbers from partly cyclic covering perfect hash families",
+    "doi": "10.5281/zenodo.23839216",
+    "publication_date": "2026-10-31",
+    "description": "<p>A covering array CA(N; t, k, v) is an N x k array over v symbols in which every N x t subarray contains every t-tuple of symbols as a row. We give 152 Sherwood covering perfect hash families that yield covering arrays smaller than the best known ones for strengths t = 3, 4, 5, 6, prime powers q from 4 to 25 and up to k = 10,000 columns. Combined with the standard constructions, 143 of them lower 399,382 entries of the covering array tables (Smolen's live successor of Colbourn's tables on 29 October 2026, together with every later bound we found); the 279 bounds that give these entries are listed in Table 2. The families with many columns use rows that are affine progressions v, Tv, T^2 v, ... of an invertible affine map, so that the sets of columns to be checked reduce to those containing the first column, plus a few random rows that cover what the progressions cannot. Every family was checked exactly by a program written separately from the search; the families, checkers and logs are public at https://github.com/arhancanli/quantavane-covering-arrays.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Canli, Arhan",
+        "affiliation": "Quantavane"
+      }
+    ],
+    "keywords": [
+      "covering arrays",
+      "covering perfect hash families",
+      "combinatorial interaction testing",
+      "combinatorial designs"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/arhancanli/quantavane-covering-arrays",
+        "relation": "isSupplementedBy",
+        "resource_type": "dataset",
+        "scheme": "url"
+      }
+    ],
+    "resource_type": {
+      "title": "Preprint",
+      "type": "publication",
+      "subtype": "preprint"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "23839215"
+          }
+        }
+      ]
+    }
+  },
+  "title": "New upper bounds for covering array numbers from partly cyclic covering perfect hash families",
+  "links": {
+    "self": "https://zenodo.org/api/records/23839216",
+    "self_html": "https://zenodo.org/records/23839216",
+    "preview_html": "https://zenodo.org/records/23839216?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.23839216",
+    "self_doi": "https://doi.org/10.5281/zenodo.23839216",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23839216",
+    "reserve_doi": "https://zenodo.org/api/records/23839216/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/23839215",
+    "parent_html": "https://zenodo.org/records/23839215",
+    "parent_doi": "https://doi.org/10.5281/zenodo.23839215",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23839215",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23839216/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23839216/sequence/default",
+    "files": "https://zenodo.org/api/records/23839216/files",
+    "media_files": "https://zenodo.org/api/records/23839216/media-files",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:23839216:Canli-2026-covering-arrays.pdf/full/%5E10,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:23839216:Canli-2026-covering-arrays.pdf/full/%5E50,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:23839216:Canli-2026-covering-arrays.pdf/full/%5E100,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:23839216:Canli-2026-covering-arrays.pdf/full/%5E250,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:23839216:Canli-2026-covering-arrays.pdf/full/%5E750,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:23839216:Canli-2026-covering-arrays.pdf/full/%5E1200,/0/default.jpg"
+    },
+    "latest": "https://zenodo.org/api/records/23839216/versions/latest",
+    "latest_html": "https://zenodo.org/records/23839216/latest",
+    "versions": "https://zenodo.org/api/records/23839216/versions",
+    "draft": "https://zenodo.org/api/records/23839216/draft",
+    "access_links": "https://zenodo.org/api/records/23839216/access/links",
+    "access_grants": "https://zenodo.org/api/records/23839216/access/grants",
+    "access_users": "https://zenodo.org/api/records/23839216/access/users",
+    "access_request": "https://zenodo.org/api/records/23839216/access/request",
+    "access": "https://zenodo.org/api/records/23839216/access",
+    "communities": "https://zenodo.org/api/records/23839216/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/23839216/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/23839216/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/23839216/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/23839216/quota-increase",
+    "requests": "https://zenodo.org/api/records/23839216/requests"
+  },
+  "updated": "2026-10-31T15:20:04.959156+00:00",
+  "recid": "23839216",
+  "revision": 3,
+  "files": [
+    {
+      "id": "cb5bb4c8-2ca6-424d-a8de-7ee2d99335fd",
+      "key": "Canli-2026-covering-arrays.pdf",
+      "size": 94958,
+      "checksum": "md5:c4ee79392ff2b4557747677b650694bc",
+      "links": {
+        "self": "https://zenodo.org/api/records/23839216/files/Canli-2026-covering-arrays.pdf/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1903073"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 15,
+    "unique_downloads": 13,
+    "views": 33,
+    "unique_views": 32,
+    "version_downloads": 15,
+    "version_unique_downloads": 13,
+    "version_unique_views": 32,
+    "version_views": 33
+  },
+  "state": "done",
+  "submitted": true
+}

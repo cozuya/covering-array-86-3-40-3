@@ -1,0 +1,4 @@
+# Historical transcript: project and declaration names adapted to CA86.
+tests/NegativeMustFail.lean:5:2: error: Tactic `decide` proved that the proposition
+  CA86.checkPair CA86.zeroArray 0 1 #[] = true
+is false

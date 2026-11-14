@@ -1,0 +1,68 @@
+[
+  {
+    "file": "CA_69_3_26_3.txt",
+    "n": 69,
+    "k": 26,
+    "missing": 0,
+    "sha256": "d531431a6d89288d630d5ff8441b794a698cca9939c2360dc69185bb1fb584b9",
+    "sha_matches_manifest": true,
+    "requirements": 70200,
+    "min_unique_witnesses_per_row": 68,
+    "redundant_rows_zero_based": []
+  },
+  {
+    "file": "CA_72_3_27_3.txt",
+    "n": 72,
+    "k": 27,
+    "missing": 0,
+    "sha256": "545bc133ebecffbfb6acf4b5b50263891ebe18abf956541c08692b48c936afd7",
+    "sha_matches_manifest": true,
+    "requirements": 78975,
+    "min_unique_witnesses_per_row": 46,
+    "redundant_rows_zero_based": []
+  },
+  {
+    "file": "CA_86_3_39_3.txt",
+    "n": 86,
+    "k": 39,
+    "missing": 0,
+    "sha256": "bf5b1110505449dd2e9e00c08f03558d381effc09f2c9e921ff40f4ca82d0f20",
+    "sha_matches_manifest": true,
+    "requirements": 246753,
+    "min_unique_witnesses_per_row": 19,
+    "redundant_rows_zero_based": []
+  },
+  {
+    "file": "CA_87_3_40_3.txt",
+    "n": 87,
+    "k": 40,
+    "missing": 0,
+    "sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158",
+    "sha_matches_manifest": true,
+    "requirements": 266760,
+    "min_unique_witnesses_per_row": 25,
+    "redundant_rows_zero_based": []
+  },
+  {
+    "file": "CA_88_3_41_3.txt",
+    "n": 88,
+    "k": 41,
+    "missing": 0,
+    "sha256": "fa2f5240ab3afa02f886af7ecac9db11cf13079095e360ccf527531b3c8f5217",
+    "sha_matches_manifest": true,
+    "requirements": 287820,
+    "min_unique_witnesses_per_row": 33,
+    "redundant_rows_zero_based": []
+  },
+  {
+    "file": "CA_90_3_42_3.txt",
+    "n": 90,
+    "k": 42,
+    "missing": 0,
+    "sha256": "b3d2702d59ecdd4994ad293ae344555e02cb1488077634965b9265bc8f7a4600",
+    "sha_matches_manifest": true,
+    "requirements": 309960,
+    "min_unique_witnesses_per_row": 41,
+    "redundant_rows_zero_based": []
+  }
+]

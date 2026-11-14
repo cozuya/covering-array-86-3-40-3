@@ -1,0 +1,28 @@
+Covering Array CA(86;3,40,3)
+Copyright 2026 Chris Ozols.
+
+Original Lean proofs, verification scripts, and repository documentation are
+distributed under the Apache License, Version 2.0, in LICENSE.
+
+This construction was obtained by postoptimizing Bai XunDi's 87-row extension of
+the Shokri–Moura covering-array lineage. Credit to Bai XunDi, Kianoosh Shokri,
+and Lucia Moura for the prior constructions. See PRIOR_ART.md and PROVENANCE.md.
+
+The explicit 86-row matrix is identified by SHA-256
+7dc7ab1e231dce3cde5cc1c6b35c4911f34145fd4dfe5d80f8ea26b235b27f8a.
+To the extent source-dataset rights apply to this postoptimized matrix, retain
+Bai XunDi's CC BY 4.0 attribution and identify the modification from 87 to 86 rows.
+
+The reproduced predecessor arrays and records from Bai XunDi's original dataset,
+version 1.0 (October 30, 2026), DOI 10.5281/zenodo.23787055, are CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/
+Their original license and README are in prior-art/audit/lineage/.
+
+The preserved ca-tools material credits Christopher Smolen and contributors.
+Its MIT notice is in prior-art/audit/provenance/ca_tools_LICENSE. Array-specific
+credits remain in the original CSV and source metadata.
+
+The supplied prior-art PDF, ZIP, and extracted research evidence are retained as
+received. This repository's Apache license does not relicense third-party papers,
+metadata, archived pages, parameter tables, or other source material. Original
+attributions, notices, source URLs, and applicable rights remain with their authors.

@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-11-14T20:27:44.322857+00:00",
+  "scope": "Reproduce the supplied fixed-data prior-art calculations; not a new literature search",
+  "table_audit_matches": true,
+  "prior_arrays": [
+    {
+      "file": "CA_69_3_26_3.txt",
+      "n": 69,
+      "k": 26,
+      "missing": 0,
+      "sha256": "d531431a6d89288d630d5ff8441b794a698cca9939c2360dc69185bb1fb584b9",
+      "sha_matches_manifest": true,
+      "requirements": 70200,
+      "min_unique_witnesses_per_row": 68,
+      "redundant_rows_zero_based": []
+    },
+    {
+      "file": "CA_72_3_27_3.txt",
+      "n": 72,
+      "k": 27,
+      "missing": 0,
+      "sha256": "545bc133ebecffbfb6acf4b5b50263891ebe18abf956541c08692b48c936afd7",
+      "sha_matches_manifest": true,
+      "requirements": 78975,
+      "min_unique_witnesses_per_row": 46,
+      "redundant_rows_zero_based": []
+    },
+    {
+      "file": "CA_86_3_39_3.txt",
+      "n": 86,
+      "k": 39,
+      "missing": 0,
+      "sha256": "bf5b1110505449dd2e9e00c08f03558d381effc09f2c9e921ff40f4ca82d0f20",
+      "sha_matches_manifest": true,
+      "requirements": 246753,
+      "min_unique_witnesses_per_row": 19,
+      "redundant_rows_zero_based": []
+    },
+    {
+      "file": "CA_87_3_40_3.txt",
+      "n": 87,
+      "k": 40,
+      "missing": 0,
+      "sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158",
+      "sha_matches_manifest": true,
+      "requirements": 266760,
+      "min_unique_witnesses_per_row": 25,
+      "redundant_rows_zero_based": []
+    },
+    {
+      "file": "CA_88_3_41_3.txt",
+      "n": 88,
+      "k": 41,
+      "missing": 0,
+      "sha256": "fa2f5240ab3afa02f886af7ecac9db11cf13079095e360ccf527531b3c8f5217",
+      "sha_matches_manifest": true,
+      "requirements": 287820,
+      "min_unique_witnesses_per_row": 33,
+      "redundant_rows_zero_based": []
+    },
+    {
+      "file": "CA_90_3_42_3.txt",
+      "n": 90,
+      "k": 42,
+      "missing": 0,
+      "sha256": "b3d2702d59ecdd4994ad293ae344555e02cb1488077634965b9265bc8f7a4600",
+      "sha_matches_manifest": true,
+      "requirements": 309960,
+      "min_unique_witnesses_per_row": 41,
+      "redundant_rows_zero_based": []
+    }
+  ],
+  "scheme_closure": {
+    "scope": "DOI10.3934/amc.2024005 ternary strength-three seeds + Thm3.1/4.1/4.4/5.1 and projection",
+    "type": "optimistic relaxation, NOT a valid upper-bound table",
+    "ingredient_convention": "Castoldi CS: all differences, including zero; not nonzero-only DCA",
+    "seeds": {
+      "k4": 9,
+      "k6": 11,
+      "k8": 14
+    },
+    "projection": "all k>=3 below every available column count, retaining full row count",
+    "strength_two_ingredient_floor": {
+      "k3": 3,
+      "k4": 4,
+      "k_ge_5": 5
+    },
+    "budget": 28,
+    "closure_rounds": 4,
+    "maximum_columns_in_relaxed_closure": 18,
+    "reaches_40": false,
+    "optimistic_costs": {
+      "3": {
+        "rows": 9,
+        "last_step": "projection from 4"
+      },
+      "4": {
+        "rows": 9,
+        "last_step": "Prop2.6"
+      },
+      "5": {
+        "rows": 11,
+        "last_step": "projection from 6"
+      },
+      "6": {
+        "rows": 11,
+        "last_step": "Prop6.9"
+      },
+      "7": {
+        "rows": 14,
+        "last_step": "projection from 8"
+      },
+      "8": {
+        "rows": 14,
+        "last_step": "Ex6.11"
+      },
+      "9": {
+        "rows": 20,
+        "last_step": "Thm3.1 from 8"
+      },
+      "10": {
+        "rows": 21,
+        "last_step": "Thm5.1 from 6,6"
+      },
+      "11": {
+        "rows": 21,
+        "last_step": "projection from 12"
+      },
+      "12": {
+        "rows": 21,
+        "last_step": "Thm4.1 from 6"
+      },
+      "13": {
+        "rows": 24,
+        "last_step": "projection from 16"
+      },
+      "14": {
+        "rows": 24,
+        "last_step": "projection from 16"
+      },
+      "15": {
+        "rows": 24,
+        "last_step": "projection from 16"
+      },
+      "16": {
+        "rows": 24,
+        "last_step": "Thm4.1 from 8"
+      },
+      "17": {
+        "rows": 27,
+        "last_step": "projection from 18"
+      },
+      "18": {
+        "rows": 27,
+        "last_step": "Thm4.4 from 6,3"
+      }
+    }
+  },
+  "input_manifest_sha256": "9631ad09db2798e448db53d100d1695f07146f87ee00e367640b218aedb77ca4"
+}

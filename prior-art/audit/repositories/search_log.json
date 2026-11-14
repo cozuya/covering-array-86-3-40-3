@@ -1,0 +1,197 @@
+[
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system2",
+    "group": "Initial exact/alternate record and repository search",
+    "queries": [
+      "\"covering array\" \"86\" \"40\"",
+      "\"covering arrays\" github ternary",
+      "\"CAN(3,40,3)\"",
+      "\"CA(86\" covering"
+    ],
+    "finding": "Located CAs, CA_Database, IRSI; no exact target found."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system1",
+    "group": "Verify primary repository and archival search",
+    "queries": [
+      "\"covering array\" \"40\" \"86\" github",
+      "\"covering arrays\" \"GitLab\"",
+      "\"covering arrays\" \"Zenodo\"",
+      "\"covering array\" \"3,40,3\""
+    ],
+    "finding": "Located 2018 strength-2 classification and Bai companion paper; passed Bai to lineage agent."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system2",
+    "group": "Method and code prior art",
+    "queries": [
+      "\"covering array\" \"tabu\" \"row\" deletion",
+      "\"covering arrays\" \"block\" \"swap\"",
+      "\"covering-arrays\" \"87\" github",
+      "\"covering arrays\" \"Codeberg\""
+    ],
+    "finding": "Nurmela2004 explicitly predates delete-row/restart tabu; no Codeberg target hit."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system2",
+    "group": "SAT/ternary/software datasets",
+    "queries": [
+      "\"covering array\" github SAT dataset",
+      "\"covering array\" github record tabu",
+      "\"ternary covering\" github",
+      "\"covering arrays\" gitlab codeberg zenodo repository -site:cran.r-project.org -site:researchgate.net"
+    ],
+    "finding": "Found CAG-RCR, CCAG, SplitCA and other generators; covering-code false positives separated."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system1",
+    "group": "Site-restricted repository/archive search",
+    "queries": [
+      "site:github.com \"covering-array\" \"record\"",
+      "site:gitlab.com \"covering array\"",
+      "site:codeberg.org \"covering array\"",
+      "site:zenodo.org \"covering arrays\" \"3\" \"40\""
+    ],
+    "finding": "Found Numaro and IRSI public disclosure sites, passed to literature agent; no target GitLab/Codeberg hit."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system2",
+    "group": "Informal and numerical-adjacent search",
+    "queries": [
+      "\"covering array\" \"86\" \"ternary\"",
+      "\"covering array\" \"40\" site:mathoverflow.net",
+      "\"covering arrays\" \"record\" site:reddit.com",
+      "\"covering array\" \"86\" \"87\""
+    ],
+    "finding": "Found2012 ternary paper, no informal target disclosure."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system2",
+    "group": "Exact variants and social search",
+    "queries": [
+      "\"covering array\" \"86\" site:github.com/issues",
+      "\"CAN(3, 40, 3)\"",
+      "\"covering array\" \"40 factors\" \"3\"",
+      "\"covering arrays\" \"40\" site:bsky.app OR site:x.com OR site:mathoverflow.net"
+    ],
+    "finding": "No exact/stronger disclosure; MathOverflow polymath general discussion appeared."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system1",
+    "group": "Exact filename and row-count confirmation",
+    "queries": [
+      "\"CA_86_3_40_3\"",
+      "\"86\" \"40\" \"ternary covering arrays\"",
+      "\"CAN(3,40,3)\" OR \"CA(86;3,40,3)\" OR \"CA(86,3,40,3)\"",
+      "\"covering arrays\" \"86\" \"rows\""
+    ],
+    "finding": "No exact hit; Wiley2012 Table2 directly gives89 for k40, passed to literature."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system1",
+    "group": "Current repository indexing check",
+    "queries": [
+      "site:github.com/tns-research/covering-array-records \"82\" \"34\"",
+      "site:github.com/arhancanli/quantavane-covering-arrays \"196\"",
+      "site:github.com/MichelBacon/covering-arrays-rms-extension \"q\" \"Construction\"",
+      "site:github.com/dzoba/covering-arrays-2026 \"Seven\""
+    ],
+    "finding": "Search index did not surface current specific data; direct raw/API retrieval used. Search-only coverage is inadequate here."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system2",
+    "group": "Additional deposits/mailing-list search",
+    "queries": [
+      "\"covering arrays\" \"Grey\" 2026",
+      "\"covering arrays\" \"2026\" \"Zenodo\" -site:cran.r-project.org -site:cloud.r-project.org -site:stat.ethz.ch",
+      "\"covering array\" \"40\" \"three\" \"87\"",
+      "\"covering arrays\" \"mailing list\" ternary"
+    ],
+    "finding": "Located general R-help discussions and cited Grey DOI via tns README; deposit resolved separately."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "GitHub public REST API",
+    "group": "Repository discovery",
+    "queries": [
+      "\"covering array\"",
+      "\"covering arrays\"",
+      "ternary covering"
+    ],
+    "coverage": "First100 results of each of first2 (1185/1178 total, many irrelevant programming tutorials); all33 third query. Ranked results screened, relevant research repos retrieved. Not all1185 repositories audited."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system2",
+    "group": "Final red-team: CCL product theorem primary-source discovery",
+    "queries": [
+      "\"Constructing strength three covering arrays with augmented annealing\" pdf",
+      "\"Cohen\" \"Ling\" \"2008\" \"difference covering\" \"Theorem 3\""
+    ],
+    "source_refs": [
+      "turn96search0",
+      "turn96search14",
+      "turn96search17"
+    ],
+    "finding": "Publisher metadata and secondary report located. Secondary product formula had an apparently consequential ingredient-strength ambiguity; followed to primary theorem."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "system1",
+    "group": "Final red-team: resolve CCL product theorem and false86-row implication",
+    "queries": [
+      "\"Constructing strength three\" \"DCA\"",
+      "\"Cohen\" \"Ling\" \"N + M\" \"DCA\""
+    ],
+    "source_urls": [
+      "https://cse.unl.edu/~myra/papers/auga.pdf",
+      "https://www1.beuth-hochschule.de/FB_II/reports/Report-2026-001.pdf"
+    ],
+    "source_refs": [
+      "turn98search7",
+      "turn98search8"
+    ],
+    "finding": "Primary CCL Theorem3 explicitly requires BOTH base arrays to have strength3. Groemping report Section7.8.3 incorrectly calls B strength2. This invalidates apparent27+14+9*5=86 product at40columns."
+  },
+  {
+    "date_accessed": "2026-11-14",
+    "engine": "Web open/find of primary PDF index",
+    "group": "Final red-team: CCL full theorem/proof and DCA convention retrieval",
+    "retrievals": [
+      {
+        "operation": "open",
+        "url": "https://cse.unl.edu/~myra/papers/auga.pdf",
+        "result": "502BadGateway",
+        "ref": "turn99view0"
+      },
+      {
+        "operation": "find",
+        "url": "https://cse.unl.edu/~myra/papers/auga.pdf",
+        "patterns": [
+          "Theorem 3",
+          "Table 13",
+          "Table 14",
+          "40"
+        ],
+        "result": "Indexed full primary text returned",
+        "refs": [
+          "turn99view1",
+          "turn100view0",
+          "turn100view1",
+          "turn100view2"
+        ]
+      }
+    ],
+    "finding": "Checked explicit strength3 ingredient list and proof. DCA table distinguishes with/without zero differences; k4q3 has4/3 and k10q3 has5/4. This retrieval closes the identified product ambiguity; no<=86 prior found."
+  }
+]

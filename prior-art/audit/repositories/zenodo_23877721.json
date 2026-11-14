@@ -1,0 +1,181 @@
+{
+  "created": "2026-11-02T06:59:21.416670+00:00",
+  "modified": "2026-11-02T06:59:22.636019+00:00",
+  "id": 23877721,
+  "conceptrecid": "23877720",
+  "doi": "10.5281/zenodo.23877721",
+  "conceptdoi": "10.5281/zenodo.23877720",
+  "doi_url": "https://doi.org/10.5281/zenodo.23877721",
+  "metadata": {
+    "title": "Improved Upper Bounds for Strength-3 Covering Arrays over Six Symbols via Mixed Short and Regular PSL(2, 5) Orbits",
+    "doi": "10.5281/zenodo.23877721",
+    "publication_date": "2026-11-02",
+    "description": "<p>For an integer $t \\ge 1$, the covering array number $\\mathrm{CAN}(t, k, v)$ is the minimum number of rows $N$ in a strength-$t$ covering array $\\mathrm{CA}(N; t, k, v)$ with $k$ columns over $v$ symbols. Identifying $\\{0, 1, 2, 3, 4, 5\\}$ with $\\mathbb{P}^1(\\mathbb{F}_5) = \\mathbb{F}_5 \\,{\\cup}\\, \\{\\infty\\}$ under the diagonal action of $G = \\mathrm{PSL}(2, 5)$ ($|G| = 60$), we record that every $G$-orbit on $\\mathbb{P}^1(\\mathbb{F}_5)^k$ ($k \\ge 1$) has size in $\\{6, 30, 60\\}$ (all three occurring for $k \\ge 3$), where each $30$-row orbit is generated canonically by a non-constant binary starter $b \\in \\{0, \\infty\\}^k$ of stabilizer order $2$ in $G$, placing a complement-closed binary pair across the $15$ symbol pairs and projecting bijectively onto $30$-element two-symbol $G$-orbits on every non-constant $3$-column triple. Jointly selecting $1$ constant starter, $5$ binary $\\{0, \\infty\\}^{12}$ starters, and $5$ regular $60$-row starters yields an explicit group-orbit covering array $\\mathrm{CA}(456; 3, 12, 6)$ specified by $11$ vectors, improving $\\mathrm{CAN}(3, 12, 6) \\le 463$ by $7$ rows. Applying conflict-driven tabu row deletion to mixed-$(30, 60)$ $\\mathrm{PSL}(2, 5)$ orbit seeds further establishes $\\mathrm{CAN}(3, 10, 6) \\le 366$ ($&lt; 380$, $-14$ rows) and $\\mathrm{CAN}(3, 11, 6) \\le 418$ ($&lt; 420$, $-2$ rows), with every row in all three arrays verified to be essential. Substituting $\\mathrm{CAN}(3, 10, 6) \\le 366$ into Chateauneuf--Kreher doubling with $\\mathrm{CAN}(2, 10, 6) \\le 48$ then yields $\\mathrm{CAN}(3, 19, 6) \\le \\mathrm{CAN}(3, 20, 6) \\le 606$ ($&lt; 620$, $-14$ rows).</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Grey, Kevin",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0007-8755-6501"
+      }
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Preprint",
+      "type": "publication",
+      "subtype": "preprint"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "23877720"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Improved Upper Bounds for Strength-3 Covering Arrays over Six Symbols via Mixed Short and Regular PSL(2, 5) Orbits",
+  "links": {
+    "self": "https://zenodo.org/api/records/23877721",
+    "self_html": "https://zenodo.org/records/23877721",
+    "preview_html": "https://zenodo.org/records/23877721?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.23877721",
+    "self_doi": "https://doi.org/10.5281/zenodo.23877721",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23877721",
+    "reserve_doi": "https://zenodo.org/api/records/23877721/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/23877720",
+    "parent_html": "https://zenodo.org/records/23877720",
+    "parent_doi": "https://doi.org/10.5281/zenodo.23877720",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.23877720",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:23877721/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:23877721/sequence/default",
+    "files": "https://zenodo.org/api/records/23877721/files",
+    "media_files": "https://zenodo.org/api/records/23877721/media-files",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:23877721:paper.pdf/full/%5E10,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:23877721:paper.pdf/full/%5E50,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:23877721:paper.pdf/full/%5E100,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:23877721:paper.pdf/full/%5E250,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:23877721:paper.pdf/full/%5E750,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:23877721:paper.pdf/full/%5E1200,/0/default.jpg"
+    },
+    "latest": "https://zenodo.org/api/records/23877721/versions/latest",
+    "latest_html": "https://zenodo.org/records/23877721/latest",
+    "versions": "https://zenodo.org/api/records/23877721/versions",
+    "draft": "https://zenodo.org/api/records/23877721/draft",
+    "access_links": "https://zenodo.org/api/records/23877721/access/links",
+    "access_grants": "https://zenodo.org/api/records/23877721/access/grants",
+    "access_users": "https://zenodo.org/api/records/23877721/access/users",
+    "access_request": "https://zenodo.org/api/records/23877721/access/request",
+    "access": "https://zenodo.org/api/records/23877721/access",
+    "communities": "https://zenodo.org/api/records/23877721/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/23877721/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/23877721/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/23877721/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/23877721/quota-increase",
+    "requests": "https://zenodo.org/api/records/23877721/requests"
+  },
+  "updated": "2026-11-02T06:59:22.636019+00:00",
+  "recid": "23877721",
+  "revision": 4,
+  "files": [
+    {
+      "id": "9e4934f2-fc2f-4e74-a382-cf9cc9b3ee86",
+      "key": "paper.pdf",
+      "size": 487628,
+      "checksum": "md5:4d64b303bbff0f969ee8df0f25b5bf10",
+      "links": {
+        "self": "https://zenodo.org/api/records/23877721/files/paper.pdf/content"
+      }
+    },
+    {
+      "id": "4e80c7b3-9e3d-4e98-8c14-a24dc01b979d",
+      "key": "CA_456_3_12_6.txt",
+      "size": 10944,
+      "checksum": "md5:6edb8047dc126e87a617e77e226d02fd",
+      "links": {
+        "self": "https://zenodo.org/api/records/23877721/files/CA_456_3_12_6.txt/content"
+      }
+    },
+    {
+      "id": "dc9371fd-4a94-4fc2-b1df-78370ee70e0a",
+      "key": "README.md",
+      "size": 7305,
+      "checksum": "md5:ea8b35428948545e56d8ca6964438a70",
+      "links": {
+        "self": "https://zenodo.org/api/records/23877721/files/README.md/content"
+      }
+    },
+    {
+      "id": "92b97fd6-f849-4dd9-9e65-ed47539fb05d",
+      "key": "paper.tex",
+      "size": 36247,
+      "checksum": "md5:31960641a2cc10c07dacff55699200b5",
+      "links": {
+        "self": "https://zenodo.org/api/records/23877721/files/paper.tex/content"
+      }
+    },
+    {
+      "id": "e13be2b3-f5b5-4fb9-b029-d154293444e4",
+      "key": "manifest.json",
+      "size": 935,
+      "checksum": "md5:27002fc463cfd8921d6171c93b9f3a2f",
+      "links": {
+        "self": "https://zenodo.org/api/records/23877721/files/manifest.json/content"
+      }
+    },
+    {
+      "id": "e1237b83-875a-4914-9003-15b9c673fb90",
+      "key": "CA_418_3_11_6.txt",
+      "size": 9196,
+      "checksum": "md5:79cbdf1017c113bd925d6203667c4abf",
+      "links": {
+        "self": "https://zenodo.org/api/records/23877721/files/CA_418_3_11_6.txt/content"
+      }
+    },
+    {
+      "id": "e2b4fcad-e104-4026-a4fa-538a8e02b38f",
+      "key": "CA_366_3_10_6.txt",
+      "size": 7320,
+      "checksum": "md5:944c5b3d37277558026d6b0b95495274",
+      "links": {
+        "self": "https://zenodo.org/api/records/23877721/files/CA_366_3_10_6.txt/content"
+      }
+    },
+    {
+      "id": "239f0d18-4bbe-4e4b-b8d7-5590989ee825",
+      "key": "verify_covering_arrays.py",
+      "size": 25819,
+      "checksum": "md5:799381769e9a7da1d9620bfcd4903ef2",
+      "links": {
+        "self": "https://zenodo.org/api/records/23877721/files/verify_covering_arrays.py/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1973406"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 44,
+    "unique_downloads": 44,
+    "views": 31,
+    "unique_views": 27,
+    "version_downloads": 44,
+    "version_unique_downloads": 44,
+    "version_unique_views": 27,
+    "version_views": 31
+  },
+  "state": "done",
+  "submitted": true
+}

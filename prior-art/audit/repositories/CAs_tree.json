@@ -1,0 +1,3474 @@
+{
+  "sha": "7859243f8167b22ce8891885579ce39f4df8594b",
+  "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/7859243f8167b22ce8891885579ce39f4df8594b",
+  "tree": [
+    {
+      "path": ".Rbuildignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7f6d5dc1514edd224eaceaffe5d2e4b3e186de",
+      "size": 306,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/be7f6d5dc1514edd224eaceaffe5d2e4b3e186de"
+    },
+    {
+      "path": ".covrignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b91401be44d448d75647019353bdd4245148290d",
+      "size": 298,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b91401be44d448d75647019353bdd4245148290d"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7c0032a90404aa7621f5f7581e0615c17db818d",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/c7c0032a90404aa7621f5f7581e0615c17db818d"
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35afbeabd434a17869beedeae0fb661b80060246",
+      "size": 5011,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/35afbeabd434a17869beedeae0fb661b80060246"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55d465c4b1b0be5fbd599f5491e0d9d5ca7fa93e",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/55d465c4b1b0be5fbd599f5491e0d9d5ca7fa93e"
+    },
+    {
+      "path": ".github/workflows/RcmdCheck.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e32f76c8f04825df5b8f788a7b13120d3f80ee9a",
+      "size": 1256,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e32f76c8f04825df5b8f788a7b13120d3f80ee9a"
+    },
+    {
+      "path": ".github/workflows/RcmdCheckWithCodeCov.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edc5787f2613ec87e762ff5260bb65670fc4e8b9",
+      "size": 3277,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/edc5787f2613ec87e762ff5260bb65670fc4e8b9"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b6a0652566d10360493952aec6d4a4febc77083",
+      "size": 40,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5b6a0652566d10360493952aec6d4a4febc77083"
+    },
+    {
+      "path": "CAs.Rproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bcd840221fb73395a25a71febeeab2324391faa",
+      "size": 443,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2bcd840221fb73395a25a71febeeab2324391faa"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a75b1e18cb10fece5a1230e98a340d6b2bd87201",
+      "size": 350,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a75b1e18cb10fece5a1230e98a340d6b2bd87201"
+    },
+    {
+      "path": "ColbournTables.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "902895afe198050954a3c263bb8b2012774ce827",
+      "size": 12556,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/902895afe198050954a3c263bb8b2012774ce827"
+    },
+    {
+      "path": "DESCRIPTION",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d934cb1bf2e792eeeb04068891cc566efabe75b",
+      "size": 1642,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6d934cb1bf2e792eeeb04068891cc566efabe75b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "NAMESPACE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c72740b44843ad53fa60ff5823af8dbbd9356e7",
+      "size": 4860,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5c72740b44843ad53fa60ff5823af8dbbd9356e7"
+    },
+    {
+      "path": "R",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "adc6fd99eea370af32d7720a19b98040b17ad9af",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/adc6fd99eea370af32d7720a19b98040b17ad9af"
+    },
+    {
+      "path": "R/CAEX.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d9720f70b109ff041432d1eb202b8cf9c7654d8",
+      "size": 17723,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/4d9720f70b109ff041432d1eb202b8cf9c7654d8"
+    },
+    {
+      "path": "R/CAN.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa4e1140abe9c0a2f1b598ca9d149d3f24093671",
+      "size": 37476,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fa4e1140abe9c0a2f1b598ca9d149d3f24093671"
+    },
+    {
+      "path": "R/CAs-package.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b21d65b5267826cf96a92c5908eef10aad741f0",
+      "size": 22620,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9b21d65b5267826cf96a92c5908eef10aad741f0"
+    },
+    {
+      "path": "R/CKRS_augment.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84060cabc359507e678efe816ce26cc6b8170af7",
+      "size": 2662,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/84060cabc359507e678efe816ce26cc6b8170af7"
+    },
+    {
+      "path": "R/CK_NRB.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ad4c28525be4099b3db8429cabc0335c6fbfd0",
+      "size": 5704,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/55ad4c28525be4099b3db8429cabc0335c6fbfd0"
+    },
+    {
+      "path": "R/CK_constrD.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e9118be4bf63be2da8f22663bc0d24faec672ad",
+      "size": 4555,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3e9118be4bf63be2da8f22663bc0d24faec672ad"
+    },
+    {
+      "path": "R/CK_doubling.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc302f7d5a2b0432bc8e6e96f984f6b78c85d35",
+      "size": 7085,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8dc302f7d5a2b0432bc8e6e96f984f6b78c85d35"
+    },
+    {
+      "path": "R/CS_CK.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c6f7dcc8c04f3328f41df64d2e3bb6423a045c",
+      "size": 7190,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f1c6f7dcc8c04f3328f41df64d2e3bb6423a045c"
+    },
+    {
+      "path": "R/CS_CMMSSY.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90100381beb6a715c15853e6ee19d62c12054fd9",
+      "size": 8786,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/90100381beb6a715c15853e6ee19d62c12054fd9"
+    },
+    {
+      "path": "R/CS_LCDST.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9132a1b7cd63b6bc16e9b3991312a378d86608a6",
+      "size": 10572,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9132a1b7cd63b6bc16e9b3991312a378d86608a6"
+    },
+    {
+      "path": "R/CS_MS.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e418b04d46a01995d909e61158e420dd334f5f9a",
+      "size": 11159,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e418b04d46a01995d909e61158e420dd334f5f9a"
+    },
+    {
+      "path": "R/Cyclotomy.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cb5cf4b5a1911062aaff0c8cf04cd56cedf91a9",
+      "size": 10892,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6cb5cf4b5a1911062aaff0c8cf04cd56cedf91a9"
+    },
+    {
+      "path": "R/DHF2CA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e15a2871bbffeaeed169a12095d2be0020919a14",
+      "size": 6441,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e15a2871bbffeaeed169a12095d2be0020919a14"
+    },
+    {
+      "path": "R/DHHF2CA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ac272dba30072a4d5ab608cffc0a6e3767f5cd5",
+      "size": 7404,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/0ac272dba30072a4d5ab608cffc0a6e3767f5cd5"
+    },
+    {
+      "path": "R/DataForCAEX.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "650c38de5f6532e8d09e72de03a4d1185f17f984",
+      "size": 2190,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/650c38de5f6532e8d09e72de03a4d1185f17f984"
+    },
+    {
+      "path": "R/DataForCKRS.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49b4cf149988d0e1dd6ec7cc31f3b4ad4b8144c5",
+      "size": 1923,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/49b4cf149988d0e1dd6ec7cc31f3b4ad4b8144c5"
+    },
+    {
+      "path": "R/DataForCPHF.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf89378a08970c168d77376ef26bbb63b1bce2cc",
+      "size": 1767,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/bf89378a08970c168d77376ef26bbb63b1bce2cc"
+    },
+    {
+      "path": "R/DataForCS.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcb528331266bb46cba985da2c7761ecdb768dcb",
+      "size": 4755,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/bcb528331266bb46cba985da2c7761ecdb768dcb"
+    },
+    {
+      "path": "R/DataForDWYER.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bff8b7709bb75aac4693570d31af0aa20974b19",
+      "size": 1376,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9bff8b7709bb75aac4693570d31af0aa20974b19"
+    },
+    {
+      "path": "R/DataForMathematical.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c9c841ea0414cabae0b5407bb15310b7e5450a7",
+      "size": 7307,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2c9c841ea0414cabae0b5407bb15310b7e5450a7"
+    },
+    {
+      "path": "R/DataForNIST.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1bcfe5ad2718a839a978405942ecff6d488b6b8",
+      "size": 1858,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a1bcfe5ad2718a839a978405942ecff6d488b6b8"
+    },
+    {
+      "path": "R/DataForProductConstructions.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f88c29e6b16aeaed3655e2312322b922854b805",
+      "size": 2994,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1f88c29e6b16aeaed3655e2312322b922854b805"
+    },
+    {
+      "path": "R/DataForSCPHF.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71faefb5c709063894ce7c6141e5acda0029a459",
+      "size": 2385,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/71faefb5c709063894ce7c6141e5acda0029a459"
+    },
+    {
+      "path": "R/DataForTJ.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "544adb95d283674c8cfb54ada7a573e669d662cb",
+      "size": 4449,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/544adb95d283674c8cfb54ada7a573e669d662cb"
+    },
+    {
+      "path": "R/DataForWKS.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a545cb81561df11d35541acf812a5a009c5d2fe1",
+      "size": 1686,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a545cb81561df11d35541acf812a5a009c5d2fe1"
+    },
+    {
+      "path": "R/DataForpowerCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ddb5834c826b37fc796890afcaaadd7bd6fa400",
+      "size": 3981,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7ddb5834c826b37fc796890afcaaadd7bd6fa400"
+    },
+    {
+      "path": "R/DataUsefulArrays.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c4f7ef8a46b0b443b596b2f9f0a4643aac5293",
+      "size": 3299,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a2c4f7ef8a46b0b443b596b2f9f0a4643aac5293"
+    },
+    {
+      "path": "R/Hartman74.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ead43c9f3ffc803deb6cff3863c4389d56a0683",
+      "size": 6248,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/0ead43c9f3ffc803deb6cff3863c4389d56a0683"
+    },
+    {
+      "path": "R/JE.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "135de98d4c84257e479a0bc33dffb09826983f38",
+      "size": 6347,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/135de98d4c84257e479a0bc33dffb09826983f38"
+    },
+    {
+      "path": "R/KSK.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a373586cc718c7e39149f0b721ec1a5c07d5ece1",
+      "size": 2425,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a373586cc718c7e39149f0b721ec1a5c07d5ece1"
+    },
+    {
+      "path": "R/MCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c31d0b1ecc3aee85ea2fa8e42c28f8d914f724b",
+      "size": 27578,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3c31d0b1ecc3aee85ea2fa8e42c28f8d914f724b"
+    },
+    {
+      "path": "R/MTVTRouxtype.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386c46e9df7bc8723544af59daf8fe2ff85e3bc4",
+      "size": 15198,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/386c46e9df7bc8723544af59daf8fe2ff85e3bc4"
+    },
+    {
+      "path": "R/ODbasedCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0d8972c36dc3cb8eb8f12be27e260df836e6d0",
+      "size": 7672,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/dc0d8972c36dc3cb8eb8f12be27e260df836e6d0"
+    },
+    {
+      "path": "R/ProjectionBose.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87cfaa402e3990ea763e677586b8bc6bfd8cb814",
+      "size": 7618,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/87cfaa402e3990ea763e677586b8bc6bfd8cb814"
+    },
+    {
+      "path": "R/RMScopies.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc3bd21e9dc8dd7b133215e4e885b2be99bbedc1",
+      "size": 9506,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/cc3bd21e9dc8dd7b133215e4e885b2be99bbedc1"
+    },
+    {
+      "path": "R/SCA_Bose_and_Bush.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "877a808a8983a201c50b5f9602f198aa4f9c57ae",
+      "size": 3573,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/877a808a8983a201c50b5f9602f198aa4f9c57ae"
+    },
+    {
+      "path": "R/SeqCA_Levenshtein.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50100c09812f1d137d3fa88cadcb9ff0070f15c0",
+      "size": 2826,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/50100c09812f1d137d3fa88cadcb9ff0070f15c0"
+    },
+    {
+      "path": "R/aaa.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aaed2f55018284fb628374c902588276b42f626",
+      "size": 1375,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3aaed2f55018284fb628374c902588276b42f626"
+    },
+    {
+      "path": "R/add1.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b6138cb5285d542c36bb2e57e1a2112465718e1",
+      "size": 4851,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5b6138cb5285d542c36bb2e57e1a2112465718e1"
+    },
+    {
+      "path": "R/auxiliary_GFcalculus.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30e1f3b9236f1380b2eb3e595176f4cdf92a3efe",
+      "size": 13930,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/30e1f3b9236f1380b2eb3e595176f4cdf92a3efe"
+    },
+    {
+      "path": "R/auxiliary_SeqCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f2c272332607c5a5d10b284db7fd403b0a4c317",
+      "size": 6511,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6f2c272332607c5a5d10b284db7fd403b0a4c317"
+    },
+    {
+      "path": "R/auxiliary_functions.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca1516e20012a4554e859b4236a0ea017dceee44",
+      "size": 29471,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ca1516e20012a4554e859b4236a0ea017dceee44"
+    },
+    {
+      "path": "R/auxiliary_ingredients.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fc5c5112db712b2a509d808d9ee635f2b359726",
+      "size": 5747,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1fc5c5112db712b2a509d808d9ee635f2b359726"
+    },
+    {
+      "path": "R/auxiliary_mixed.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c8a05b3ab4766bcbbd76d3a78c7f239dc723b40",
+      "size": 15121,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7c8a05b3ab4766bcbbd76d3a78c7f239dc723b40"
+    },
+    {
+      "path": "R/auxiliary_power.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7368b5bca1d165d6ec59ef8a67dfadb3648ae4",
+      "size": 3020,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2a7368b5bca1d165d6ec59ef8a67dfadb3648ae4"
+    },
+    {
+      "path": "R/auxiliary_simanneal.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba62578d2a2550a73e7f7434722f6d31e2dcedb4",
+      "size": 16489,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ba62578d2a2550a73e7f7434722f6d31e2dcedb4"
+    },
+    {
+      "path": "R/bestCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0028bd3b2db4c455625122fc35f82e1bebae3923",
+      "size": 22996,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/0028bd3b2db4c455625122fc35f82e1bebae3923"
+    },
+    {
+      "path": "R/bounds.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdd70c81659c767d52eedb84e2aa1372b98dd745",
+      "size": 1708,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/bdd70c81659c767d52eedb84e2aa1372b98dd745"
+    },
+    {
+      "path": "R/ca-class.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ade1a9935694276bae01374c2282aa9ecd04dd",
+      "size": 1986,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/29ade1a9935694276bae01374c2282aa9ecd04dd"
+    },
+    {
+      "path": "R/checkCyclotomyConditions.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b0813aa3087e79b4a8b8657f1fd538205cff5c7",
+      "size": 12697,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3b0813aa3087e79b4a8b8657f1fd538205cff5c7"
+    },
+    {
+      "path": "R/colbournBigFrame.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c487760e9e0d199a03c4090c1c34edd031bb49",
+      "size": 4478,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/27c487760e9e0d199a03c4090c1c34edd031bb49"
+    },
+    {
+      "path": "R/compositCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "930122bbb28b00a710fb4b8ed461e24037ed0a72",
+      "size": 3586,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/930122bbb28b00a710fb4b8ed461e24037ed0a72"
+    },
+    {
+      "path": "R/coverage.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "440f8922db2a7d54f243083682c069903bcadd70",
+      "size": 20740,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/440f8922db2a7d54f243083682c069903bcadd70"
+    },
+    {
+      "path": "R/coverageSeqCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa9fd839d6be49548b2c52ed65d10148a19551cc",
+      "size": 4016,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fa9fd839d6be49548b2c52ed65d10148a19551cc"
+    },
+    {
+      "path": "R/cphfCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60c74b1ee33de133038c3b7b31ffc6dceb61211",
+      "size": 7451,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d60c74b1ee33de133038c3b7b31ffc6dceb61211"
+    },
+    {
+      "path": "R/crossCAs.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae3fde991af2e03073f5652e0155ecdecc6098f9",
+      "size": 3088,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ae3fde991af2e03073f5652e0155ecdecc6098f9"
+    },
+    {
+      "path": "R/crossSum.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a3c35c6048617d874c47f8168fdc1881194c39",
+      "size": 4171,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/26a3c35c6048617d874c47f8168fdc1881194c39"
+    },
+    {
+      "path": "R/derive.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7a967e270bcf5817d8640b492b0af6d0784a64",
+      "size": 4305,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2a7a967e270bcf5817d8640b492b0af6d0784a64"
+    },
+    {
+      "path": "R/flexible.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "265bd68a0ca3435b54808509fc4dd58d05c336ff",
+      "size": 23676,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/265bd68a0ca3435b54808509fc4dd58d05c336ff"
+    },
+    {
+      "path": "R/fuse.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d742fcdd242456829011bda548d1a55515790caf",
+      "size": 3626,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d742fcdd242456829011bda548d1a55515790caf"
+    },
+    {
+      "path": "R/fuseBose.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85003396d5e0adac2b20a6c980c5c223ed037d99",
+      "size": 9811,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/85003396d5e0adac2b20a6c980c5c223ed037d99"
+    },
+    {
+      "path": "R/greedySeqCA_Kuhn.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43bd715b5df2d68ba80e9bf74598f08dd6eeb971",
+      "size": 7014,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/43bd715b5df2d68ba80e9bf74598f08dd6eeb971"
+    },
+    {
+      "path": "R/greedySeqCA_TJ.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afbcb19ee6d783c9a44277a6ac01214cfd385ce5",
+      "size": 6127,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/afbcb19ee6d783c9a44277a6ac01214cfd385ce5"
+    },
+    {
+      "path": "R/greedySeqCA_naive.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fee5958cf30be662b6abd09005714da966eb3d2d",
+      "size": 5011,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fee5958cf30be662b6abd09005714da966eb3d2d"
+    },
+    {
+      "path": "R/identify_needed.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaa0e1ef8395a11687c6e28bc42c43485b224d23",
+      "size": 4048,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/aaa0e1ef8395a11687c6e28bc42c43485b224d23"
+    },
+    {
+      "path": "R/juxtapose.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07bc9dce94c938f97654a6228d5d0f18b8cb49e6",
+      "size": 3114,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/07bc9dce94c938f97654a6228d5d0f18b8cb49e6"
+    },
+    {
+      "path": "R/maxconstant.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ba12b8603ee6a39e1ce346f2226418b8b0a232e",
+      "size": 11881,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7ba12b8603ee6a39e1ce346f2226418b8b0a232e"
+    },
+    {
+      "path": "R/miscCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16fb8c66b2c7a10ee52dd4802d65545feff347b8",
+      "size": 4793,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/16fb8c66b2c7a10ee52dd4802d65545feff347b8"
+    },
+    {
+      "path": "R/optimize_SeqCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d38c318baef85440b4d51c38bd7447c75332032",
+      "size": 19937,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7d38c318baef85440b4d51c38bd7447c75332032"
+    },
+    {
+      "path": "R/payley.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d65c283732390011f7c4edb500a09e4e29ebc6b8",
+      "size": 9073,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d65c283732390011f7c4edb500a09e4e29ebc6b8"
+    },
+    {
+      "path": "R/powerCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "027152fb2376ba77aff5cd7e2a01162767bf7d64",
+      "size": 7677,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/027152fb2376ba77aff5cd7e2a01162767bf7d64"
+    },
+    {
+      "path": "R/print.coverage.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d2d3960e9a620ef6e4ca81920b732969e42813",
+      "size": 546,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/64d2d3960e9a620ef6e4ca81920b732969e42813"
+    },
+    {
+      "path": "R/productCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "413f1f19fa44c2d9b09677abbb217e4e8f904b5d",
+      "size": 8371,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/413f1f19fa44c2d9b09677abbb217e4e8f904b5d"
+    },
+    {
+      "path": "R/productPCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5086bb8d77e79461ec72a89933c477bc063ced",
+      "size": 21029,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5f5086bb8d77e79461ec72a89933c477bc063ced"
+    },
+    {
+      "path": "R/readCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48b786775f01a5996d3eec708dde94b835522b3c",
+      "size": 6651,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/48b786775f01a5996d3eec708dde94b835522b3c"
+    },
+    {
+      "path": "R/recursiveBose.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43d67c76685d8ec5f4cd88bce64eda9d3d31381",
+      "size": 10582,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e43d67c76685d8ec5f4cd88bce64eda9d3d31381"
+    },
+    {
+      "path": "R/recursiveBoseHartman.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "841f9d7eb51b7f0dced5a049e0f5d3778866d274",
+      "size": 7483,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/841f9d7eb51b7f0dced5a049e0f5d3778866d274"
+    },
+    {
+      "path": "R/reduce_rows.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1001489bca8d2bc1da9450a9f556c4c91be0d45c",
+      "size": 8684,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1001489bca8d2bc1da9450a9f556c4c91be0d45c"
+    },
+    {
+      "path": "R/scphfCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f8ad572f1b57d61f67ae6e98c9409cd89ccd6b",
+      "size": 6831,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/46f8ad572f1b57d61f67ae6e98c9409cd89ccd6b"
+    },
+    {
+      "path": "R/sysdata.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e68d7b8e9e9b6952e3aac4d8635d8c93eabd7b09",
+      "size": 4539,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e68d7b8e9e9b6952e3aac4d8635d8c93eabd7b09"
+    },
+    {
+      "path": "README.Rmd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e6fbafd4573819e0a076817650815351abbfb1",
+      "size": 10614,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f9e6fbafd4573819e0a076817650815351abbfb1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "368ed86105ef29abe1823e64456968973a5759e9",
+      "size": 27141,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/368ed86105ef29abe1823e64456968973a5759e9"
+    },
+    {
+      "path": "README_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9df3ecc9a8a282c84e16da7df479d28b8c625429",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/9df3ecc9a8a282c84e16da7df479d28b8c625429"
+    },
+    {
+      "path": "README_files/figure-gfm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95752b7843317720600103749fb1679ca38be7a7",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/95752b7843317720600103749fb1679ca38be7a7"
+    },
+    {
+      "path": "README_files/figure-gfm/status1-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "663dca3c200b0eeceaf1e763f90bf931b0897e42",
+      "size": 9318,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/663dca3c200b0eeceaf1e763f90bf931b0897e42"
+    },
+    {
+      "path": "README_files/figure-gfm/status1-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e082ff6dceb66a43f0509db8534ce02b13b1e291",
+      "size": 10198,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e082ff6dceb66a43f0509db8534ce02b13b1e291"
+    },
+    {
+      "path": "README_files/figure-gfm/status1-3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b312aa9752e115d46db6e56f1cb184074db4ef28",
+      "size": 10290,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b312aa9752e115d46db6e56f1cb184074db4ef28"
+    },
+    {
+      "path": "README_files/figure-gfm/status1-4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b6ce36e2f15543030b69d5fa34a5941d6653791",
+      "size": 10026,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7b6ce36e2f15543030b69d5fa34a5941d6653791"
+    },
+    {
+      "path": "README_files/figure-gfm/status1-5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "517afa3be545531b9a9a3e130b1daac6fd9c262f",
+      "size": 9291,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/517afa3be545531b9a9a3e130b1daac6fd9c262f"
+    },
+    {
+      "path": "README_files/figure-gfm/status1-6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7881dd74d266968858565d925b53b6e48273cc2b",
+      "size": 10368,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7881dd74d266968858565d925b53b6e48273cc2b"
+    },
+    {
+      "path": "README_files/figure-gfm/status1-7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "144915746106ddeb1f047d25fb7c2779e8dfc897",
+      "size": 10417,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/144915746106ddeb1f047d25fb7c2779e8dfc897"
+    },
+    {
+      "path": "README_files/figure-gfm/status1-8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43b881cd7a90a927443c2921060a00d85f4d3f97",
+      "size": 10095,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/43b881cd7a90a927443c2921060a00d85f4d3f97"
+    },
+    {
+      "path": "codecov.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97a416500d2f582af4d6cc6892f88ab9abad0e1f",
+      "size": 394,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/97a416500d2f582af4d6cc6892f88ab9abad0e1f"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b24d50ce023feb3f14523246c1f468f6d39bf76",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/8b24d50ce023feb3f14523246c1f468f6d39bf76"
+    },
+    {
+      "path": "data/CAEX_CAs.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aed28088d11a61a5f7d2f28f3d3af41a82c8eb5",
+      "size": 62212,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7aed28088d11a61a5f7d2f28f3d3af41a82c8eb5"
+    },
+    {
+      "path": "data/CAEX_lineages.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f23dbcee765cc5cf5fa98cddca389a2e69b810b",
+      "size": 552,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5f23dbcee765cc5cf5fa98cddca389a2e69b810b"
+    },
+    {
+      "path": "data/CKRS_CAs.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073a4ad66de642902963d80645a27b1fe464391c",
+      "size": 39108,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/073a4ad66de642902963d80645a27b1fe464391c"
+    },
+    {
+      "path": "data/CKRScat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "735b766fdcb0bd1e16d1058eb58d5e224c3b8603",
+      "size": 720,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/735b766fdcb0bd1e16d1058eb58d5e224c3b8603"
+    },
+    {
+      "path": "data/CL_SCPHFs.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9f357ccc725e577b1821bb202ce1a97353a8280",
+      "size": 74460,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f9f357ccc725e577b1821bb202ce1a97353a8280"
+    },
+    {
+      "path": "data/CMMSSYCombis.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b52beb944f8dd3676c35a9609c311bdb496f01ac",
+      "size": 392,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b52beb944f8dd3676c35a9609c311bdb496f01ac"
+    },
+    {
+      "path": "data/CMMSSYStarters.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10eff25c54bbc03da5c07f5d0bfcadc71bfa3cd2",
+      "size": 592,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/10eff25c54bbc03da5c07f5d0bfcadc71bfa3cd2"
+    },
+    {
+      "path": "data/CPHFcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c98b86071ca1f0f7521787089b2d93c47a563455",
+      "size": 2180,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/c98b86071ca1f0f7521787089b2d93c47a563455"
+    },
+    {
+      "path": "data/CYCLOTOMYcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d96c2fda2871b698a1b61912d5f23fbc9c1bbd0",
+      "size": 1652,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2d96c2fda2871b698a1b61912d5f23fbc9c1bbd0"
+    },
+    {
+      "path": "data/CohenSA.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a346f6fdacc7a11dffb32847f2e2ad89e5b8fc",
+      "size": 1364,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b3a346f6fdacc7a11dffb32847f2e2ad89e5b8fc"
+    },
+    {
+      "path": "data/ColbournKeriCombis.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10bd612b679f1941a2b945056c0fdd8cfb028960",
+      "size": 2028,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/10bd612b679f1941a2b945056c0fdd8cfb028960"
+    },
+    {
+      "path": "data/ColbournKeriStarters.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "600f07c583323076f56494737ebb8a7746fd8f7a",
+      "size": 368,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/600f07c583323076f56494737ebb8a7746fd8f7a"
+    },
+    {
+      "path": "data/DPcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b4504b09dbb10140eaf3d000c9ec7db11c681a0",
+      "size": 5512,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7b4504b09dbb10140eaf3d000c9ec7db11c681a0"
+    },
+    {
+      "path": "data/DWYERcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9344cd441d0812e74dc8cf854a1afc0709a86ffa",
+      "size": 1888,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9344cd441d0812e74dc8cf854a1afc0709a86ffa"
+    },
+    {
+      "path": "data/LCDSTCombis.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c9833c8c7746de4aab472658514283fa4023a89",
+      "size": 1192,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8c9833c8c7746de4aab472658514283fa4023a89"
+    },
+    {
+      "path": "data/LCDSTStarters.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f356cc28a54b1c94db028884f836b6a5dae3690",
+      "size": 4228,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3f356cc28a54b1c94db028884f836b6a5dae3690"
+    },
+    {
+      "path": "data/MeagherStevensCombis.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6fbe8b42da845af1c7d5dda60a18f2b3651c638",
+      "size": 616,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a6fbe8b42da845af1c7d5dda60a18f2b3651c638"
+    },
+    {
+      "path": "data/MeagherStevensStarters.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2130c8a4e217218f7573bd53e053c41aeb1652be",
+      "size": 1600,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2130c8a4e217218f7573bd53e053c41aeb1652be"
+    },
+    {
+      "path": "data/NISTcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4921391a40e5c26f0e4b09ed10d1ba2e0ff2b528",
+      "size": 20836,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/4921391a40e5c26f0e4b09ed10d1ba2e0ff2b528"
+    },
+    {
+      "path": "data/PALEYcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d3116c28e0ff851165e7d4e2bdf0621364df5ca",
+      "size": 1708,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5d3116c28e0ff851165e7d4e2bdf0621364df5ca"
+    },
+    {
+      "path": "data/PCAcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33a8ff3aa82084924fe5e505f8545d3dc46d2e9a",
+      "size": 5188,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/33a8ff3aa82084924fe5e505f8545d3dc46d2e9a"
+    },
+    {
+      "path": "data/SCPHFcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7a8ddde0f8bd62309a08b779c407542cecfe673",
+      "size": 616,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a7a8ddde0f8bd62309a08b779c407542cecfe673"
+    },
+    {
+      "path": "data/SMC_SCPHFs.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cfc1a858cde7685ffe691e487daac1fd2ec34c9",
+      "size": 1064,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5cfc1a858cde7685ffe691e487daac1fd2ec34c9"
+    },
+    {
+      "path": "data/TJ2level_CAs.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db010599da45337c5a5e9817d1d4839d11fc9048",
+      "size": 310520,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/db010599da45337c5a5e9817d1d4839d11fc9048"
+    },
+    {
+      "path": "data/TJcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40c4a3b1cea665847146f130ce51d1b9bf98fa12",
+      "size": 4056,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/40c4a3b1cea665847146f130ce51d1b9bf98fa12"
+    },
+    {
+      "path": "data/WCS_CPHFS.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d3b7a22f280549ee9c5956225de497311734e9",
+      "size": 2061916,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f4d3b7a22f280549ee9c5956225de497311734e9"
+    },
+    {
+      "path": "data/WC_SCPHFs.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c92772ffeed8bd4072efd33188aa02241773c3",
+      "size": 7848,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/14c92772ffeed8bd4072efd33188aa02241773c3"
+    },
+    {
+      "path": "data/WKS_CAs.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640a3c3c02fe7ac9f61b5b3737874ae55739a852",
+      "size": 41704,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/640a3c3c02fe7ac9f61b5b3737874ae55739a852"
+    },
+    {
+      "path": "data/WKScat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77857cb3870f34c51bf6350f06541007adc12346",
+      "size": 348,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/77857cb3870f34c51bf6350f06541007adc12346"
+    },
+    {
+      "path": "data/ca12.2.8.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72b5805c0fda250178d39366ca139e32fd309465",
+      "size": 344,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/72b5805c0fda250178d39366ca139e32fd309465"
+    },
+    {
+      "path": "data/ca23.4.8.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06a193da582ea967926ee7112adc8a7ec314370b",
+      "size": 476,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/06a193da582ea967926ee7112adc8a7ec314370b"
+    },
+    {
+      "path": "data/ca26.4.15.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a3d0ae671176abf1333d69a7b1288544369f014",
+      "size": 608,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3a3d0ae671176abf1333d69a7b1288544369f014"
+    },
+    {
+      "path": "data/ca30.5.7.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "341e03957fdf4940e1ca5aaaca38fbd9bab9faa2",
+      "size": 396,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/341e03957fdf4940e1ca5aaaca38fbd9bab9faa2"
+    },
+    {
+      "path": "data/ca41.6.6.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b9e334553be184ee23a1cb2a5cbb162234a5aa4",
+      "size": 432,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8b9e334553be184ee23a1cb2a5cbb162234a5aa4"
+    },
+    {
+      "path": "data/colbournBigFrame.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba3932a0283c72ab90f7423200f1f22794dbadd9",
+      "size": 56320,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ba3932a0283c72ab90f7423200f1f22794dbadd9"
+    },
+    {
+      "path": "data/miscCAcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b562d178840569ea8169beb51f64f70348b1450",
+      "size": 780,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6b562d178840569ea8169beb51f64f70348b1450"
+    },
+    {
+      "path": "data/oa1728.12.6.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baf485d6da3bcca85127a27decb49ab62af04a5a",
+      "size": 884,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/baf485d6da3bcca85127a27decb49ab62af04a5a"
+    },
+    {
+      "path": "data/oa3375.15.6.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec67909653fee2f3c664f4ef769bfb8b2b90dec",
+      "size": 1236,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3ec67909653fee2f3c664f4ef769bfb8b2b90dec"
+    },
+    {
+      "path": "data/oa9261.21.6.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14eef99c9b48a0ecf8d5217a8cad760b0653bc76",
+      "size": 2256,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/14eef99c9b48a0ecf8d5217a8cad760b0653bc76"
+    },
+    {
+      "path": "data/powerCTcat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8481f1abb0f1db455ad13a547746335a1e2c42fa",
+      "size": 3792,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8481f1abb0f1db455ad13a547746335a1e2c42fa"
+    },
+    {
+      "path": "data/rmsCOPIEScat.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e332f5f9aee6df55cf817d3d045620397fd1d42f",
+      "size": 1060,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e332f5f9aee6df55cf817d3d045620397fd1d42f"
+    },
+    {
+      "path": "inst",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c1778746b581bc66bfe1c65b62c39745d0fb89a",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/2c1778746b581bc66bfe1c65b62c39745d0fb89a"
+    },
+    {
+      "path": "inst/NEWS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b1f1315a333b95aaa34efd3976c0497d7a675b0",
+      "size": 28284,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8b1f1315a333b95aaa34efd3976c0497d7a675b0"
+    },
+    {
+      "path": "inst/extdata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c9f5961469cd3f7e74a1b93f78eea4cd077d5a1",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/3c9f5961469cd3f7e74a1b93f78eea4cd077d5a1"
+    },
+    {
+      "path": "inst/extdata/CAEX_dataPreparation.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3802c122caa1dd63efae223626967275e4383f79",
+      "size": 4846,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3802c122caa1dd63efae223626967275e4383f79"
+    },
+    {
+      "path": "inst/extdata/CKRS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51fc1e973358ca855349c15d6cef6f5e83546667",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/51fc1e973358ca855349c15d6cef6f5e83546667"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48b7d17a69a6ec096dca85266fa6f39cd0365bf7",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/48b7d17a69a6ec096dca85266fa6f39cd0365bf7"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(113;2,7,10).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd9640536e76d44f2754bbabdf0adbfe4422cede",
+      "size": 903,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/dd9640536e76d44f2754bbabdf0adbfe4422cede"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(115;2,8,10).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5494567fe1c560a78c31258a0bf7c0902a74ceb6",
+      "size": 1034,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5494567fe1c560a78c31258a0bf7c0902a74ceb6"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(116;2,11,10).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41dd37aeef5bfe290beef115b967817086aaf0a3",
+      "size": 1391,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/41dd37aeef5bfe290beef115b967817086aaf0a3"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(117;2,12,10).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a87cf7f67511148dba093cf2efd813b5f77829b6",
+      "size": 1520,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a87cf7f67511148dba093cf2efd813b5f77829b6"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(156;2,13,11).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8366ecd05a53febdb31d5343cabd5e154a9a08c7",
+      "size": 2183,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8366ecd05a53febdb31d5343cabd5e154a9a08c7"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(156;2,13,11)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315f8b5ef09adbd2607f738ff48caeeb0bf70408",
+      "size": 2183,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/315f8b5ef09adbd2607f738ff48caeeb0bf70408"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(157;2,14,11).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd527a07e902877bd5bd11dd75b0331e181cbe99",
+      "size": 2354,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/dd527a07e902877bd5bd11dd75b0331e181cbe99"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(162;2,8,12).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9f04b0504a7607f78aea306e3f2a60ffdc45e58",
+      "size": 1457,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e9f04b0504a7607f78aea306e3f2a60ffdc45e58"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(163;2,9,12).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61248419f7961a71ba6af216dc0c64a454f0749d",
+      "size": 1629,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/61248419f7961a71ba6af216dc0c64a454f0749d"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(164;2,12,12).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37a0ff23e40b652c09f7bf7347a1d38ceb25120",
+      "size": 2131,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d37a0ff23e40b652c09f7bf7347a1d38ceb25120"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(165;2,14,12).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d8431241a721ae31a5a5b2fcdf1746a1f1f4c49",
+      "size": 2474,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/4d8431241a721ae31a5a5b2fcdf1746a1f1f4c49"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(165;2,14,12)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f123a865d6f3dbc14b15448933f2d8cc0044e4d1",
+      "size": 2474,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f123a865d6f3dbc14b15448933f2d8cc0044e4d1"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(24;2,12,4).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9981d543977039919e936fe2c3d3ce987391666b",
+      "size": 311,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9981d543977039919e936fe2c3d3ce987391666b"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(24;2,12,4)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43ec01c4d81c79c5525a510c576ca982b9bfffa9",
+      "size": 311,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/43ec01c4d81c79c5525a510c576ca982b9bfffa9"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(25;2,13,4).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc57a648721a8767b98744b9dc174fc45deef6e",
+      "size": 349,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2cc57a648721a8767b98744b9dc174fc45deef6e"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(38;2,12,5).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc9d27ae68fe0fb809305e4ced32a540860803f2",
+      "size": 493,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/cc9d27ae68fe0fb809305e4ced32a540860803f2"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(38;2,12,5)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5b478f6e4baeb71d585ce34f6cf727b2ab9a2c2",
+      "size": 493,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f5b478f6e4baeb71d585ce34f6cf727b2ab9a2c2"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(40;2,13,5).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5745b3ce13c1de946ebff018b25910e67e64e597",
+      "size": 559,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5745b3ce13c1de946ebff018b25910e67e64e597"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(40;2,13,5)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7d7badceb89774e8d63604f66e7d0dd329f0cf5",
+      "size": 559,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/c7d7badceb89774e8d63604f66e7d0dd329f0cf5"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(59;2,9,7).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b64499132a234bb84f88c455473488bd59c8373",
+      "size": 589,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3b64499132a234bb84f88c455473488bd59c8373"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(59;2,9,7)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60595cdf588ccfd5aabc2f09c10a093f6ad28a7e",
+      "size": 589,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/60595cdf588ccfd5aabc2f09c10a093f6ad28a7e"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(59;2,9,7)_C.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09db6ad5892fb5459a183dfb881e9e9527facc3c",
+      "size": 589,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/09db6ad5892fb5459a183dfb881e9e9527facc3c"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(76;2,13,7).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23b0ce49774c8f96f4b7fd1a04e3c78193a7e10b",
+      "size": 1063,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/23b0ce49774c8f96f4b7fd1a04e3c78193a7e10b"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=2/CA(76;2,13,7)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738b3465605f8b725fff39c1783fae31d0c73b1c",
+      "size": 1063,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/738b3465605f8b725fff39c1783fae31d0c73b1c"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4512e2082cfdd5621369c414d5aed1898052cdb1",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/4512e2082cfdd5621369c414d5aed1898052cdb1"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(1100;3,6,10).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc0e5d37985d818a6afdb5f97193d582cd518b7",
+      "size": 7699,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1bc0e5d37985d818a6afdb5f97193d582cd518b7"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(14x3;3,8,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7748d878fe2dd697497f614731ad8373ef8bbe3",
+      "size": 377,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f7748d878fe2dd697497f614731ad8373ef8bbe3"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(15x3;3,12,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5039e5b339d263a1be01fb7238f471a98eeb1596",
+      "size": 584,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5039e5b339d263a1be01fb7238f471a98eeb1596"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(17x3;3,14,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a57cf445812f456836785b7156d4a61479ddc0",
+      "size": 764,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a4a57cf445812f456836785b7156d4a61479ddc0"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(19x3;3,15,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3368ccff22b20d9e684195d2d2d8b03afd1513c1",
+      "size": 911,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3368ccff22b20d9e684195d2d2d8b03afd1513c1"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(293;3,7,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f2a91faf58cae14ba514d1d55b7a2cdcd1e9190",
+      "size": 2343,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/4f2a91faf58cae14ba514d1d55b7a2cdcd1e9190"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(304;3,8,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b7caaa596c3c99b8f46e6e4383bfa5d991fa4b1",
+      "size": 2735,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/0b7caaa596c3c99b8f46e6e4383bfa5d991fa4b1"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(36x5;3,7,5).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c108cddaf1f3b1fc8a4ef8fcc11995bc20c3de1c",
+      "size": 1439,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/c108cddaf1f3b1fc8a4ef8fcc11995bc20c3de1c"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(379;3,9,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df00505855f5c358657fffa7e9dde188247fc756",
+      "size": 3789,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/df00505855f5c358657fffa7e9dde188247fc756"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(393;3,10,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bbb4a29a1f2ca1c1fecee6de9a010ea5cbb00b5",
+      "size": 4322,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8bbb4a29a1f2ca1c1fecee6de9a010ea5cbb00b5"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(472;3,9,7).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4190e2966af8bc36106e68e3cc59f1c64598ec74",
+      "size": 4719,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/4190e2966af8bc36106e68e3cc59f1c64598ec74"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(479;3,10,7).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36635891d749c96013d14e179d629fad9d8a37fb",
+      "size": 5268,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/36635891d749c96013d14e179d629fad9d8a37fb"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(80x3;3,5,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e8443cc17a7ed4591b8ccb1f2fd8f52279cb91",
+      "size": 1439,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b3e8443cc17a7ed4591b8ccb1f2fd8f52279cb91"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=3/CA(86x3;3,6,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c2c0fe7ac77e4f1954c071ff56a7139200139fe",
+      "size": 1805,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1c2c0fe7ac77e4f1954c071ff56a7139200139fe"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b548dee64c1df29fcf0d54bb78e6b94bb9ced7d",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/8b548dee64c1df29fcf0d54bb78e6b94bb9ced7d"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(182x5;4,7,5).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc094fbf8c7e6e2ae40e8245c94556fe5044bbc",
+      "size": 7279,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/cbc094fbf8c7e6e2ae40e8245c94556fe5044bbc"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(184x9;4,6,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e14febce5e4c7d5fb87a0403a9cd80983e11394",
+      "size": 11591,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6e14febce5e4c7d5fb87a0403a9cd80983e11394"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(1891;4,7,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b568553c2e8136a022b27a71d4345c97afc26168",
+      "size": 15127,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b568553c2e8136a022b27a71d4345c97afc26168"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(2044;4,8,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5b99a7d457fb18930bc3b83e0fb6e2e704360e3",
+      "size": 18395,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a5b99a7d457fb18930bc3b83e0fb6e2e704360e3"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(340;4,6,4).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b124725195754b88b1381d8b514baf715c941f36",
+      "size": 2379,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b124725195754b88b1381d8b514baf715c941f36"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(340;4,6,4)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7994cfb33ba0cb4098ce2c329aaf5367e7b98f5a",
+      "size": 2379,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7994cfb33ba0cb4098ce2c329aaf5367e7b98f5a"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(37x3;4,6,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae784fcab3f37b55fa58b83ccdfbdcacefe1e20",
+      "size": 776,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5ae784fcab3f37b55fa58b83ccdfbdcacefe1e20"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(41x3;4,7,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be9ff9aef69e48e9043e8ab56a93750f2fb097fb",
+      "size": 983,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/be9ff9aef69e48e9043e8ab56a93750f2fb097fb"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(46x36;4,6,6).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f360ca7af826dcdd32220c2a80d22be764874fb",
+      "size": 11591,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/4f360ca7af826dcdd32220c2a80d22be764874fb"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(47x3;4,8,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a859a0a913f9e34c062e99fc9156776949bfc8f",
+      "size": 1268,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5a859a0a913f9e34c062e99fc9156776949bfc8f"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(61x3;4,11,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67dff50a7d504f1ec0ad191168e732b165c36e4a",
+      "size": 2195,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/67dff50a7d504f1ec0ad191168e732b165c36e4a"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(67x3;4,12,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a798186999c527c1ad33917494ed359d37ae950b",
+      "size": 2613,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a798186999c527c1ad33917494ed359d37ae950b"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=4/CA(73x3;4,13,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aea00aa8677c5fdab43b5737abe4fd359b71ad00",
+      "size": 3066,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/aea00aa8677c5fdab43b5737abe4fd359b71ad00"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bda418df7df7bcb432709f6926c8f7de6e5f6c08",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/bda418df7df7bcb432709f6926c8f7de6e5f6c08"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=5/CA(26x2;5,8,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d287ca332ec8319aa93d9933f16fa9401659ba34",
+      "size": 467,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d287ca332ec8319aa93d9933f16fa9401659ba34"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=5/CA(28x2;5,9,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1511938472e957c74d42bebd288d9fb687f70bce",
+      "size": 559,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1511938472e957c74d42bebd288d9fb687f70bce"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=5/CA(30x2;5,10,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eb62864ef2335ea59f4f9ac87574d48588bbb68",
+      "size": 659,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7eb62864ef2335ea59f4f9ac87574d48588bbb68"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=5/CA(32x2;5,14,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf3b100461a39bdc0c54919bed87e0b3a31ecef7",
+      "size": 959,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/bf3b100461a39bdc0c54919bed87e0b3a31ecef7"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=5/CA(39x9;5,7,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "753b881fe5c01327ffd8bc3de37b429d9d0fda44",
+      "size": 2807,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/753b881fe5c01327ffd8bc3de37b429d9d0fda44"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=5/CA(44x2;5,15,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8dc52e2e0ab3442e0344670e73f1189e3ec203",
+      "size": 1407,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ab8dc52e2e0ab3442e0344670e73f1189e3ec203"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=6",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d40179f43f93e014c3f89d7ac7e01efa4fa0a93f",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/d40179f43f93e014c3f89d7ac7e01efa4fa0a93f"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=6/CA(111;6,9,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "862855181a6fa0a7c0032fe0339e4f8f41084b22",
+      "size": 1109,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/862855181a6fa0a7c0032fe0339e4f8f41084b22"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=6/CA(111;6,9,2)_B.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a35a183e80a6b82ef4dbebefed1123cfe368cdc3",
+      "size": 1109,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a35a183e80a6b82ef4dbebefed1123cfe368cdc3"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=6/CA(116;6,10,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "661ca121db34352a79ca70c0b04e8eb56dac046a",
+      "size": 1275,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/661ca121db34352a79ca70c0b04e8eb56dac046a"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=6/CA(128x9;6,8,3).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "561c4f5937b7293b8ac019f8fb1423997e1254dd",
+      "size": 10367,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/561c4f5937b7293b8ac019f8fb1423997e1254dd"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=6/CA(64x2;6,13,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff7f0ef3ac74d879d24bc7e04015e7d3ddf82f96",
+      "size": 1791,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ff7f0ef3ac74d879d24bc7e04015e7d3ddf82f96"
+    },
+    {
+      "path": "inst/extdata/CKRS/t=6/CA(80x2;6,15,2).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb42a24d42ecd5bd40db9a1128ea656343a7d0f2",
+      "size": 2559,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fb42a24d42ecd5bd40db9a1128ea656343a7d0f2"
+    },
+    {
+      "path": "inst/extdata/CKRS_catalogue.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b337ae93747ea3d4fdbbbe761218e523dd99905a",
+      "size": 2876,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b337ae93747ea3d4fdbbbe761218e523dd99905a"
+    },
+    {
+      "path": "inst/extdata/CMMSSYStarters.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee26a1b89aedd927434a25112b3c8f910a39d206",
+      "size": 4781,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ee26a1b89aedd927434a25112b3c8f910a39d206"
+    },
+    {
+      "path": "inst/extdata/CYCLOTOMY_constr_develop.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e9e61c63ccf28bfb248bf057535325e91f44948",
+      "size": 5925,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6e9e61c63ccf28bfb248bf057535325e91f44948"
+    },
+    {
+      "path": "inst/extdata/CohenSA",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a84793a4bac70a56e5696cbc734a9a879ec1fae",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/0a84793a4bac70a56e5696cbc734a9a879ec1fae"
+    },
+    {
+      "path": "inst/extdata/CohenSA/2.3.10.14.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d38a19e61fe607dda0b5352d6b5c3d08dfb121b0",
+      "size": 297,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d38a19e61fe607dda0b5352d6b5c3d08dfb121b0"
+    },
+    {
+      "path": "inst/extdata/CohenSA/2.3.7.12.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d312b3eb403aa14f2d6f9371b030d3cd620553ed",
+      "size": 183,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d312b3eb403aa14f2d6f9371b030d3cd620553ed"
+    },
+    {
+      "path": "inst/extdata/CohenSA/2.3.9.13.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d66120405645a8b27ff354b8704d9a9c3cc4b1be",
+      "size": 250,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d66120405645a8b27ff354b8704d9a9c3cc4b1be"
+    },
+    {
+      "path": "inst/extdata/CohenSA/2.4.7.21.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6570de47ffd4ea5ced2a641ccad84a4d88c6b85",
+      "size": 318,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f6570de47ffd4ea5ced2a641ccad84a4d88c6b85"
+    },
+    {
+      "path": "inst/extdata/CohenSA/2.5.9.35.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2698cc52b884097e65f4dd8f79e124cce344a3e",
+      "size": 668,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b2698cc52b884097e65f4dd8f79e124cce344a3e"
+    },
+    {
+      "path": "inst/extdata/CohenSA/2.6.4.37.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623fc3165025bf507ec721c5d9a3dd93c61ccefc",
+      "size": 336,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/623fc3165025bf507ec721c5d9a3dd93c61ccefc"
+    },
+    {
+      "path": "inst/extdata/CohenSA/2.6.5.39.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58b20f421140f15eb3cf889d536ec62aa95b533e",
+      "size": 432,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/58b20f421140f15eb3cf889d536ec62aa95b533e"
+    },
+    {
+      "path": "inst/extdata/ColbournKeri_coverStarters.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ce360bbf3de5829d8960929e119af681e6d8b87",
+      "size": 11558,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/0ce360bbf3de5829d8960929e119af681e6d8b87"
+    },
+    {
+      "path": "inst/extdata/ColbournPaleyType.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e0ed5f64fbdfa302d75da085bd8c2bfe399f525",
+      "size": 14042,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2e0ed5f64fbdfa302d75da085bd8c2bfe399f525"
+    },
+    {
+      "path": "inst/extdata/Dwyer_arraysColbournCommunicationWithDwyer.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "185a54ff908a4d5096b550c999ac5e8a816054c2",
+      "size": 2199,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/185a54ff908a4d5096b550c999ac5e8a816054c2"
+    },
+    {
+      "path": "inst/extdata/LCDST_coverStarters.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "450d49413f5978c014f53e599572e90707c24a4f",
+      "size": 19046,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/450d49413f5978c014f53e599572e90707c24a4f"
+    },
+    {
+      "path": "inst/extdata/Lanus_SCPHFs_from_DwyerRepo.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd5691184004b2f522b5f600731af2dca7795c19",
+      "size": 369962,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/cd5691184004b2f522b5f600731af2dca7795c19"
+    },
+    {
+      "path": "inst/extdata/MeagherStevens_coverStarters.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27f9f9ef9c0fda82f69642634d1f68018a411500",
+      "size": 7765,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/27f9f9ef9c0fda82f69642634d1f68018a411500"
+    },
+    {
+      "path": "inst/extdata/NISTcat_create.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fab5ca3ab5a86d97ff161a3ebde5460e3a1955f5",
+      "size": 1329,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fab5ca3ab5a86d97ff161a3ebde5460e3a1955f5"
+    },
+    {
+      "path": "inst/extdata/SCPHF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a3ef37be3b9751d8f6b32c2078c2800116f9127",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/6a3ef37be3b9751d8f6b32c2078c2800116f9127"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d63b2b0a46bb5306ba3e0d8830846b297340c5c6",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/d63b2b0a46bb5306ba3e0d8830846b297340c5c6"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_10_3_1060_16.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "202d7be212a2412a70aedfecdb00bdd9266c2c43",
+      "size": 35576,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/202d7be212a2412a70aedfecdb00bdd9266c2c43"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_2_3_56_64.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f50aaf85c562d6e6801e6149c8e5ffd2f96a21f",
+      "size": 446,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/0f50aaf85c562d6e6801e6149c8e5ffd2f96a21f"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_2_4_5_125.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "358df1f0f230c70abaaf2dbd19c7a645d34b1c8b",
+      "size": 50,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/358df1f0f230c70abaaf2dbd19c7a645d34b1c8b"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_2_4_5_27.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b47fbc881cc0393187429bac080ebfee4afaeac0",
+      "size": 48,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b47fbc881cc0393187429bac080ebfee4afaeac0"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_3_3_100_81.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80f032914f610f93b36d36e9ffbf37a7c93769ff",
+      "size": 1157,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/80f032914f610f93b36d36e9ffbf37a7c93769ff"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_3_3_10_9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5383e3bad0caeb7021f6ce579b322348ef3b707",
+      "size": 108,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e5383e3bad0caeb7021f6ce579b322348ef3b707"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_3_3_25_625.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3e3d509bb571dfe9d681dad6210a7551086e192",
+      "size": 313,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e3e3d509bb571dfe9d681dad6210a7551086e192"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_3_3_26_16.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7ef0228aa4ee180adf0d613b5ba10da1140e8d",
+      "size": 277,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/dc7ef0228aa4ee180adf0d613b5ba10da1140e8d"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_3_3_39_25.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeedbe45a352843dd783a8980172bb70ebc5bc54",
+      "size": 425,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/eeedbe45a352843dd783a8980172bb70ebc5bc54"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_3_3_82_64.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f935069e0fc05568191dcf2c5ffabf0d80e4c086",
+      "size": 947,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f935069e0fc05568191dcf2c5ffabf0d80e4c086"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_4_3_228_64.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7679881b1edb27784e251ded3d18c4e71b3e0dd5",
+      "size": 3474,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7679881b1edb27784e251ded3d18c4e71b3e0dd5"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_4_3_25_9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c25d15c51a99223ed3f8c0fd62eaf8a795ae41f5",
+      "size": 319,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/c25d15c51a99223ed3f8c0fd62eaf8a795ae41f5"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_4_3_294_81.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd41d9e22ec50e3787c7480a0f317ef346c10bd5",
+      "size": 4532,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/cd41d9e22ec50e3787c7480a0f317ef346c10bd5"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_4_3_55_16.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b5a1ae731a3b3d1a6b71ab1757150efcaa9a021",
+      "size": 753,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2b5a1ae731a3b3d1a6b71ab1757150efcaa9a021"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_4_3_75_25.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bfe8d651c900f199a0d492c4917dfafea56124d",
+      "size": 1079,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1bfe8d651c900f199a0d492c4917dfafea56124d"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_4_3_957_256.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31c6a4772a7f6c44db58598ee0853ec99a249fe8",
+      "size": 16976,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/31c6a4772a7f6c44db58598ee0853ec99a249fe8"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_4_4_15_125.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd458c7dacfcb090ddea3861e033ea5364892bba",
+      "size": 230,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/bd458c7dacfcb090ddea3861e033ea5364892bba"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_4_4_16_27.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dad1919c06764d2dd4d47df01ddd09aea3bf3a2",
+      "size": 236,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1dad1919c06764d2dd4d47df01ddd09aea3bf3a2"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_5_3_1000_256.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "343cba0fd5678f8f59a9c630e928f53642a88d18",
+      "size": 22346,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/343cba0fd5678f8f59a9c630e928f53642a88d18"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_5_3_100_16.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e82fee3e1c41848f9a425661807e076b96b22a7e",
+      "size": 1691,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e82fee3e1c41848f9a425661807e076b96b22a7e"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_5_3_179_25.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0923b5bd15ea07953fbc71fb29b1b89e83f83804",
+      "size": 3197,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/0923b5bd15ea07953fbc71fb29b1b89e83f83804"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_5_3_387_81.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d81d70a1d93ef7ea1648d6475e2f373554b9825e",
+      "size": 7446,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d81d70a1d93ef7ea1648d6475e2f373554b9825e"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_5_3_592_64.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9216ffbb34a4623b6daf8fae511426908ba3405",
+      "size": 11250,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a9216ffbb34a4623b6daf8fae511426908ba3405"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_5_4_23_27.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7edff9f9d159d60993d194b3e463c990b7d99461",
+      "size": 420,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7edff9f9d159d60993d194b3e463c990b7d99461"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_6_3_1525_81.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5030e0f1933d3809983f3ca3879cf12c0934dbe1",
+      "size": 35067,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5030e0f1933d3809983f3ca3879cf12c0934dbe1"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_6_3_1550_64.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "363b9fdf49f0177d4f2fc1ee161d942aa807ef90",
+      "size": 35382,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/363b9fdf49f0177d4f2fc1ee161d942aa807ef90"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_6_3_176_16.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d63489f27317d8b362b6c93f446d059b4181299",
+      "size": 3545,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2d63489f27317d8b362b6c93f446d059b4181299"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_6_3_375_25.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae7af297c0576e64b8576360392b6d31085b3be",
+      "size": 8033,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9ae7af297c0576e64b8576360392b6d31085b3be"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_6_4_30_27.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39b056cbf83a64b280da379fc924aa2a7aa3d665",
+      "size": 665,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/39b056cbf83a64b280da379fc924aa2a7aa3d665"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_6_4_50_64.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9921dc4b4edcfac232356ee9b0e82ff115b50124",
+      "size": 1153,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9921dc4b4edcfac232356ee9b0e82ff115b50124"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_7_3_100_9.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdab6aa04967e3c7fba9398b9c614e686bbf304a",
+      "size": 2123,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fdab6aa04967e3c7fba9398b9c614e686bbf304a"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_7_3_1600_64.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e493c8ee4f98e9824d4c1dc31c03fb30e42f5ec",
+      "size": 42682,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2e493c8ee4f98e9824d4c1dc31c03fb30e42f5ec"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_7_3_320_16.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ad5151504f9dd24dc160b5e57cc70043989065",
+      "size": 7518,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f1ad5151504f9dd24dc160b5e57cc70043989065"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_7_3_376_25.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8e446f4d10ac71fc1b5b6e3c434bfeab5d3d205",
+      "size": 9412,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a8e446f4d10ac71fc1b5b6e3c434bfeab5d3d205"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_8_3_1475_25.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "026f0ecdcd746fbc8569d8e6f7d98e0a5329a30f",
+      "size": 42102,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/026f0ecdcd746fbc8569d8e6f7d98e0a5329a30f"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_8_3_560_16.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53e049218d711be9d02dd1f02eb4d4b00f9c35c2",
+      "size": 15032,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/53e049218d711be9d02dd1f02eb4d4b00f9c35c2"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_9_3_1600_25.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87ec13e858e762ab453170e22d64b23cf63ddb58",
+      "size": 51471,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/87ec13e858e762ab453170e22d64b23cf63ddb58"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_9_3_960_16.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b345e1f872b1e5ec1abd5187ec3a3bf068d8aee2",
+      "size": 29036,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b345e1f872b1e5ec1abd5187ec3a3bf068d8aee2"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_9_4_64_27.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7f6436df8657e7f3e98ba7a1f1d9ec29efea557",
+      "size": 2097,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d7f6436df8657e7f3e98ba7a1f1d9ec29efea557"
+    },
+    {
+      "path": "inst/extdata/SCPHF/CL/CPHF_Liste25August2025.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2edaf4037e8273e0b0360c2166a137cfd7fc3c1",
+      "size": 26239,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a2edaf4037e8273e0b0360c2166a137cfd7fc3c1"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c3285d6431b24d9fc6f1b2bf93c6608d2db7ed9",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/8c3285d6431b24d9fc6f1b2bf93c6608d2db7ed9"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-10-3-5.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64cd63545846578005eeefd8eca102833d68ad10",
+      "size": 115,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/64cd63545846578005eeefd8eca102833d68ad10"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-10-3-6.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be16510d37a6dfad564535adc12763734c13eff",
+      "size": 132,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3be16510d37a6dfad564535adc12763734c13eff"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-11-4-5.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c7cefecf8420d195ee480f93c17ac41a9965778",
+      "size": 122,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8c7cefecf8420d195ee480f93c17ac41a9965778"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-13-4-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d57f3235c506fe8a020dbfda9456b2a69d6de9c2",
+      "size": 116,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d57f3235c506fe8a020dbfda9456b2a69d6de9c2"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-15-5-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bac8ae5d24fa0bb329aa601309bee83c956580fe",
+      "size": 135,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/bac8ae5d24fa0bb329aa601309bee83c956580fe"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-18-7-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15ead5bab5f57c7329638a86e23a3e3767808d38",
+      "size": 159,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/15ead5bab5f57c7329638a86e23a3e3767808d38"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-20-8-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "571fa430b16c43d0668a1e898b93f8c5ca826654",
+      "size": 175,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/571fa430b16c43d0668a1e898b93f8c5ca826654"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-21-9-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9602c6500c8f5a52143d448fdb73d1a46eb30d5",
+      "size": 183,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d9602c6500c8f5a52143d448fdb73d1a46eb30d5"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-23-11-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0dbd2e9fbda4d388bbad2c511b3365a2272c852",
+      "size": 200,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a0dbd2e9fbda4d388bbad2c511b3365a2272c852"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-32-7-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e00d2ca258a036788615b82335b3bfbbc8182e",
+      "size": 207,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e0e00d2ca258a036788615b82335b3bfbbc8182e"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-41-9-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "418708196b86e576e2d0ca1715510f49fee7ac6c",
+      "size": 261,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/418708196b86e576e2d0ca1715510f49fee7ac6c"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-50-11-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94d8fc0057a1e54bab91db46ba647b19f78e90df",
+      "size": 316,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/94d8fc0057a1e54bab91db46ba647b19f78e90df"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/2-59-13-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65755d58634a885f55c1911ca3180c46e0721aec",
+      "size": 370,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/65755d58634a885f55c1911ca3180c46e0721aec"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-113-9-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae989dbdffbe4c5df3b0b35016b7eeb2f5be4369",
+      "size": 1035,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ae989dbdffbe4c5df3b0b35016b7eeb2f5be4369"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-13-3-5.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba975c4d645b0bea6c3e19f5f4e89f80b8ae8366",
+      "size": 212,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ba975c4d645b0bea6c3e19f5f4e89f80b8ae8366"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-146-11-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab98155d76823e274cd2f624d2282e0355f1f0bb",
+      "size": 1333,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ab98155d76823e274cd2f624d2282e0355f1f0bb"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-15-4-5.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b4b06af3c147991c6a3dd037228c3719cb5520",
+      "size": 242,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/c1b4b06af3c147991c6a3dd037228c3719cb5520"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-20-4-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13899e14fa0a2f5af210e348b990bda5b6a7675b",
+      "size": 257,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/13899e14fa0a2f5af210e348b990bda5b6a7675b"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-200-13-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6151c4eb65f3051ec9e86108f0c383713352ff62",
+      "size": 1819,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6151c4eb65f3051ec9e86108f0c383713352ff62"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-24-5-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fecef473d3206f71689c1a83b7cd2dc932c60e99",
+      "size": 305,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fecef473d3206f71689c1a83b7cd2dc932c60e99"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-30-7-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d446186b875c5c0effe888d69a9dc684ebd34853",
+      "size": 377,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d446186b875c5c0effe888d69a9dc684ebd34853"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-36-8-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ffb24175cff7454d2d5da7e2009d5134667f891",
+      "size": 449,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1ffb24175cff7454d2d5da7e2009d5134667f891"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-39-9-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01e3510adb12e9990a66a88ef436627c6c274738",
+      "size": 485,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/01e3510adb12e9990a66a88ef436627c6c274738"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-48-5-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f11150beffc0cf14283aa8fd1b53cd27118d46a0",
+      "size": 449,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f11150beffc0cf14283aa8fd1b53cd27118d46a0"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-81-7-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c711423bd787a3bbc22cdd473cf95e88487b029",
+      "size": 746,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5c711423bd787a3bbc22cdd473cf95e88487b029"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/3-91-8-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3274e03edbdd586b9695578b1ed7f7c94c31341d",
+      "size": 836,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3274e03edbdd586b9695578b1ed7f7c94c31341d"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/4-16-3-5.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb97f12d1879ee5cbb40d8a034e06fa52ca1200",
+      "size": 339,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5fb97f12d1879ee5cbb40d8a034e06fa52ca1200"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/4-31-4-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd36d423892b6361529e815b3563d84a25a09b0c",
+      "size": 515,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/cd36d423892b6361529e815b3563d84a25a09b0c"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/4-37-3-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0609141ecc948f2eaf70068fe0f775beef73221",
+      "size": 463,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a0609141ecc948f2eaf70068fe0f775beef73221"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/4-37-5-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "478921214a25838113b1b636bfa571b638c21c33",
+      "size": 611,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/478921214a25838113b1b636bfa571b638c21c33"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/4-54-7-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3ceeb0ed6cc65291c2557a75d568bc7160d9b59",
+      "size": 883,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a3ceeb0ed6cc65291c2557a75d568bc7160d9b59"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/4-64-4-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6984228a37e16e2d3db324a7d0980298061042de",
+      "size": 787,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6984228a37e16e2d3db324a7d0980298061042de"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/4-95-5-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0897b234b9091cf866f61ff70abfbd280d7151c",
+      "size": 1159,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/c0897b234b9091cf866f61ff70abfbd280d7151c"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/5-120-4-3.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46764aa870fa336512fa0f3e5f2e6ae7b17ef30d",
+      "size": 1822,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/46764aa870fa336512fa0f3e5f2e6ae7b17ef30d"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/5-42-4-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4af299beee63dc5c8bbc3f45ab47f96e889d1b6",
+      "size": 861,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a4af299beee63dc5c8bbc3f45ab47f96e889d1b6"
+    },
+    {
+      "path": "inst/extdata/SCPHF/WC/5-62-5-4.cphf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "217ec9af4b8a31b45ed277e39e6ca6ac35cbcf68",
+      "size": 1261,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/217ec9af4b8a31b45ed277e39e6ca6ac35cbcf68"
+    },
+    {
+      "path": "inst/extdata/SCPHF_dimchecks.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab10c8220fcbc27d1e5f1225e610336905d05652",
+      "size": 287,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ab10c8220fcbc27d1e5f1225e610336905d05652"
+    },
+    {
+      "path": "inst/extdata/SherwoodMartirosyanColbournCPHF.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79ab9966706b60be0041e5276dd357b7604f8e8f",
+      "size": 9868,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/79ab9966706b60be0041e5276dd357b7604f8e8f"
+    },
+    {
+      "path": "inst/extdata/TJ2level_dataPreparation.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "968c19f60bc7e9201ee91c04b20e3a6a53e04ca6",
+      "size": 10624,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/968c19f60bc7e9201ee91c04b20e3a6a53e04ca6"
+    },
+    {
+      "path": "inst/extdata/WagnerKampelSimos_read.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd3f9ae78e8f295059df1f04cf6896229428708",
+      "size": 1955,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8cd3f9ae78e8f295059df1f04cf6896229428708"
+    },
+    {
+      "path": "inst/extdata/WalkerColbournSCPHF.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b88193c8a20103daa9341efc292c6521a47a548c",
+      "size": 8723,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b88193c8a20103daa9341efc292c6521a47a548c"
+    },
+    {
+      "path": "inst/extdata/bestN_table.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea3450861baec56ad92a103ad45ec7c4dbff127",
+      "size": 3959,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7ea3450861baec56ad92a103ad45ec7c4dbff127"
+    },
+    {
+      "path": "inst/extdata/colbournBigFrame_create.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d08f6595eeb011b18c632842337e0a18d813bc2",
+      "size": 1159,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6d08f6595eeb011b18c632842337e0a18d813bc2"
+    },
+    {
+      "path": "inst/extdata/createPOWERCTcat.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "195052e9d552b64e0680723ef53aedd26864dcc9",
+      "size": 21917,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/195052e9d552b64e0680723ef53aedd26864dcc9"
+    },
+    {
+      "path": "inst/extdata/create_DPcat.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "606703a0ffead4737fb434e3b3657b2a4f1ccee1",
+      "size": 23600,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/606703a0ffead4737fb434e3b3657b2a4f1ccee1"
+    },
+    {
+      "path": "inst/extdata/create_PCAcat.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "358ca84b5be7db76a31527941058a67f2c57845a",
+      "size": 21252,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/358ca84b5be7db76a31527941058a67f2c57845a"
+    },
+    {
+      "path": "inst/extdata/create_rmsCOPIEScat.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b67f2adc0d0d3b5291b4a4695c0722240150a83",
+      "size": 1189,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6b67f2adc0d0d3b5291b4a4695c0722240150a83"
+    },
+    {
+      "path": "inst/extdata/miscCAs.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de13cfc9a61378e56d17ff0eaf6473bea4e4ed7",
+      "size": 16686,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5de13cfc9a61378e56d17ff0eaf6473bea4e4ed7"
+    },
+    {
+      "path": "inst/extdata/read_TJ_CAs_original.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee681c4ece4e328a8a4d842f9d67eead2c5f3b37",
+      "size": 798,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ee681c4ece4e328a8a4d842f9d67eead2c5f3b37"
+    },
+    {
+      "path": "man",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c289d3a5e1918b0f1c97090310e19c7a932ba3a",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/4c289d3a5e1918b0f1c97090310e19c7a932ba3a"
+    },
+    {
+      "path": "man/CAEX.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a815860567bf2ce5e4ddd84a6e094ce2e0ca0f1d",
+      "size": 9577,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a815860567bf2ce5e4ddd84a6e094ce2e0ca0f1d"
+    },
+    {
+      "path": "man/CAN.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "613d93863ebb187a25d04abae7e4e1748534ff9c",
+      "size": 12140,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/613d93863ebb187a25d04abae7e4e1748534ff9c"
+    },
+    {
+      "path": "man/CAs-package.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb54095116f51716dbecf116d617ec2511667c6f",
+      "size": 22835,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/eb54095116f51716dbecf116d617ec2511667c6f"
+    },
+    {
+      "path": "man/CKRS_augment.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37724d85d572bb29b7650d740c9b0e5730c446f2",
+      "size": 1580,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/37724d85d572bb29b7650d740c9b0e5730c446f2"
+    },
+    {
+      "path": "man/CK_NRB.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87cce2d08c900b143171bb8e279f303989025b6b",
+      "size": 1581,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/87cce2d08c900b143171bb8e279f303989025b6b"
+    },
+    {
+      "path": "man/CK_constrD.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee91a6132467057a107766aecad3214700ad860",
+      "size": 2421,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/cee91a6132467057a107766aecad3214700ad860"
+    },
+    {
+      "path": "man/CK_doubling.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e293d08fd47fe06b9d7e0d6c83ff575da95af7db",
+      "size": 4212,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e293d08fd47fe06b9d7e0d6c83ff575da95af7db"
+    },
+    {
+      "path": "man/CS_CK.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8e9412d063abb53e73ce660543e78eb4baa25c",
+      "size": 3582,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ef8e9412d063abb53e73ce660543e78eb4baa25c"
+    },
+    {
+      "path": "man/CS_CMMSSY.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a59120f8ca0fc0c79f0928140025eaa243d15a49",
+      "size": 3760,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a59120f8ca0fc0c79f0928140025eaa243d15a49"
+    },
+    {
+      "path": "man/CS_LCDST.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79b7f477460d083e6e6ec2c22ce3caefd8cc11c4",
+      "size": 4498,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/79b7f477460d083e6e6ec2c22ce3caefd8cc11c4"
+    },
+    {
+      "path": "man/CS_MS.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef73149aef33e1b1faa4c8fae5dc28b2931d8eb",
+      "size": 6139,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2ef73149aef33e1b1faa4c8fae5dc28b2931d8eb"
+    },
+    {
+      "path": "man/DHF2CA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "894bb740b3aff946a91bb497cdd3a7752fdce316",
+      "size": 4358,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/894bb740b3aff946a91bb497cdd3a7752fdce316"
+    },
+    {
+      "path": "man/DHHF2CA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd250e69f2cb3555ae3f013e06d7ce668797bbf",
+      "size": 2985,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ecd250e69f2cb3555ae3f013e06d7ce668797bbf"
+    },
+    {
+      "path": "man/DataForCAEX.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f62f0999a1b536f47d71d4f248b112f9c5398571",
+      "size": 2229,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f62f0999a1b536f47d71d4f248b112f9c5398571"
+    },
+    {
+      "path": "man/DataForCKRS.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a90925cb774c99592e97191f057929ab79b59914",
+      "size": 1944,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a90925cb774c99592e97191f057929ab79b59914"
+    },
+    {
+      "path": "man/DataForCPHF.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f251a39555092f19a9e04c037befc761dd6e4c8c",
+      "size": 1829,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f251a39555092f19a9e04c037befc761dd6e4c8c"
+    },
+    {
+      "path": "man/DataForCS.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d91ab6150ee67ad227449e282842c6ed9f3609c1",
+      "size": 4868,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d91ab6150ee67ad227449e282842c6ed9f3609c1"
+    },
+    {
+      "path": "man/DataForDWYER.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2ab72ec50dde0983effddff4692e035e64e8a76",
+      "size": 1423,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b2ab72ec50dde0983effddff4692e035e64e8a76"
+    },
+    {
+      "path": "man/DataForMathematical.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4f3b771f0e1f27df00cddb90f1d8dd02342834c",
+      "size": 7117,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a4f3b771f0e1f27df00cddb90f1d8dd02342834c"
+    },
+    {
+      "path": "man/DataForNIST.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71f30c2d4369ca6cf68fe27019bd22c10e81b6dd",
+      "size": 1855,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/71f30c2d4369ca6cf68fe27019bd22c10e81b6dd"
+    },
+    {
+      "path": "man/DataForProductConstructions.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d608d26aa6320c32148fc6b4e4324533a2a7d6c",
+      "size": 2988,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2d608d26aa6320c32148fc6b4e4324533a2a7d6c"
+    },
+    {
+      "path": "man/DataForSCPHF.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc22208a1aca4b792f2c711e4ded25d7a7f3133",
+      "size": 2493,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ecc22208a1aca4b792f2c711e4ded25d7a7f3133"
+    },
+    {
+      "path": "man/DataForTJ.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdb810aa7124fe69694c9d42f7f951ad9de44bc7",
+      "size": 4363,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fdb810aa7124fe69694c9d42f7f951ad9de44bc7"
+    },
+    {
+      "path": "man/DataForWKS.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31b948cd74ddd89758df380e335f2c3f1d1270ef",
+      "size": 1722,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/31b948cd74ddd89758df380e335f2c3f1d1270ef"
+    },
+    {
+      "path": "man/DataForpower.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d8ac0b9bdb06b90d81b47ae5f6f41bc6f62cd88",
+      "size": 3911,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3d8ac0b9bdb06b90d81b47ae5f6f41bc6f62cd88"
+    },
+    {
+      "path": "man/DataUsefulArrays.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92f21112ba753369549de87dbdc5dd652c1e676f",
+      "size": 3913,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/92f21112ba753369549de87dbdc5dd652c1e676f"
+    },
+    {
+      "path": "man/Hartman74.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b09cf11ae0478135b66650cc96b480adfb4bd472",
+      "size": 3523,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b09cf11ae0478135b66650cc96b480adfb4bd472"
+    },
+    {
+      "path": "man/JE.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c1998cc08e4df51538dafd97f533b2cc5c7cf5c",
+      "size": 2417,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1c1998cc08e4df51538dafd97f533b2cc5c7cf5c"
+    },
+    {
+      "path": "man/KSK.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f33584bd106a41cc195bd8044dd6fa765e84c26",
+      "size": 1101,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2f33584bd106a41cc195bd8044dd6fa765e84c26"
+    },
+    {
+      "path": "man/MCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bf9d8ab94e79785cf15e5af4ee1ec5ea1e71ecb",
+      "size": 11512,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9bf9d8ab94e79785cf15e5af4ee1ec5ea1e71ecb"
+    },
+    {
+      "path": "man/MTVTRouxtype.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1fdbd665f908da9fbdc3144d054c03c60552e7a",
+      "size": 4185,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f1fdbd665f908da9fbdc3144d054c03c60552e7a"
+    },
+    {
+      "path": "man/ODbasedCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "208a740c231ffa4537c64fc9c91944860b49e479",
+      "size": 4068,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/208a740c231ffa4537c64fc9c91944860b49e479"
+    },
+    {
+      "path": "man/RMScopies.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30e3131efedcffc61a01f8d86f715c998282bfe2",
+      "size": 3330,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/30e3131efedcffc61a01f8d86f715c998282bfe2"
+    },
+    {
+      "path": "man/SCA_Bose.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "294a004d8695682bc1c2d37f2b5ca085084574c2",
+      "size": 2823,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/294a004d8695682bc1c2d37f2b5ca085084574c2"
+    },
+    {
+      "path": "man/SeqCA_Levenshtein.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff11326b7cf53d367b4beb26f69bbd9944db757a",
+      "size": 2529,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ff11326b7cf53d367b4beb26f69bbd9944db757a"
+    },
+    {
+      "path": "man/add1.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeaff6f04456e342f7ac5d82fb4341678f920dac",
+      "size": 2961,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/eeaff6f04456e342f7ac5d82fb4341678f920dac"
+    },
+    {
+      "path": "man/auxiliary.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01e5a502761220fac5e9ec44d66a7664d22632b8",
+      "size": 1686,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/01e5a502761220fac5e9ec44d66a7664d22632b8"
+    },
+    {
+      "path": "man/auxiliary_GFcalculus.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb7ae9011fee6bb6f5018c5605744802257906ee",
+      "size": 478,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fb7ae9011fee6bb6f5018c5605744802257906ee"
+    },
+    {
+      "path": "man/auxiliary_ingredients.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "719112077fc8f6668038a1dde1f0baca12d31041",
+      "size": 427,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/719112077fc8f6668038a1dde1f0baca12d31041"
+    },
+    {
+      "path": "man/auxiliary_mixed.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20f168aac2016bd515e561c9b23a147af70c69a7",
+      "size": 884,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/20f168aac2016bd515e561c9b23a147af70c69a7"
+    },
+    {
+      "path": "man/auxpower.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d44c42ae2bebbd30dd76247d9a4fa38a26d0e6",
+      "size": 2004,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/91d44c42ae2bebbd30dd76247d9a4fa38a26d0e6"
+    },
+    {
+      "path": "man/bestCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed045fd48c236c02f80b59d4597feb021d8e0468",
+      "size": 5862,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ed045fd48c236c02f80b59d4597feb021d8e0468"
+    },
+    {
+      "path": "man/bounds.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b53c075f9d2eddbf40b399f43df98d4b5d33e8b",
+      "size": 831,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7b53c075f9d2eddbf40b399f43df98d4b5d33e8b"
+    },
+    {
+      "path": "man/ca-class.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aa13ebd62f7396a9768680199ce86e62e7e255c",
+      "size": 1379,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1aa13ebd62f7396a9768680199ce86e62e7e255c"
+    },
+    {
+      "path": "man/checkCyclotomyConditions.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103025272e2561db93d1a8c2c0366e441f94443a",
+      "size": 2493,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/103025272e2561db93d1a8c2c0366e441f94443a"
+    },
+    {
+      "path": "man/colbournBigFrame.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fba05290ad5c87192b057c8690f89759376fbd0c",
+      "size": 4384,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fba05290ad5c87192b057c8690f89759376fbd0c"
+    },
+    {
+      "path": "man/compositCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea7ad3a7214bb415d22c04e605945cb0c648339b",
+      "size": 1732,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ea7ad3a7214bb415d22c04e605945cb0c648339b"
+    },
+    {
+      "path": "man/coverage.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3804c10858712f5c6acdb4bdec33b4d3c3b83f93",
+      "size": 8661,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3804c10858712f5c6acdb4bdec33b4d3c3b83f93"
+    },
+    {
+      "path": "man/coverageSeqCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7ccab001fc9a5828e037da12867f36ab8f3177f",
+      "size": 1987,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f7ccab001fc9a5828e037da12867f36ab8f3177f"
+    },
+    {
+      "path": "man/cphfCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e81f0f03d057dcc9e3b7782c94ed8367c66a63d",
+      "size": 4693,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8e81f0f03d057dcc9e3b7782c94ed8367c66a63d"
+    },
+    {
+      "path": "man/crossCAs.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5620744d754f5e4e5841df135399d3428806becf",
+      "size": 2014,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5620744d754f5e4e5841df135399d3428806becf"
+    },
+    {
+      "path": "man/crossSum.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52c1aa3c4253b8f021eb7f7cff5bd76f653cb2e2",
+      "size": 2819,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/52c1aa3c4253b8f021eb7f7cff5bd76f653cb2e2"
+    },
+    {
+      "path": "man/cyclotomy.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "063b37814be8a14b2beb8c5fb808aedb1f19191e",
+      "size": 5340,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/063b37814be8a14b2beb8c5fb808aedb1f19191e"
+    },
+    {
+      "path": "man/derive.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26133d5448b61b9546e4282dd7300f45b50f95f5",
+      "size": 3341,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/26133d5448b61b9546e4282dd7300f45b50f95f5"
+    },
+    {
+      "path": "man/flexible.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aec2e6c8ed57336317f50f73368f43598e8888a",
+      "size": 7547,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/6aec2e6c8ed57336317f50f73368f43598e8888a"
+    },
+    {
+      "path": "man/fuse.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67270ceaae8ca59c4aad985fe5601b1e627b7b77",
+      "size": 1874,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/67270ceaae8ca59c4aad985fe5601b1e627b7b77"
+    },
+    {
+      "path": "man/fuseBose.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87363517efeb3cdf32d29aed60cae8f8afdf11d8",
+      "size": 3748,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/87363517efeb3cdf32d29aed60cae8f8afdf11d8"
+    },
+    {
+      "path": "man/greedySeqCA_Kuhn.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "928498d93bd5d5e9db16420aeebc21a10598128d",
+      "size": 3363,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/928498d93bd5d5e9db16420aeebc21a10598128d"
+    },
+    {
+      "path": "man/greedySeqCA_TJ.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58d45bed2e8501088021dced7a062caaf987cca8",
+      "size": 3396,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/58d45bed2e8501088021dced7a062caaf987cca8"
+    },
+    {
+      "path": "man/greedySeqCA_naive.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d92acc345f54ff26f2d342517a2d1425b96ae3b",
+      "size": 3013,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5d92acc345f54ff26f2d342517a2d1425b96ae3b"
+    },
+    {
+      "path": "man/identify_needed.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72c780a5c086704c20994e38b7ad5b97fea5a12f",
+      "size": 2498,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/72c780a5c086704c20994e38b7ad5b97fea5a12f"
+    },
+    {
+      "path": "man/juxtapose.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738e223f2752921cc786136f6c32e7ef7ee8659b",
+      "size": 2297,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/738e223f2752921cc786136f6c32e7ef7ee8659b"
+    },
+    {
+      "path": "man/maxconstant.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee90f03cf494decc30427b61cb26b2bac4dd8176",
+      "size": 5006,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ee90f03cf494decc30427b61cb26b2bac4dd8176"
+    },
+    {
+      "path": "man/miscCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceab17985b2b2b4eb69d914ca47928d86b21be0f",
+      "size": 2149,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/ceab17985b2b2b4eb69d914ca47928d86b21be0f"
+    },
+    {
+      "path": "man/optimize_SeqCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623bb792aae55303443bb0e6087f07312d75efd7",
+      "size": 6746,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/623bb792aae55303443bb0e6087f07312d75efd7"
+    },
+    {
+      "path": "man/paley.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f51d660645aef517265c08d8d1652ea1085f6d",
+      "size": 4945,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a5f51d660645aef517265c08d8d1652ea1085f6d"
+    },
+    {
+      "path": "man/powerCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c399eac76470ddd6155f9029de8d724c83f290d",
+      "size": 2847,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7c399eac76470ddd6155f9029de8d724c83f290d"
+    },
+    {
+      "path": "man/print.CAcoverage.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d44c9149e293a7eea8a3fe2dbda35ec17788fe7",
+      "size": 569,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5d44c9149e293a7eea8a3fe2dbda35ec17788fe7"
+    },
+    {
+      "path": "man/productCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285129367df9159ed4dc0d2e56bf11e8690a53c6",
+      "size": 4983,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/285129367df9159ed4dc0d2e56bf11e8690a53c6"
+    },
+    {
+      "path": "man/productPCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd3c0d8b23a24fdea52a80f0d12355211079e7ac",
+      "size": 9954,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/dd3c0d8b23a24fdea52a80f0d12355211079e7ac"
+    },
+    {
+      "path": "man/projectionBose.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e714d391eb29bb3975d3f08d2c09712320897232",
+      "size": 3158,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/e714d391eb29bb3975d3f08d2c09712320897232"
+    },
+    {
+      "path": "man/readCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "022df97122ea474b68fc242c2b86845f42a5652b",
+      "size": 2979,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/022df97122ea474b68fc242c2b86845f42a5652b"
+    },
+    {
+      "path": "man/recursiveBose.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ec02bb6f768ab478fd1897dd94312fe8e27504",
+      "size": 4938,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/f1ec02bb6f768ab478fd1897dd94312fe8e27504"
+    },
+    {
+      "path": "man/recursiveBoseHartman.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4532c08d97154201ccd04a718c626f1cbc319d5a",
+      "size": 4523,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/4532c08d97154201ccd04a718c626f1cbc319d5a"
+    },
+    {
+      "path": "man/reduce_rows_complete.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af54f94a0e538c33deadc22ccb331635ba7fabff",
+      "size": 1493,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/af54f94a0e538c33deadc22ccb331635ba7fabff"
+    },
+    {
+      "path": "man/scphfCA.Rd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88f95409e64e37ae7dc140327a01db0845e997c1",
+      "size": 3745,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/88f95409e64e37ae7dc140327a01db0845e997c1"
+    },
+    {
+      "path": "outputCAEX.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a422f454cfd8ac30b26a06e0f7f30d2e43fe3141",
+      "size": 8278,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a422f454cfd8ac30b26a06e0f7f30d2e43fe3141"
+    },
+    {
+      "path": "outputMCA2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b4be7ce527b7bc1fc20457838a1be3f3e08a09",
+      "size": 9269,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/99b4be7ce527b7bc1fc20457838a1be3f3e08a09"
+    },
+    {
+      "path": "outputSeqCA_Levenshtein.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb96a94c02c548ee2d5451bc3f23d9275f50d22",
+      "size": 1411,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/8cb96a94c02c548ee2d5451bc3f23d9275f50d22"
+    },
+    {
+      "path": "outputoptimize_SeqCA.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c00fa0262300d334c2a3b17da23b2de1051b6cc0",
+      "size": 85280,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/c00fa0262300d334c2a3b17da23b2de1051b6cc0"
+    },
+    {
+      "path": "runLongExamples.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "539c91444481f171c861add994bf3990172f5ae4",
+      "size": 716,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/539c91444481f171c861add994bf3990172f5ae4"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3cc2f07bfc5af5f7d7c0886b643204e2ae994236",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/3cc2f07bfc5af5f7d7c0886b643204e2ae994236"
+    },
+    {
+      "path": "tests/testthat.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1fdfcfab8ff3bdf434d914a41c1571cc819a307",
+      "size": 50,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/c1fdfcfab8ff3bdf434d914a41c1571cc819a307"
+    },
+    {
+      "path": "tests/testthat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72682d5ad80ac774d7b9199634a08e3bc61b078a",
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/trees/72682d5ad80ac774d7b9199634a08e3bc61b078a"
+    },
+    {
+      "path": "tests/testthat/test-CKdoubling.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55259b93541c9785b5bbae672a343a073cd72446",
+      "size": 2089,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/55259b93541c9785b5bbae672a343a073cd72446"
+    },
+    {
+      "path": "tests/testthat/test-JE.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c2501b6f5a23e4908ec8b3ab32f6fd156fb9d7b",
+      "size": 2015,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/1c2501b6f5a23e4908ec8b3ab32f6fd156fb9d7b"
+    },
+    {
+      "path": "tests/testthat/test-KSK.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5b5ddc8de5e253c9dbe0907a6bb994c87f86ac5",
+      "size": 636,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d5b5ddc8de5e253c9dbe0907a6bb994c87f86ac5"
+    },
+    {
+      "path": "tests/testthat/test-RMScopies.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bf1492d54ee327b03371d62e9f3d90c17aeacfc",
+      "size": 3913,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/7bf1492d54ee327b03371d62e9f3d90c17aeacfc"
+    },
+    {
+      "path": "tests/testthat/test-add1Ns.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "377d4fb3690a3e9e4f39f944780c8c4f0fc53da2",
+      "size": 1403,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/377d4fb3690a3e9e4f39f944780c8c4f0fc53da2"
+    },
+    {
+      "path": "tests/testthat/test-auxiliary-GFcalculus.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20103848c4e77024801973c03fb719dbe8c543c9",
+      "size": 3960,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/20103848c4e77024801973c03fb719dbe8c543c9"
+    },
+    {
+      "path": "tests/testthat/test-auxiliary-ingredients.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf817d9862092d07841d860e5b81967b40c6208b",
+      "size": 1998,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/bf817d9862092d07841d860e5b81967b40c6208b"
+    },
+    {
+      "path": "tests/testthat/test-coverage.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9381236f9e578329dbde418253d8b374b78fc08",
+      "size": 15428,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/b9381236f9e578329dbde418253d8b374b78fc08"
+    },
+    {
+      "path": "tests/testthat/test-cyclotomy.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3f9c996c47cfd3a03acd355ed46d77827e13b48",
+      "size": 2621,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a3f9c996c47cfd3a03acd355ed46d77827e13b48"
+    },
+    {
+      "path": "tests/testthat/test-flexible-input-validation.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "902e1c9a88b22d3c3b7e186da0366fb19d866633",
+      "size": 11055,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/902e1c9a88b22d3c3b7e186da0366fb19d866633"
+    },
+    {
+      "path": "tests/testthat/test-ingredients.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d625f691ffb1c2119b1c68451a48a9e022e7b464",
+      "size": 1186,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/d625f691ffb1c2119b1c68451a48a9e022e7b464"
+    },
+    {
+      "path": "tests/testthat/test-input-validation.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be1814d8b7d931a90733d693f6353799e747a96",
+      "size": 14360,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/3be1814d8b7d931a90733d693f6353799e747a96"
+    },
+    {
+      "path": "tests/testthat/test-miscCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e4ec54d68c091b7eeda4c3edbe1b1c17e44b0d9",
+      "size": 921,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9e4ec54d68c091b7eeda4c3edbe1b1c17e44b0d9"
+    },
+    {
+      "path": "tests/testthat/test-smolenBigFrameHandling.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb98d9f9961ce2f7a0c8cc97308c89935d20540",
+      "size": 590,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/2bb98d9f9961ce2f7a0c8cc97308c89935d20540"
+    },
+    {
+      "path": "tests/testthat/test_DHHF2CA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d62083dada02d2c1769885dd0b24d7b56183f88",
+      "size": 996,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/9d62083dada02d2c1769885dd0b24d7b56183f88"
+    },
+    {
+      "path": "tests/testthat/test_MCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb4f315a1e47e07ed0b065c902c8871657bab11",
+      "size": 2851,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/5bb4f315a1e47e07ed0b065c902c8871657bab11"
+    },
+    {
+      "path": "tests/testthat/test_maxconstant.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd3ec40fdc2fb8c8595ef44b013ff1527fd9bf49",
+      "size": 1629,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/fd3ec40fdc2fb8c8595ef44b013ff1527fd9bf49"
+    },
+    {
+      "path": "tests/testthat/test_powerCA.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e1bdbf58511e629fd27ae4111bb3df600a9f47",
+      "size": 329,
+      "url": "https://api.github.com/repos/ugroempi/CAs/git/blobs/a4e1bdbf58511e629fd27ae4111bb3df600a9f47"
+    }
+  ],
+  "truncated": false
+}

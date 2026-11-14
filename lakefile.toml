@@ -1,0 +1,7 @@
+name = "ca86"
+version = "1.0.0"
+defaultTargets = ["CA86"]
+moreLeanArgs = ["-j1"]
+
+[[lean_lib]]
+name = "CA86"

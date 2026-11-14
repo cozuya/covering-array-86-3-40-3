@@ -1,0 +1,34 @@
+# Historical transcript: project and declaration names adapted to CA86.
+def CA86.IsCoveringArray : {n k v : Nat} → (Fin n → Fin k → Fin v) → Prop :=
+fun {n k v} A => ∀ (i j l : Fin k), i < j → j < l → ∀ (a b c : Fin v), ∃ r, A r i = a ∧ A r j = b ∧ A r l = c
+def CA86.CAN₃ : Nat → Nat → Nat :=
+fun k v => if h : ∃ n, CA86.Feasible n k v then Classical.choose ⋯ else 0
+CA86.ca86_covering : CA86.IsCoveringArray CA86.certificate
+CA86.CAN_3_40_3_le_86 : CA86.CAN₃ 40 3 ≤ 86
+CA86.CAN_3_40_3_spec :
+  CA86.Feasible (CA86.CAN₃ 40 3) 40 3 ∧
+    ∀ (n : Nat), CA86.Feasible n 40 3 → CA86.CAN₃ 40 3 ≤ n
+'CA86.checkPair_sound' depends on axioms: [propext, Quot.sound]
+'CA86.ca86_covering' depends on axioms: [propext, Quot.sound]
+'CA86.ca86_existence' depends on axioms: [propext, Quot.sound]
+'CA86.CAN_3_40_3_le_86' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CA86.CAN_3_40_3_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CA86.zeroArray_not_covering' depends on axioms: [propext]
+'CA86.zeroArray_checker_rejected' depends on axioms: [propext]
+{
+  "command": [
+    "lake",
+    "env",
+    "lean",
+    "-j1",
+    "-t0",
+    "Audit.lean"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 0.406,
+  "largest_process_max_rss_kib": 456716,
+  "sampled_peak_tree_rss_kib": 560004,
+  "sampled_peak_tree_pss_kib": 481654,
+  "sampling_interval_seconds": 0.2,
+  "samples": 2
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "file": "records.csv",
+    "bytes": 196194,
+    "sha256": "95d4beaaf9c5b3ad0de2d065e4e25f5a0d68676355b826b97baedc1cc25e9179"
+  },
+  {
+    "file": "arrays_t3.zip",
+    "bytes": 25803070,
+    "sha256": "c7340a6fe66e9621d99004eb9b0cd3461835212e9e35358e681a633ffb48fe05"
+  },
+  {
+    "file": "code.zip",
+    "bytes": 42591,
+    "sha256": "2b6fb6b686b838476c07ffb3af5ea011cde6da455ff5680e59995a1e8b07425c"
+  },
+  {
+    "file": "SHA256SUMS",
+    "bytes": 21808,
+    "sha256": "2ad939c28b39143445f6cd8033157cf8f8a8655f547584aa5e1c7ad263cb06a6"
+  },
+  {
+    "file": "README.md",
+    "bytes": 15584,
+    "sha256": "c1d548968e1f8d29e67a1c3ffd77235bb59ae7e9cf2c4e1dfe42e8fd5eb802f5"
+  },
+  {
+    "file": "CERTIFICATES.md",
+    "bytes": 10491,
+    "sha256": "326745414da1c8f9388cf56d6f161153c7414fb608c09d8b16020484b56b3003"
+  },
+  {
+    "file": "Bai_covering_arrays_line_polychromatic.pdf",
+    "bytes": 850410,
+    "sha256": "b7d4739c40fc70ed9a8756e50f48f07282d92321a0712997968bd81b6cc1b391"
+  },
+  {
+    "file": "Bai_singer_CPHF_covering_arrays.pdf",
+    "bytes": 1945348,
+    "sha256": "b5fd43cd4d31800a448701f26836e16fef5224c0a92a4fe62a2ccc888a4578c7"
+  },
+  {
+    "file": "paper_BD.pdf",
+    "bytes": 1223372,
+    "sha256": "2c2158719e3904be660fb0b9e33a8565b13af3a886b8bff8292167aac8b59fcd"
+  },
+  {
+    "file": "paper_C.pdf",
+    "bytes": 1000232,
+    "sha256": "7f8601857496335cc11c015c0c61036a5189ca5d165e0e0b50c2d45fc2e8b472"
+  },
+  {
+    "file": "Shokri_Kianoosh_2026_thesis.pdf",
+    "bytes": 1014667,
+    "sha256": "997691ec6585a63672ad678e04341f93afd0f763b0b9899ec2cce9c30bf19707"
+  },
+  {
+    "file": "zenodo23787055.txt",
+    "bytes": 8624,
+    "sha256": "7570278dcc5fd9494c43794d0b5a86a3af422d6ff08a124ce27d1d79577014e0"
+  },
+  {
+    "file": "zenodo23787055_arrays_metadata.json",
+    "bytes": 772,
+    "sha256": "59ff5dc670136ba39a6343975d4505f5747a2f4c06a353e4d533b252af50fcaf"
+  },
+  {
+    "file": "zenodo23787055_records_metadata.json",
+    "bytes": 643,
+    "sha256": "ae57213768e330dec2101cd3e71292dafafedbca354c708f516cb3e67462d962"
+  },
+  {
+    "file": "zenodo23787055_versions.json",
+    "bytes": 8759,
+    "sha256": "7047e6828db5a1618b580a1592ecb482140c87281fafd641675006ac704b9d10"
+  },
+  {
+    "file": "amc2024005.html",
+    "bytes": 152677,
+    "sha256": "f6a46aa15d57756409bf8513b224098cdcbbc0ec08a4a0eaabfc65fc72f77f5c"
+  },
+  {
+    "file": "amc_openalex.json",
+    "bytes": 15721,
+    "sha256": "50915bd5df9fb5a80bd1b85bf084e61209aad30cc3650d1ff2f71b1dc41492ce"
+  },
+  {
+    "file": "amc_s2.json",
+    "bytes": 360,
+    "sha256": "e853a7fe29323f738535154f055602d3cdd40e2e0d03e0ca88d788727daa2e63"
+  },
+  {
+    "file": "amc_crossref.json",
+    "bytes": 2689,
+    "sha256": "2b0efe1c70ea1ae9196e37ef6136763548874442857ac2017363135d4eb1af7c"
+  },
+  {
+    "file": "recursive_schemes_web_evidence.json",
+    "bytes": 19401,
+    "sha256": "e86f8da93b3b6715c658ece2e93f43741508904582bec29c0882b82c2e2eaeb9"
+  },
+  {
+    "file": "check_published_scheme_closure.py",
+    "bytes": 3004,
+    "sha256": "f1782e3384e328af6f742c793df50c23f92dc83222614a8cb09f8baa346f1a48"
+  },
+  {
+    "file": "published_scheme_closure.json",
+    "bytes": 1798,
+    "sha256": "7d7a7a61f00d57aa3740dddc11c2a6cdbe15c55ed5fd5c05f73e9de3a6c8bc94"
+  },
+  {
+    "file": "scheme_convention_audit.json",
+    "bytes": 1647,
+    "sha256": "f573a95cdd6a2081e33d60455d2071103b8724f54550717fb0821d2c367bbf23"
+  }
+]

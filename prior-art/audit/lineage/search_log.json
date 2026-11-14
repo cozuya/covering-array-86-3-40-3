@@ -1,0 +1,230 @@
+[
+  {
+    "kind": "search",
+    "engine": "system2",
+    "queries": [
+      "\"10.1002/jcd.21963\"",
+      "\"10.5281/zenodo.23787055\"",
+      "\"Shokri\" \"Moura\" \"q-plication\""
+    ],
+    "result": "Located full primary Shokri paper, author page, Bai original/revised alphaXiv sources. Refs turn0search0,6,7,8.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "search",
+    "engine": "system1",
+    "queries": [
+      "\"Bai XunDi\" covering arrays 87 40",
+      "\"23787055\" covering arrays",
+      "\"New Families of Strength\" Shokri Moura supplement"
+    ],
+    "result": "Confirmed old abstract and parent family formulas; no new exact86x40. Refs turn3search0,1,3.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "search",
+    "engine": "system2",
+    "queries": [
+      "\"Kianoosh Shokri\" thesis covering arrays",
+      "\"Bai XunDi\" \"86\" \"40\""
+    ],
+    "result": "Found Ottawa thesis and CMS2023 abstract, plus strength4 follow-on; no exact86x40 result. Refs turn13search0, turn13search23, turn13academia26.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "search",
+    "engine": "system1",
+    "queries": [
+      "\"Shokri\" \"Moura\" \"covering\" 86",
+      "\"Bai\" \"covering arrays\" \"40\" \"87\"",
+      "\"Bai\" \"covering arrays\" \"86\" \"39\""
+    ],
+    "result": "Located Castoldi covering-schemes generalization of Shokri (primary DOI10.1002/jcd.70037) and same Bai sources. Refs turn27search2,3,4.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "search",
+    "engine": "system2",
+    "queries": [
+      "\"Bai XunDi\" \"covering\" 2026 -site:alphaxiv.org",
+      "\"New Families of Strength-3 Covering Arrays\" citing",
+      "\"Shokri\" \"87\" \"40\" covering arrays"
+    ],
+    "result": "Found CMS2024 abstract, Pender2026 thesis citation, Sitjar profile/publication lead; no exact86x40. Refs turn41search36,41,18.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "search",
+    "engine": "system2",
+    "queries": [
+      "\"New upper bounds for covering arrays of strength 3, 4 and 5\"",
+      "\"Bai XunDi\" \"ca-tools\" 86",
+      "\"Bai XunDi\" \"covering arrays\" \"github\""
+    ],
+    "result": "Found newer Bai curves paper through Chinese alphaXiv result; latest CAs package docs; root/repositories handles Sitjar data. Refs turn46search13,5.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "search",
+    "engine": "system1",
+    "queries": [
+      "\"Two-block covering arrays\" \"Bai\"",
+      "\"New upper bounds\" \"Sitjar\" \"covering\""
+    ],
+    "result": "Retrieved full translated primary abstract metadata for Bai curves DOI24055371; Sitjar v1.4 DOI24208931 surfaced and passed to repo agent. Refs turn52search0,1,5.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://onlinelibrary.wiley.com/doi/10.1002/jcd.21963"
+    ],
+    "result": "Full text read: Thms4.7,4.8,4.10,4.11,4.13; Cor4.12; Tables6,7; data availability and backward references. Web success, normal shell403.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://www.eecs.uottawa.ca/~lucia/publications.html",
+      "https://www.eecs.uottawa.ca/~lucia/grads/",
+      "https://ruor.uottawa.ca/items/af3baefe-75a0-4b04-8bf0-7a5d0422dd5b",
+      "https://ruor.uottawa.ca/bitstreams/37e29524-ae74-422d-b04c-52427b9f64a3/download"
+    ],
+    "result": "Thesis Jan9 2026 fullPDF downloaded; chapter5 confirms same theorem and no86x40. Author page identifies2026 strength4 work.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://www2.cms.math.ca/Events/winter23/res/pdf/cdt-ks.pdf",
+      "https://www2.cms.math.ca/Events/winter23/"
+    ],
+    "result": "Conference abstract states q-plication formula. ConferenceDec1–4 2023. Individual abstract upload timestamp unknown.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://arxiv.org/abs/2510.13122"
+    ],
+    "result": "Inspected strength4 follow-on metadata and formulas; first2025-10-15, v3 2026-10-16. Formula substitutions too large.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://zenodo.org/api/records/23787055",
+      "https://zenodo.org/api/records/23787055/files/records.csv/content",
+      "https://zenodo.org/api/records/23787055/files/arrays_t3.zip/content",
+      "https://zenodo.org/api/records/23787055/files/code.zip/content"
+    ],
+    "result": "Web inaccessible; normal HTTPS API and file downloads succeed. Parsed301 records and45 t3 archive entries; independently verified all6 ternary arrays; no qualifying prior bound. Standard fusion scan82 applicable rows, min87.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://zenodo.org/api/records/23787055/files/arrays_t3.zip",
+      "https://zenodo.org/api/records/23787055/files/records.csv",
+      "https://zenodo.org/api/records/23787055/versions"
+    ],
+    "result": "Oct30 original file creation/update dates and exact version IDs matched downloaded files; onlyone dataset version.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://zenodo.org/api/records/23787051",
+      "https://zenodo.org/api/records/23787053",
+      "https://zenodo.org/api/records/24054350"
+    ],
+    "result": "Original companion papers andNov8 Singer revision downloaded. Original Table4 has86x39,87x40,88x41,90x42. Sec9.5 establishes prior row-deletion+tabu repair method. Nov8 revision noconflict.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://zenodo.org/api/records/24055371"
+    ],
+    "result": "FullNov8 curves primaryPDF fetched; elliptic/genus2 formulas>=221 at t>=3,targetv3; no86 conflict.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_retrieval",
+    "urls": [
+      "https://onlinelibrary.wiley.com/doi/10.1002/jcd.70037"
+    ],
+    "result": "FullSep18 2026 primary paper inspected; exactCSN(2,4,Z3)=4 means no improvement to q3 four-block ingredient.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "data_inspection",
+    "urls": [
+      "https://raw.githubusercontent.com/chrispbsmolen/ca-tools/main/table/ca_table.csv"
+    ],
+    "result": "Current fullCSV retrieved; near-target lineage provenance reported to root. Root owns pinned/history/full-table scan.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "data_inspection",
+    "urls": [
+      "https://zenodo.org/api/records/23787055/files/arrays_t3.zip/content"
+    ],
+    "result": "87x40 allrows essential: min25 unique witnesses perrow, total15772. Saved vector prior87_row_essentiality.json; no rowdeletion orrepair search performed.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "followup_search",
+    "engine": "system1 and system2",
+    "queries": [
+      "\"Recursive constructions for covering schemes of strength 3\"",
+      "\"10.3934/amc.2024005\" pdf",
+      "\"Castoldi\" \"Martinhão\" \"covering schemes\" preprint",
+      "\"esquemas de cobertura\" \"força 3\""
+    ],
+    "result": "Publisher abstract/tables found; HTML full text has explicit login/payment restriction. Searches of authors/institutions and citations led to public CC-BY ResearchGate full text. Sources turn81search0, turn81view0, turn82view0, turn84search1/2/5, turn85view0, turn86view0.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "primary_inspection",
+    "urls": [
+      "https://www.researchgate.net/publication/378413470_Recursive_constructions_for_covering_schemes_of_strength_3",
+      "https://www.aimsciences.org/article/doi/10.3934/amc.2024005"
+    ],
+    "result": "Public21-page paper accessed as parsed full text; all main recurrences and strongest ternary seeds inspected and extracted. C3 seed+recurrence closure under28 rows reaches at most18 columns even with optimistic strength-two ingredient lower bounds. NoCS(28;3,40,Z3). Shell ResearchGate403, not retried. Evidence turn86view0,turn95view0–2; local recursive_schemes_web_evidence.json, check_published_scheme_closure.py,published_scheme_closure.json.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "metadata_inspection",
+    "urls": [
+      "https://api.openalex.org/works/https://doi.org/10.3934/amc.2024005",
+      "https://api.semanticscholar.org/graph/v1/paper/DOI:10.3934/amc.2024005?fields=title,openAccessPdf,url",
+      "https://api.crossref.org/works/10.3934/amc.2024005"
+    ],
+    "result": "Public metadata says OA and identifies publisher PDF-export path; no repository full-text URL. Used independent author-profile-linked public ResearchGate full text instead. Saved amc_openalex.json, amc_s2.json, amc_crossref.json.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "forward_citation_inspection",
+    "urls": [
+      "https://link.springer.com/article/10.1007/s12095-026-00890-2",
+      "https://onlinelibrary.wiley.com/doi/10.1002/jcd.70037"
+    ],
+    "result": "2026 constant-weight classification full primary OA theorem inspection: general q has strength k−1/exponential sizes, flexible class binary. Strength-two 2026 lower bound and recursion do not evade optimistic closure. Sources turn85view2,turn86view1–2,turn91view2–3.",
+    "accessed_date": "2026-11-14"
+  },
+  {
+    "kind": "final_convention_audit",
+    "urls": [
+      "https://www.researchgate.net/publication/378413470_Recursive_constructions_for_covering_schemes_of_strength_3",
+      "https://onlinelibrary.wiley.com/doi/10.1002/jcd.21963",
+      "https://cse.unl.edu/~myra/papers/auga.pdf"
+    ],
+    "queries": [
+      "site:cse.unl.edu/~myra/papers/auga.pdf \"differences\"",
+      "site:cse.unl.edu/~myra/papers/auga.pdf \"without\""
+    ],
+    "result": "Confirmed Castoldi all-differences convention and18-column relaxed closure. Repaired earlier wording that could conflate CSN2,4=4 with nonzero-only DCA minimum3. Literal Shokri nonzero substitutions still give no apparent<=86 bound at>=40; inequalities recorded in findings and scheme_convention_audit.json.",
+    "accessed_date": "2026-11-14"
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "audit_date": "2026-11-14",
+  "purpose": "Final focused red-team corrections to the public prior-art investigation of CAN(3,40,3)<=86; supersedes preliminary external-family minima based on ordinary alphabet collapse.",
+  "verdict": "LIKELY NOVEL",
+  "verdict_scope": "Numerical bound only. No concrete unresolved earlier public result implying CAN(3,40,3)<=86 was found. This is an evidence-based search conclusion, not a proof of absence or an assessment that the exact CA86 algorithm is novel.",
+  "reviewed_local_evidence": [
+    "research/root/table_audit.json",
+    "research/literature/indirect_catalogue_scan.json",
+    "research/literature/scan_indirect.py",
+    "research/lineage/lineage_findings.md",
+    "research/literature/findings.md",
+    "research/repositories/findings.md"
+  ],
+  "reduction": {
+    "input": "Published uniform CA(N;t,k,q), t>=3, q>=3, k-(t-3)>=40.",
+    "formula": "floor(N / q^(t-3)) - 2*(q-3)",
+    "column_count_after_derivation": "k-(t-3)",
+    "derivation": "Restrict to a least frequent value in one column and delete that column; repeat t-3 times. Then apply CKRS symbol fusion down to three symbols and retain any 40 columns.",
+    "fusion_primary_source": {
+      "title": "Covering and Radius-Covering Arrays: Constructions and Classification",
+      "authors": "Colbourn, Keri, Rivas Soriano, Schlage-Puchta",
+      "year": 2010,
+      "url": "https://old.sztaki.hu/~keri/arrays/Colbourn_Keri_Rivas-Soriano_Schlage-Puchta.pdf",
+      "location": "Lemma 3.1, ordinary covering array case r=0",
+      "local_file": "research/literature/CKRS2010.pdf",
+      "web_refs": [
+        "turn44view0",
+        "turn48view4"
+      ]
+    },
+    "interpretation": "The minima below are the smallest guaranteed upper bounds furnished by these reductions on the scanned published parameters; they are not lower bounds excluding arbitrary optimization or better symbol maps.",
+    "array_search_performed": false
+  },
+  "external_family_corrections": [
+    {
+      "source": "Arhan Canli, quantavane-covering-arrays",
+      "repository_url": "https://github.com/arhancanli/quantavane-covering-arrays",
+      "inspected_commit": "69dd74560ef0459e51fb5551ca3babd4c1520ea8",
+      "commit_timestamp": "2026-11-11T11:56:50Z",
+      "exact_csv_url": "https://raw.githubusercontent.com/arhancanli/quantavane-covering-arrays/69dd74560ef0459e51fb5551ca3babd4c1520ea8/families.csv",
+      "local_csv": "research/repositories/arhancanli__quantavane-covering-arrays/families.csv",
+      "calculation_scope": "All 196 rows of the retrieved families.csv, filtered by t>=3, q>=3, k-(t-3)>=40. Parameter audit, not exhaustive revalidation of every constructed array.",
+      "eligible_family_count": 196,
+      "minimum": {
+        "source": {
+          "N": 605,
+          "t": 3,
+          "k": 247,
+          "v": 5
+        },
+        "derived_rows": 605,
+        "derived_columns": 247,
+        "fused_rows": 601,
+        "family_file": "families/CA_605_3_247_5.cphf.txt"
+      },
+      "calculation": "605-2*(5-3)=601",
+      "previous_preliminary_minimum": 604,
+      "higher_strength_minimum": {
+        "source": {
+          "N": 4965,
+          "t": 4,
+          "k": 257,
+          "v": 5
+        },
+        "derived_rows": 993,
+        "derived_columns": 256,
+        "fused_rows": 989,
+        "family_file": "families/CA_4965_4_257_5.cphf.txt"
+      },
+      "higher_strength_calculation": "floor(4965/5)-2*(5-3)=989",
+      "q4_example": {
+        "source": {
+          "N": 604,
+          "t": 3,
+          "k": 2876,
+          "v": 4
+        },
+        "fused_rows": 602,
+        "calculation": "604-2*(4-3)=602"
+      }
+    },
+    {
+      "source": "Mickael Bergeron, covering-arrays-rms-extension",
+      "repository_url": "https://github.com/MichelBacon/covering-arrays-rms-extension",
+      "inspected_commit": "7a38bca67a5894309d3a2f30304e5c4d64f93048",
+      "commit_timestamp": "2026-10-26T21:40:03Z",
+      "exact_readme_url": "https://raw.githubusercontent.com/MichelBacon/covering-arrays-rms-extension/7a38bca67a5894309d3a2f30304e5c4d64f93048/README.md",
+      "local_readme": "research/repositories/MichelBacon__covering-arrays-rms-extension/README.md",
+      "calculation_scope": "Published README family for prime powers q>=3, m<=q^2+q+1. q=3 reaches at most26 columns; the first q=4 instance reaching40 columns uses m=19. This is a theorem-parameter substitution, not an independent array search.",
+      "family_formula": "N=2*q^3+q^2*L, k=q^2+q+1+m, L=max(q-2,ceil(m*(q-2)/q)), for m>=2",
+      "substitution": {
+        "q": 4,
+        "m": 19,
+        "L": 10,
+        "N": 288,
+        "k": 40
+      },
+      "fused_rows": 286,
+      "calculation": "2*4^3+4^2*10-2*(4-3)=286",
+      "previous_preliminary_value_before_fusion": 288
+    },
+    {
+      "source": "T.N. Sitjar, covering-array-records",
+      "repository_url": "https://github.com/tns-research/covering-array-records",
+      "inspected_commit": "9ee9b02896dfc0528650d2e04f5edf7bf52d128c",
+      "commit_timestamp": "2026-11-13T19:05:06Z",
+      "tree_api_url": "https://api.github.com/repos/tns-research/covering-array-records/git/trees/9ee9b02896dfc0528650d2e04f5edf7bf52d128c?recursive=1",
+      "local_tree": "research/repositories/tns-research__covering-array-records/tree.json",
+      "calculation_scope": "All parameter-bearing CA filenames in the complete retrieved recursive tree, filtered for t>=3, q>=3 and sufficient columns after derivation; filenames and stated parameters, not independent verification of all array contents.",
+      "minimum_source": {
+        "N": 633,
+        "t": 4,
+        "k": 100,
+        "v": 3
+      },
+      "derived_columns": 99,
+      "fused_rows": 211,
+      "calculation": "floor(633/3)-2*(3-3)=211",
+      "change_from_preliminary": "None; minimizing source is already ternary."
+    },
+    {
+      "source": "Aaron Dwyer, CA_Database",
+      "repository_url": "https://github.com/aadwyer/CA_Database",
+      "inspected_commit": "613a3a76736d72ac875b21391a565ac1839db514",
+      "commit_timestamp": "2024-09-06T15:17:17Z",
+      "tree_api_url": "https://api.github.com/repos/aadwyer/CA_Database/git/trees/613a3a76736d72ac875b21391a565ac1839db514?recursive=1",
+      "local_tree": "research/repositories/CA_Database_tree.json",
+      "calculation_scope": "All parameter-bearing CA filenames in the complete retrieved recursive tree, filtered for t>=3, q>=3 and sufficient columns after derivation; no deserialization of Sage dictionaries and no independent verification of all array contents.",
+      "minimum_source": {
+        "N": 471,
+        "t": 4,
+        "k": 43,
+        "v": 3
+      },
+      "derived_columns": 42,
+      "fused_rows": 157,
+      "calculation": "floor(471/3)-2*(3-3)=157",
+      "change_from_preliminary": "None; minimizing source is already ternary."
+    }
+  ],
+  "ccl_primary_source_correction": {
+    "primary": {
+      "title": "Constructing strength three covering arrays with augmented annealing",
+      "authors": "Myra B. Cohen, Charles J. Colbourn, Alan C. H. Ling",
+      "journal": "Discrete Mathematics 308 (2008), 2709-2722",
+      "doi_url": "https://doi.org/10.1016/j.disc.2006.06.036",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0012365X07004001",
+      "author_pdf_url": "https://cse.unl.edu/~myra/papers/auga.pdf",
+      "theorem": "Theorem 3",
+      "web_refs": [
+        "turn98search7",
+        "turn99view1",
+        "turn100view0",
+        "turn100view1"
+      ],
+      "access_scope": "Author PDF direct web open failed with502. Search-engine index and find returned the primary PDF full text, including the theorem, explicit ingredient list, proof and DCA table. The local shell attempt to a separate thesis PDF returned503; it was not used as evidence."
+    },
+    "correct_formula": "CAN(3,k*l,v) <= CAN(3,k,v) + CAN(3,l,v) + CAN(2,l,v)*DCAN(2,k,v)",
+    "correct_ingredients": [
+      "A=CA(N;3,l,v)",
+      "B=CA(M;3,k,v)",
+      "F=CA(R;2,l,v)",
+      "D=DCA(Q;2,k,v)"
+    ],
+    "output": "CA(N+M+Q*R;3,k*l,v)",
+    "secondary_source": {
+      "title": "Implementing uniform covering arrays based on the Colbourn tables",
+      "author": "Ulrike Gromping",
+      "year": 2026,
+      "url": "https://www1.bht-berlin.de/FB_II/reports/Report-2026-001.pdf",
+      "alternative_url": "https://www1.beuth-hochschule.de/FB_II/reports/Report-2026-001.pdf",
+      "location": "Section7.8.3",
+      "local_text": "research/literature/Report-2026-001.txt",
+      "web_refs": [
+        "turn96search14",
+        "turn98search8"
+      ]
+    },
+    "error": "The secondary report gives B as CA(M,2,k,v). The primary theorem and its proof require B to have strength3.",
+    "erroneous_apparent_implication": {
+      "target": "CA(86;3,40,3)",
+      "substitution": "l=4,k=10,v=3; A has27 rows; inadmissible strength2 B has14 rows; pairwise F has9 rows; DCA has5 rows.",
+      "arithmetic": "27+14+9*5=86",
+      "status": "Invalid: the 14-row strength2 B does not meet the primary theorem hypothesis."
+    },
+    "same_substitution_repaired": {
+      "known_strength3_B_rows": 45,
+      "arithmetic": "27+45+9*5=117",
+      "meaning": "Using a published45-row strength3 ingredient repairs that particular substitution and gives117, not86. This is an upper-bound calculation, not a proof that117 is optimal for all product variants."
+    },
+    "dca_definition_precision": "The primary DCA table distinguishes arrays with zero differences from those requiring only nonzero differences. For k=4,q=3 it lists sizes4 and3 respectively; for k=10,q=3 it lists5 and4. Therefore a covering-scheme optimum4 requiring zero differences must not be asserted as an optimum for the nonzero-only convention.",
+    "effect_on_verdict": "The newly identified plausible86-row product implication was a secondary-source error, not actual prior art. No change to LIKELY NOVEL."
+  },
+  "chronology_checks": [
+    {
+      "claim": "Bai87x40 first disclosed in the fixed October30 deposit, not merely entered in a table onNovember2.",
+      "record_url": "https://zenodo.org/records/23787055",
+      "archive_metadata_url": "https://zenodo.org/api/records/23787055/files/arrays_t3.zip",
+      "records_metadata_url": "https://zenodo.org/api/records/23787055/files/records.csv",
+      "basis": "Lineage audit checked exact file creation/version metadata and archive/CSV checksums. Both relevant files were createdOctober30; this addresses the possibility of later files attached to an older record.",
+      "local_evidence": "research/lineage/lineage_findings.md"
+    },
+    {
+      "claim": "The historical89-row bound is directly evidenced by2012 publication; the Chateauneuf-Kreher2002 construction label does not itself date all numerical ingredients to2002.",
+      "local_evidence": "research/literature/findings.md"
+    },
+    {
+      "claim": "Repository timestamps listed here are inspected Git commit timestamps; do not silently upgrade them to independent first-publication timestamps. The decisive87x40 prior has separate server-side Zenodo file metadata."
+    }
+  ],
+  "scope_boundaries": [
+    "No new construction search, optimization, submission, or author contact was performed.",
+    "No theorem verified in this audit appends enough columns for free to Bai86x39 or Sitjar82x34.",
+    "The reviewed direct and generic indirect catalogue scans revealed no arithmetic or column-eligibility error.",
+    "The exact CA86 candidate array and implementation were outside this child-agent audit, so numerical validity/isomorphism/algorithm-specific novelty were not independently assessed here."
+  ]
+}

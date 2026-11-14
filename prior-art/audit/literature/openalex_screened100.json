@@ -1,0 +1,602 @@
+[
+  {
+    "title": "Determining Covering Array Numbers via Balanced Covering Arrays",
+    "doi": "https://doi.org/10.48550/arxiv.2510.17596",
+    "date": "2025-10-20",
+    "id": "https://openalex.org/W4415965027"
+  },
+  {
+    "title": "Covering array records: covering arrays of strengths 3 to 6 improving the best known sizes",
+    "doi": "https://doi.org/10.5281/zenodo.23741408",
+    "date": "2026-10-28",
+    "id": "https://openalex.org/W7224087924"
+  },
+  {
+    "title": "Covering Array on the Cartesian Product of Hypergraphs",
+    "doi": "https://doi.org/10.1007/s00373-024-02813-5",
+    "date": "2024-07-10",
+    "id": "https://openalex.org/W4400515769"
+  },
+  {
+    "title": "CAs: Creating Covering Arrays",
+    "doi": "https://doi.org/10.32614/cran.package.cas",
+    "date": "2026-10-15",
+    "id": "https://openalex.org/W7222231739"
+  },
+  {
+    "title": "State of the CArt: evaluating covering array generators at scale",
+    "doi": "https://doi.org/10.1007/s10009-024-00745-2",
+    "date": "2024-05-06",
+    "id": "https://openalex.org/W4396677942"
+  },
+  {
+    "title": "Mixed Covering Arrays on Hypergraphs",
+    "doi": "https://doi.org/10.1007/s00373-025-03007-3",
+    "date": "2026-03-05",
+    "id": "https://openalex.org/W7133638266"
+  },
+  {
+    "title": "New Upper Bounds for Covering Arrays of Order Seven",
+    "doi": "https://doi.org/10.3390/math12121908",
+    "date": "2024-06-20",
+    "id": "https://openalex.org/W4399851108"
+  },
+  {
+    "title": "Towards Accessibility of Covering Arrays for Practitioners of Combinatorial Testing",
+    "doi": "https://doi.org/10.1109/icstw64639.2025.10962463",
+    "date": "2025-03-31",
+    "id": "https://openalex.org/W4409495554"
+  },
+  {
+    "title": "caverify: Fast Strength-t Coverage Verification for Covering Arrays",
+    "doi": "https://doi.org/10.32614/cran.package.caverify",
+    "date": "2026-08-20",
+    "id": "https://openalex.org/W7203954401"
+  },
+  {
+    "title": "EFFICIENT STORAGE AND COMPRESSION OF COVERING ARRAYS USING ADVANCED ENCODING TECHNIQUES",
+    "doi": "https://doi.org/10.52326/jes.utm.2025.32(1).04",
+    "date": "2025-04-25",
+    "id": "https://openalex.org/W4410529058"
+  },
+  {
+    "title": "Covering arrays from line-polychromatic colourings of affine planes",
+    "doi": "https://doi.org/10.5281/zenodo.23787050",
+    "date": "2026-10-30",
+    "id": "https://openalex.org/W7224868590"
+  },
+  {
+    "title": "New upper bounds for covering arrays of strength 3 and 4",
+    "doi": "https://doi.org/10.5281/zenodo.23842218",
+    "date": "2026-10-31",
+    "id": "https://openalex.org/W7225004616"
+  },
+  {
+    "title": "cafast: Fast Companions to the 'CAs' Package for Covering Arrays",
+    "doi": "https://doi.org/10.32614/cran.package.cafast",
+    "date": "2026-10-28",
+    "id": "https://openalex.org/W7224104379"
+  },
+  {
+    "title": "Constructing New Families of Covering Arrays Using Finite Geometry and Finite Fields",
+    "doi": "https://doi.org/10.20381/ruor-31663",
+    "date": "2026-01-09",
+    "id": "https://openalex.org/W7121091475"
+  },
+  {
+    "title": "ca-tools: a living table of covering arrays, with checked arrays and the tools that verify them",
+    "doi": "https://doi.org/10.5281/zenodo.24168008",
+    "date": "2026-11-12",
+    "id": "https://openalex.org/W7225911925"
+  },
+  {
+    "title": "Anchored strength-2 covering arrays matching or improving the best known sizes",
+    "doi": "https://doi.org/10.6084/m9.figshare.34913934",
+    "date": "2026-11-04",
+    "id": "https://openalex.org/W7225226817"
+  },
+  {
+    "title": "Efficiently Automating Covering Array Generation: A Model Checking and Metaheuristic Algorithm Approach",
+    "doi": "https://doi.org/10.1109/access.2025.3587202",
+    "date": "2025-01-01",
+    "id": "https://openalex.org/W4412375105"
+  },
+  {
+    "title": "New upper bounds for covering array numbers from partly cyclic covering perfect hash families",
+    "doi": "https://doi.org/10.5281/zenodo.23839215",
+    "date": "2026-10-31",
+    "id": "https://openalex.org/W7225012586"
+  },
+  {
+    "title": "CanPredict: Training Corpora and Trained Model Artifacts for Covering-Array Size Prediction",
+    "doi": "https://doi.org/10.5281/zenodo.21740538",
+    "date": "2026-08-01",
+    "id": "https://openalex.org/W7172222587"
+  },
+  {
+    "title": "New Families of Strength\u20103 Covering Arrays Using Linear Feedback Shift Register Sequences",
+    "doi": "https://doi.org/10.1002/jcd.21963",
+    "date": "2025-02-14",
+    "id": "https://openalex.org/W4407584381"
+  },
+  {
+    "title": "Two-row covering perfect hash families from Singer cycles and an improved table of covering arrays",
+    "doi": "https://doi.org/10.5281/zenodo.23787052",
+    "date": "2026-10-30",
+    "id": "https://openalex.org/W7224914018"
+  },
+  {
+    "title": "Cyclic covering perfect hash families: new covering arrays of strength five and six with exact certificates",
+    "doi": "https://doi.org/10.5281/zenodo.23751687",
+    "date": "2026-10-29",
+    "id": "https://openalex.org/W7224581496"
+  },
+  {
+    "title": "Existence of 3 anti-cocircular truncated M\u00f6bius planes and constructions of strength-4 covering arrays",
+    "doi": "https://doi.org/10.2139/ssrn.6172504",
+    "date": "2026-01-01",
+    "id": "https://openalex.org/W7127266273"
+  },
+  {
+    "title": "An improved Lower Bound for Local Failover in Directed Networks via Binary Covering Arrays",
+    "doi": "https://doi.org/10.48550/arxiv.2602.23860",
+    "date": "2026-02-27",
+    "id": "https://openalex.org/W7133233912"
+  },
+  {
+    "title": "Two-block covering arrays from elliptic curves and curves of genus two",
+    "doi": "https://doi.org/10.5281/zenodo.24055370",
+    "date": "2026-11-08",
+    "id": "https://openalex.org/W7225565208"
+  },
+  {
+    "title": "Beautiful Mind: a meta-heuristic algorithm for generating minimal covering array",
+    "doi": "https://doi.org/10.21203/rs.3.rs-3195308/v2",
+    "date": "2024-02-14",
+    "id": "https://openalex.org/W4391824272"
+  },
+  {
+    "title": "Top-down: A better strategy for incremental covering array generation",
+    "doi": "https://doi.org/10.1016/j.infsof.2024.107601",
+    "date": "2024-10-31",
+    "id": "https://openalex.org/W4403936318"
+  },
+  {
+    "title": "Automated Generation of Covering Array Using Gravitational Search Algorithm and Biogeography Based Optimization",
+    "doi": "https://doi.org/10.21203/rs.3.rs-3706348/v2",
+    "date": "2024-03-11",
+    "id": "https://openalex.org/W4392661383"
+  },
+  {
+    "title": "Covering arrays: verified improvements to the ca-tools table (data, certificates, verification code, Lean sources)",
+    "doi": "https://doi.org/10.5281/zenodo.23787054",
+    "date": "2026-10-30",
+    "id": "https://openalex.org/W7224794482"
+  },
+  {
+    "title": "SplitCA: An Effective Tool for Generating 4-wise Covering Arrays for Large-Scale Highly Configurable Systems",
+    "doi": "https://doi.org/10.1145/3832783.3834623",
+    "date": "2026-10-07",
+    "id": "https://openalex.org/W7221016804"
+  },
+  {
+    "title": "An Explicit Covering Array CA(411; 3, 11, 6) via Excursion-Capped Tabu Search",
+    "doi": "https://doi.org/10.5281/zenodo.24096229",
+    "date": "2026-11-10",
+    "id": "https://openalex.org/W7225728714"
+  },
+  {
+    "title": "CCAWS Reproducibility Package: Consensus Covering Array Wavelength Selection for Spectral Regression",
+    "doi": "https://doi.org/10.5281/zenodo.22222236",
+    "date": "2026-09-13",
+    "id": "https://openalex.org/W7221327188"
+  },
+  {
+    "title": "A Tuple-Oriented Sampling Method for Generating Small Pairwise Covering Arrays in Configurable Software Systems",
+    "doi": "https://doi.org/10.1145/3808176",
+    "date": "2026-06-30",
+    "id": "https://openalex.org/W7166744120"
+  },
+  {
+    "title": "QuadCA: High-Compression Covering Array Generation via Cache-Aligned Memory Mapping and Cardinality-Aware Quadratic Weighting",
+    "doi": "https://doi.org/10.2139/ssrn.7275140",
+    "date": "2026-01-01",
+    "id": "https://openalex.org/W7202354253"
+  },
+  {
+    "title": "Improved Sequence Covering Arrays of Strengths 3 to 8 Using a Greedy Post-Optimization Approach",
+    "doi": "https://doi.org/10.1109/access.2026.3751934",
+    "date": "2026-01-01",
+    "id": "https://openalex.org/W7225661107"
+  },
+  {
+    "title": "An effective covering array generation algorithm based on rollback and candidate-based test case removal strategies",
+    "doi": "https://doi.org/10.1016/j.infsof.2026.108255",
+    "date": "2026-07-13",
+    "id": "https://openalex.org/W7168161966"
+  },
+  {
+    "title": "Accelerating Sequence Covering Array Generation and Optimization via Differential Evaluation and Process-Level Parallelism",
+    "doi": "https://doi.org/10.31026/j.eng.2026.05.09",
+    "date": "2026-05-01",
+    "id": "https://openalex.org/W7160026722"
+  },
+  {
+    "title": "Covering arrays of strength 4 on 6 symbols from PGL(2, 5)-invariant starters",
+    "doi": "https://doi.org/10.5281/zenodo.24207827",
+    "date": "2026-11-13",
+    "id": "https://openalex.org/W7226002539"
+  },
+  {
+    "title": "Improved Upper Bounds for Strength-3 Covering Arrays over Six Symbols via Mixed Short and Regular PSL(2, 5) Orbits",
+    "doi": "https://doi.org/10.5281/zenodo.23877720",
+    "date": "2026-11-02",
+    "id": "https://openalex.org/W7225094259"
+  },
+  {
+    "title": "Weight Vector Definition for MOEA/D-Based Algorithms Using Augmented Covering Arrays for Many-Objective Optimization",
+    "doi": "https://doi.org/10.3390/math12111680",
+    "date": "2024-05-28",
+    "id": "https://openalex.org/W4399105525"
+  },
+  {
+    "title": "LiJiaHua1024/cyclic-covering-arrays: v1.6.1: Formal LaTeX Manuscript, PDF Preprint, and General Index Asymptotics",
+    "doi": "https://doi.org/10.5281/zenodo.22935004",
+    "date": "2026-09-24",
+    "id": "https://openalex.org/W7214177743"
+  },
+  {
+    "title": "Sequence Covering and Packing Arrays",
+    "doi": "https://doi.org/10.32920/26883661",
+    "date": "2024-09-05",
+    "id": "https://openalex.org/W4402260342"
+  },
+  {
+    "title": "Mixed-Level Covering, Locating, and Detecting Arrays via Cyclotomy",
+    "doi": "https://doi.org/10.1007/978-3-031-52969-6_4",
+    "date": "2024-01-01",
+    "id": "https://openalex.org/W4399701828"
+  },
+  {
+    "title": "On de Bruijn Covering Sequences and Arrays",
+    "doi": "https://doi.org/10.1109/isit57864.2024.10619219",
+    "date": "2024-07-07",
+    "id": "https://openalex.org/W4401692004"
+  },
+  {
+    "title": "New bounds on the covering radius of orthogonal arrays of even strength",
+    "doi": "https://doi.org/10.1007/s10801-026-01578-9",
+    "date": "2026-08-03",
+    "id": "https://openalex.org/W7172279739"
+  },
+  {
+    "title": "Intersection Arrays of Completely Regular Codes of Covering Radius One in Generalized Petersen Graphs",
+    "doi": "https://doi.org/10.48550/arxiv.2606.14190",
+    "date": "2026-06-12",
+    "id": "https://openalex.org/W7164812585"
+  },
+  {
+    "title": "Compact UWB Antenna Array covering the X-band for the Radar Application",
+    "doi": "https://doi.org/10.1109/iceict61637.2024.10671107",
+    "date": "2024-07-31",
+    "id": "https://openalex.org/W4402570823"
+  },
+  {
+    "title": "The Mechanism of the Semi-Transparent Coverings Affecting the Power Generation Capacity of the Photovoltaic Module and Array",
+    "doi": "https://doi.org/10.3390/en17071601",
+    "date": "2024-03-27",
+    "id": "https://openalex.org/W4393219793"
+  },
+  {
+    "title": "Excess coverage arrays and Levenshtein\u2019s conjecture",
+    "doi": "https://doi.org/10.1007/s10623-025-01722-9",
+    "date": "2025-08-30",
+    "id": "https://openalex.org/W4413852205"
+  },
+  {
+    "title": "A Wideband Tightly Coupled Dipole Array Covering 7-24 GHz for 5G/6G FR3 Applications",
+    "doi": "https://doi.org/10.1109/ap-s/usnc-ursi60190.2026.11675626",
+    "date": "2026-07-01",
+    "id": "https://openalex.org/W7212241736"
+  },
+  {
+    "title": "A Tri-Band Shared-Aperture Base Station Antenna Array Covering the 5G Mid-Band and the 6G Centimetric Waveband",
+    "doi": "https://doi.org/10.1109/tap.2025.3650679",
+    "date": "2026-01-12",
+    "id": "https://openalex.org/W7123338618"
+  },
+  {
+    "title": "Design of Shared-Aperture Base-Station Antenna Array Covering the 2G-5G Communication Systems",
+    "doi": "https://doi.org/10.1109/tap.2026.3748693",
+    "date": "2026-01-01",
+    "id": "https://openalex.org/W7225275705"
+  },
+  {
+    "title": "Recursive constructions for covering schemes of strength 3",
+    "doi": "https://doi.org/10.3934/amc.2024005",
+    "date": "2024-02-22",
+    "id": "https://openalex.org/W4392051205"
+  },
+  {
+    "title": "Detecting arrays on graphs",
+    "doi": "https://doi.org/10.3934/era.2025147",
+    "date": "2025-01-01",
+    "id": "https://openalex.org/W4410800059"
+  },
+  {
+    "title": "A classification of invariant sets of constant-weight tuples and applications to covering schemes",
+    "doi": "https://doi.org/10.1007/s12095-026-00890-2",
+    "date": "2026-04-27",
+    "id": "https://openalex.org/W7156465045"
+  },
+  {
+    "title": "Comments on \u201cConstraint models for the covering test problem\u201d",
+    "doi": "https://doi.org/10.1007/s10601-026-09387-4",
+    "date": "2026-06-01",
+    "id": "https://openalex.org/W7168037434"
+  },
+  {
+    "title": "Guitar-TECHS: An Electric Guitar Dataset Covering Techniques, Musical Excerpts, Chords and Scales Using a Diverse Array of Hardware",
+    "doi": "https://doi.org/10.1109/icassp49660.2025.10887996",
+    "date": "2025-03-12",
+    "id": "https://openalex.org/W4408353505"
+  },
+  {
+    "title": "A Heterogeneous Programmable A/D Converter Array Covering 2-500MHz BW and 81.4-58.7dB SNDR with over 170dB FoMs",
+    "doi": "https://doi.org/10.1109/a-sscc67472.2025.11349401",
+    "date": "2025-11-02",
+    "id": "https://openalex.org/W7125970499"
+  },
+  {
+    "title": "A novel 4 \u00d7 4 butler matrix with continuously tunable phase covering 360\u00b0 range and application for 1\u2010D and 2\u2010D beam scanning array",
+    "doi": "https://doi.org/10.1049/mia2.12459",
+    "date": "2024-02-06",
+    "id": "https://openalex.org/W4391608431"
+  },
+  {
+    "title": "Hybrid Dielectric-Metallic-Loaded Horn Array Antenna With Enhanced Bandwidth and Aperture Efficiency Covering Entire Ka Band",
+    "doi": "https://doi.org/10.1109/lawp.2026.3667543",
+    "date": "2026-02-24",
+    "id": "https://openalex.org/W7131247994"
+  },
+  {
+    "title": "A Broadband High-Gain and Low-Sidelobe CTS Array Covering Entire W-Band Based on Stacked Parallel Plate Gap Waveguide",
+    "doi": "https://doi.org/10.1109/tap.2024.3395846",
+    "date": "2024-05-07",
+    "id": "https://openalex.org/W4396712981"
+  },
+  {
+    "title": "Feature Selection for the Classification of Foodstuffs using Hyperspectral Images",
+    "doi": null,
+    "date": "2025-08-01",
+    "id": "https://openalex.org/W7155111877"
+  },
+  {
+    "title": "Certified computations on stalled combinatorial questions: disjoint Costas arrays D(13) = 11, bipancyclic graphs e(46) = 4, q-covering C2(6,3,2) \u2264 104",
+    "doi": "https://doi.org/10.5281/zenodo.24140010",
+    "date": "2026-11-11",
+    "id": "https://openalex.org/W7225812370"
+  },
+  {
+    "title": "The Cost of Detection in Interaction Testing",
+    "doi": "https://doi.org/10.1007/978-3-031-78369-2_5",
+    "date": "2024-10-29",
+    "id": "https://openalex.org/W4406167660"
+  },
+  {
+    "title": "Infinitely Many Almost-Uniform 3-Qualitative Independence Hypergraphs are Cores",
+    "doi": "https://doi.org/10.48550/arxiv.2611.04384",
+    "date": "2026-11-03",
+    "id": "https://openalex.org/W7225263843"
+  },
+  {
+    "title": "Explaining the impact of parameter combinations in agent-based models",
+    "doi": "https://doi.org/10.1016/j.jocs.2024.102342",
+    "date": "2024-06-21",
+    "id": "https://openalex.org/W4399903091"
+  },
+  {
+    "title": "A sharp Hadamard-Roux column-extension threshold for an order-12 family",
+    "doi": "https://doi.org/10.5281/zenodo.22742672",
+    "date": "2026-09-14",
+    "id": "https://openalex.org/W7213177742"
+  },
+  {
+    "title": "Sets of mutually orthogoval projective and affine planes",
+    "doi": "https://doi.org/10.5070/c64163845",
+    "date": "2024-07-01",
+    "id": "https://openalex.org/W4400196885"
+  },
+  {
+    "title": "Efficient Greedy Algorithms with Accuracy Guarantees for Combinatorial Restrictions",
+    "doi": "https://doi.org/10.1007/s42979-023-02548-9",
+    "date": "2024-02-01",
+    "id": "https://openalex.org/W4391431566"
+  },
+  {
+    "title": "Combinatorial Methods for Enhancing the Resilience of Production Facilities",
+    "doi": "https://doi.org/10.1109/icstw64639.2025.10962469",
+    "date": "2025-03-31",
+    "id": "https://openalex.org/W4409495582"
+  },
+  {
+    "title": "Maximum Shattering",
+    "doi": "https://doi.org/10.1002/jcd.22005",
+    "date": "2025-08-29",
+    "id": "https://openalex.org/W4413839716"
+  },
+  {
+    "title": "Combinatorial Testing of Engineered Systems With Hard\u2010to\u2010Change Factors",
+    "doi": "https://doi.org/10.1002/qre.70045",
+    "date": "2025-08-17",
+    "id": "https://openalex.org/W4413296386"
+  },
+  {
+    "title": "Guaranteeing anonymity in attribute-based authorization",
+    "doi": "https://doi.org/10.1016/j.jisa.2024.103895",
+    "date": "2024-11-04",
+    "id": "https://openalex.org/W4404025278"
+  },
+  {
+    "title": "A Comprehensive Review on Test Case Generation and Prioritization in Software Combinatorial Testing",
+    "doi": "https://doi.org/10.1109/isaeece66033.2025.11159917",
+    "date": "2025-06-20",
+    "id": "https://openalex.org/W4414405190"
+  },
+  {
+    "title": "A Remark on Downlink Massive Random Access",
+    "doi": "https://doi.org/10.1109/isit62367.2026.11654003",
+    "date": "2026-06-01",
+    "id": "https://openalex.org/W7125525025"
+  },
+  {
+    "title": "Dynamic TWGH: Client-Server Optimization for Scalable Combinatorial Test Suite Generation",
+    "doi": "https://doi.org/10.1051/bioconf/20249700115",
+    "date": "2024-01-01",
+    "id": "https://openalex.org/W4393982644"
+  },
+  {
+    "title": "On the Cores of Uniform and Almost-Uniform $3$-Qualitative Independence Hypergraphs",
+    "doi": "https://doi.org/10.48550/arxiv.2607.18674",
+    "date": "2026-07-21",
+    "id": "https://openalex.org/W7170054575"
+  },
+  {
+    "title": "Systematic Analysis of Search-Based Strategies for Combinatorial Test Suite Construction",
+    "doi": "https://doi.org/10.21015/vtse.v13i3.2125",
+    "date": "2025-09-01",
+    "id": "https://openalex.org/W4414808296"
+  },
+  {
+    "title": "A note on the k-restriction problem",
+    "doi": "https://doi.org/10.1016/j.ipl.2024.106515",
+    "date": "2024-06-03",
+    "id": "https://openalex.org/W4399284605"
+  },
+  {
+    "title": "Optimal Overlapping Tomography",
+    "doi": "https://doi.org/10.1103/t6qb-kdcp",
+    "date": "2025-07-14",
+    "id": "https://openalex.org/W4412400127"
+  },
+  {
+    "title": "Generative AI Combinatorial Test Assistants",
+    "doi": "https://doi.org/10.1109/icstw72326.2026.00044",
+    "date": "2026-05-18",
+    "id": "https://openalex.org/W7168482086"
+  },
+  {
+    "title": "Hybrid Metaheuristic Algorithm with Cluster Voting for Efficient Combinatorial Testing",
+    "doi": null,
+    "date": "2026-10-31",
+    "id": "https://openalex.org/W7225069344"
+  },
+  {
+    "title": "SeqTG: Scalable Combinatorial Test Generation via Sequential Integer Linear Programming",
+    "doi": "https://doi.org/10.48550/arxiv.2603.13963",
+    "date": "2026-03-14",
+    "id": "https://openalex.org/W7138451329"
+  },
+  {
+    "title": "Upholstery Coverings",
+    "doi": "https://doi.org/10.5040/9781501389726.ch-14",
+    "date": "2024-01-01",
+    "id": "https://openalex.org/W4392706955"
+  },
+  {
+    "title": "Homogenization of binary linear codes and their applications",
+    "doi": "https://doi.org/10.1016/j.ffa.2025.102589",
+    "date": "2025-02-06",
+    "id": "https://openalex.org/W4407216422"
+  },
+  {
+    "title": "Optimal qudit overlapping tomography and optimal measurement order",
+    "doi": "https://doi.org/10.48550/arxiv.2601.10059",
+    "date": "2026-01-15",
+    "id": "https://openalex.org/W7124470731"
+  },
+  {
+    "title": "Adaptive Algorithm Selection for Combinatorial Testing: The Relay Hybrid Approach",
+    "doi": "https://doi.org/10.1109/icsecs65227.2025.11279215",
+    "date": "2025-10-15",
+    "id": "https://openalex.org/W7123352691"
+  },
+  {
+    "title": "Constructions of covering sequences and 2D-sequences",
+    "doi": "https://doi.org/10.1007/s10623-025-01726-5",
+    "date": "2025-09-25",
+    "id": "https://openalex.org/W4414523919"
+  },
+  {
+    "title": "\\({k}\\)-Independent Boolean Networks",
+    "doi": "https://doi.org/10.1137/24m1700600",
+    "date": "2026-02-06",
+    "id": "https://openalex.org/W7128037630"
+  },
+  {
+    "title": "Methodology for the integration of the array control and data acquisition system with array elements of the Cherenkov Telescope Array Observatory",
+    "doi": "https://doi.org/10.1117/12.3017493",
+    "date": "2024-07-25",
+    "id": "https://openalex.org/W4400971676"
+  },
+  {
+    "title": "The Cherenkov Telescope Array",
+    "doi": "https://doi.org/10.1007/978-981-19-6960-7_70",
+    "date": "2024-01-01",
+    "id": "https://openalex.org/W4392311566"
+  },
+  {
+    "title": "Reverse Engineering for Input Modeling: Input Parameter Model Inference from Network Traces",
+    "doi": "https://doi.org/10.1007/978-3-032-05188-2_12",
+    "date": "2025-09-15",
+    "id": "https://openalex.org/W4414193228"
+  },
+  {
+    "title": "On an Enhanced Array Factor for Accurate Shaped-Beam Synthesis in Finite Arrays",
+    "doi": "https://doi.org/10.1109/array58370.2024.10880386",
+    "date": "2024-10-15",
+    "id": "https://openalex.org/W4407787439"
+  },
+  {
+    "title": "Reverse N-Wise Output-Oriented Testing for AI/ML and Quantum Computing Systems",
+    "doi": "https://doi.org/10.48550/arxiv.2602.14275",
+    "date": "2026-02-15",
+    "id": "https://openalex.org/W7129720287"
+  },
+  {
+    "title": "Near triple arrays",
+    "doi": "https://doi.org/10.1016/j.jcta.2025.106121",
+    "date": "2025-10-02",
+    "id": "https://openalex.org/W4414765037"
+  },
+  {
+    "title": "Ultra-Wideband Vivaldi Array Antenna for Active Phased Array Radar",
+    "doi": "https://doi.org/10.5515/kjkiees.2024.35.7.604",
+    "date": "2024-07-01",
+    "id": "https://openalex.org/W4401707024"
+  },
+  {
+    "title": "Association Rules Based Fault Localization in Combinatorial Testing",
+    "doi": "https://doi.org/10.1109/icstw72326.2026.00058",
+    "date": "2026-05-18",
+    "id": "https://openalex.org/W7168782046"
+  },
+  {
+    "title": "5G Base Station Antenna Array With Heatsink Radome",
+    "doi": "https://doi.org/10.1109/tap.2024.3358378",
+    "date": "2024-01-31",
+    "id": "https://openalex.org/W4391407206"
+  },
+  {
+    "title": "Arrays in Practice: An Empirical Study of Array Access Patterns on the JVM",
+    "doi": "https://doi.org/10.22152/programming-journal.org/2024/8/14",
+    "date": "2024-02-15",
+    "id": "https://openalex.org/W4392389970"
+  },
+  {
+    "title": "MaLT: Machine-Learning-Guided Test Case Design and Fault Localization of Complex Software Systems",
+    "doi": "https://doi.org/10.1109/memocode63347.2024.00011",
+    "date": "2024-10-03",
+    "id": "https://openalex.org/W4404101893"
+  }
+]

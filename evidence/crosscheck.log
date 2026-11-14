@@ -1,0 +1,2 @@
+CROSSCHECK=PASS: 86 rows; 9,880 triples; 266,760 requirements; 0 missing
+NEGATIVE_CONTROL=PASS: all-zero array misses 256,880 requirements

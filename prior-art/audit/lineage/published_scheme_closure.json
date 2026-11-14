@@ -1,0 +1,86 @@
+{
+  "scope": "DOI10.3934/amc.2024005 ternary strength-three seeds + Thm3.1/4.1/4.4/5.1 and projection",
+  "type": "optimistic relaxation, NOT a valid upper-bound table",
+  "ingredient_convention": "Castoldi CS: all differences, including zero; not nonzero-only DCA",
+  "seeds": {
+    "k4": 9,
+    "k6": 11,
+    "k8": 14
+  },
+  "projection": "all k>=3 below every available column count, retaining full row count",
+  "strength_two_ingredient_floor": {
+    "k3": 3,
+    "k4": 4,
+    "k_ge_5": 5
+  },
+  "budget": 28,
+  "closure_rounds": 4,
+  "maximum_columns_in_relaxed_closure": 18,
+  "reaches_40": false,
+  "optimistic_costs": {
+    "3": {
+      "rows": 9,
+      "last_step": "projection from 4"
+    },
+    "4": {
+      "rows": 9,
+      "last_step": "Prop2.6"
+    },
+    "5": {
+      "rows": 11,
+      "last_step": "projection from 6"
+    },
+    "6": {
+      "rows": 11,
+      "last_step": "Prop6.9"
+    },
+    "7": {
+      "rows": 14,
+      "last_step": "projection from 8"
+    },
+    "8": {
+      "rows": 14,
+      "last_step": "Ex6.11"
+    },
+    "9": {
+      "rows": 20,
+      "last_step": "Thm3.1 from 8"
+    },
+    "10": {
+      "rows": 21,
+      "last_step": "Thm5.1 from 6,6"
+    },
+    "11": {
+      "rows": 21,
+      "last_step": "projection from 12"
+    },
+    "12": {
+      "rows": 21,
+      "last_step": "Thm4.1 from 6"
+    },
+    "13": {
+      "rows": 24,
+      "last_step": "projection from 16"
+    },
+    "14": {
+      "rows": 24,
+      "last_step": "projection from 16"
+    },
+    "15": {
+      "rows": 24,
+      "last_step": "projection from 16"
+    },
+    "16": {
+      "rows": 24,
+      "last_step": "Thm4.1 from 8"
+    },
+    "17": {
+      "rows": 27,
+      "last_step": "projection from 18"
+    },
+    "18": {
+      "rows": 27,
+      "last_step": "Thm4.4 from 6,3"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "fusion": {
+    "count": 1043,
+    "best": [
+      {
+        "bound": 182,
+        "source": [
+          184,
+          3,
+          42,
+          4
+        ],
+        "id": "t3-v4-k42-1",
+        "construction": "Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.7 (2-plication) with q=4"
+      },
+      {
+        "bound": 189,
+        "source": [
+          191,
+          3,
+          46,
+          4
+        ],
+        "id": "t3-v4-k46-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 190,
+        "source": [
+          192,
+          3,
+          50,
+          4
+        ],
+        "id": "t3-v4-k50-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 209,
+        "source": [
+          211,
+          3,
+          52,
+          4
+        ],
+        "id": "t3-v4-k52-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 210,
+        "source": [
+          212,
+          3,
+          54,
+          4
+        ],
+        "id": "t3-v4-k54-1",
+        "construction": "Cyclotomy (Colbourn)"
+      }
+    ]
+  },
+  "derivation": {
+    "count": 379,
+    "best": [
+      {
+        "bound": 145,
+        "source": [
+          436,
+          4,
+          41,
+          3
+        ],
+        "id": "t4-v3-k41-1",
+        "construction": "CPHF 3-stage (TJ-IM)"
+      },
+      {
+        "bound": 147,
+        "source": [
+          441,
+          4,
+          42,
+          3
+        ],
+        "id": "t4-v3-k42-1",
+        "construction": "CPHF 3-stage (TJ-IM)"
+      },
+      {
+        "bound": 150,
+        "source": [
+          450,
+          4,
+          43,
+          3
+        ],
+        "id": "t4-v3-k43-1",
+        "construction": "CPHF 3-stage (TJ-IM)"
+      },
+      {
+        "bound": 151,
+        "source": [
+          453,
+          4,
+          44,
+          3
+        ],
+        "id": "t4-v3-k44-1",
+        "construction": "CPHF 3-stage (TJ-IM)"
+      },
+      {
+        "bound": 151,
+        "source": [
+          454,
+          4,
+          45,
+          3
+        ],
+        "id": "t4-v3-k45-1",
+        "construction": "CPHF 3-stage (TJ-IM)"
+      }
+    ]
+  },
+  "derive_then_fuse": {
+    "count": 3117,
+    "best": [
+      {
+        "bound": 304,
+        "source": [
+          1225,
+          4,
+          41,
+          4
+        ],
+        "id": "t4-v4-k41-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 308,
+        "source": [
+          1240,
+          4,
+          42,
+          4
+        ],
+        "id": "t4-v4-k42-1",
+        "construction": "2,2-Restricted SCPHF RE (CL)"
+      },
+      {
+        "bound": 310,
+        "source": [
+          1250,
+          4,
+          43,
+          4
+        ],
+        "id": "t4-v4-k43-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 314,
+        "source": [
+          1264,
+          4,
+          50,
+          4
+        ],
+        "id": "t4-v4-k50-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 323,
+        "source": [
+          1300,
+          4,
+          51,
+          4
+        ],
+        "id": "t4-v4-k51-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      }
+    ]
+  },
+  "fuse_then_derive": {
+    "count": 3117,
+    "best": [
+      {
+        "bound": 407,
+        "source": [
+          1225,
+          4,
+          41,
+          4
+        ],
+        "id": "t4-v4-k41-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 412,
+        "source": [
+          1240,
+          4,
+          42,
+          4
+        ],
+        "id": "t4-v4-k42-1",
+        "construction": "2,2-Restricted SCPHF RE (CL)"
+      },
+      {
+        "bound": 416,
+        "source": [
+          1250,
+          4,
+          43,
+          4
+        ],
+        "id": "t4-v4-k43-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 420,
+        "source": [
+          1264,
+          4,
+          50,
+          4
+        ],
+        "id": "t4-v4-k50-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      },
+      {
+        "bound": 432,
+        "source": [
+          1300,
+          4,
+          51,
+          4
+        ],
+        "id": "t4-v4-k51-1",
+        "construction": "CPHF 3-stage (IM-TJ-AJ-AG)"
+      }
+    ]
+  }
+}

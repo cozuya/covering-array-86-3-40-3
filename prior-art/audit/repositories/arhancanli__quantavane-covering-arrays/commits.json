@@ -1,0 +1,822 @@
+[
+  {
+    "sha": "69dd74560ef0459e51fb5551ca3babd4c1520ea8",
+    "node_id": "C_kwDOVbaQ_toAKDY5ZGQ3NDU2MGVmMDQ1OWU1MWZiNTU1MWNhM2JhYmQ0YzE1MjBlYTg",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-11T11:56:50Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-11T11:56:50Z"
+      },
+      "message": "CITATION.cff and a How to cite section: the reference for this repository, the table that lists the results, and the papers where they exist",
+      "tree": {
+        "sha": "b2e83708bfa57b44d060f0bef83ab13af4103d4c",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/b2e83708bfa57b44d060f0bef83ab13af4103d4c"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/69dd74560ef0459e51fb5551ca3babd4c1520ea8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQAchbqKVDaNilWWhDC13Un+159wAOzw/pqGf0h0g4LYTKaSLfJJWqdL3ZGtEDCXxVQ\ntqqRtTN8n5mbCh99hawgQ=\n-----END SSH SIGNATURE-----",
+        "payload": "tree b2e83708bfa57b44d060f0bef83ab13af4103d4c\nparent f3e4cf01b199c330cdca6e2c602b30615ef06ad1\nauthor Arhan Canli <arhancanli@icloud.com> 1794398210 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794398210 +0400\n\nCITATION.cff and a How to cite section: the reference for this repository, the table that lists the results, and the papers where they exist\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/69dd74560ef0459e51fb5551ca3babd4c1520ea8",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/69dd74560ef0459e51fb5551ca3babd4c1520ea8",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/69dd74560ef0459e51fb5551ca3babd4c1520ea8/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f3e4cf01b199c330cdca6e2c602b30615ef06ad1",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/f3e4cf01b199c330cdca6e2c602b30615ef06ad1",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/f3e4cf01b199c330cdca6e2c602b30615ef06ad1"
+      }
+    ]
+  },
+  {
+    "sha": "f3e4cf01b199c330cdca6e2c602b30615ef06ad1",
+    "node_id": "C_kwDOVbaQ_toAKGYzZTRjZjAxYjE5OWMzMzBjZGNhNmUyYzYwMmIzMDYxNWVmMDZhZDE",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-11T08:11:05Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-11T08:11:05Z"
+      },
+      "message": "wide/: four seven-row strength-3 families over the alphabets 27, 29, 31 and 32, up to 944,542 columns, each with three exact checks; 5,317,403 more cells (9,720,578 in all)",
+      "tree": {
+        "sha": "673a2eb6733b913ad278d1af223a5da7e43bccb9",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/673a2eb6733b913ad278d1af223a5da7e43bccb9"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/f3e4cf01b199c330cdca6e2c602b30615ef06ad1",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQM0C4W+Yu65r9Q6U0msyqNFFZZwnrPvw36Bv3TrC1yAei7hxQq/V66s3zRvWhTvIaL\nbNyI/NKeer1xxn99QFEAI=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 673a2eb6733b913ad278d1af223a5da7e43bccb9\nparent 16a101457fb1659b9f7f058deff06463e7ffafce\nauthor Arhan Canli <arhancanli@icloud.com> 1794384665 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794384665 +0400\n\nwide/: four seven-row strength-3 families over the alphabets 27, 29, 31 and 32, up to 944,542 columns, each with three exact checks; 5,317,403 more cells (9,720,578 in all)\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/f3e4cf01b199c330cdca6e2c602b30615ef06ad1",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/f3e4cf01b199c330cdca6e2c602b30615ef06ad1",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/f3e4cf01b199c330cdca6e2c602b30615ef06ad1/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "16a101457fb1659b9f7f058deff06463e7ffafce",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/16a101457fb1659b9f7f058deff06463e7ffafce",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/16a101457fb1659b9f7f058deff06463e7ffafce"
+      }
+    ]
+  },
+  {
+    "sha": "16a101457fb1659b9f7f058deff06463e7ffafce",
+    "node_id": "C_kwDOVbaQ_toAKDE2YTEwMTQ1N2ZiMTY1OWI5ZjdmMDU4ZGVmZjA2NDYzZTdmZmFmY2U",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-11T04:02:19Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-11T04:02:19Z"
+      },
+      "message": "strength4/: a fourth family, CPHF(18; 100000, 19, 4), giving CA(2345761; 4, 100000, 19), with its ca-tools certificate row, HOW.md and two exact checks (t4ref and the ca-tools cphfcheck in mode progression, both PASS, on Kaggle); the cells checker's status at this width stated",
+      "tree": {
+        "sha": "0ec34845183dc219b761363ca329d2e536bbe505",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/0ec34845183dc219b761363ca329d2e536bbe505"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/16a101457fb1659b9f7f058deff06463e7ffafce",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQEVQSTJsh07W6I19SGp2RYJDlGU3M50DgCk7gcyNXwkQA3e+nO1EG795WPx/MHB5qt\nw7jCz0i3iY2TQ2mOFaGww=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 0ec34845183dc219b761363ca329d2e536bbe505\nparent 7c9a370fd1da84a994ca61e84a34801412855cd8\nauthor Arhan Canli <arhancanli@icloud.com> 1794369739 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794369739 +0400\n\nstrength4/: a fourth family, CPHF(18; 100000, 19, 4), giving CA(2345761; 4, 100000, 19), with its ca-tools certificate row, HOW.md and two exact checks (t4ref and the ca-tools cphfcheck in mode progression, both PASS, on Kaggle); the cells checker's status at this width stated\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/16a101457fb1659b9f7f058deff06463e7ffafce",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/16a101457fb1659b9f7f058deff06463e7ffafce",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/16a101457fb1659b9f7f058deff06463e7ffafce/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7c9a370fd1da84a994ca61e84a34801412855cd8",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/7c9a370fd1da84a994ca61e84a34801412855cd8",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/7c9a370fd1da84a994ca61e84a34801412855cd8"
+      }
+    ]
+  },
+  {
+    "sha": "7c9a370fd1da84a994ca61e84a34801412855cd8",
+    "node_id": "C_kwDOVbaQ_toAKDdjOWEzNzBmZDFkYTg0YTk5NGNhNjFlODRhMzQ4MDE0MTI4NTVjZDg",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-11T03:29:33Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-11T03:29:33Z"
+      },
+      "message": "strength4/: three partly cyclic strength-4 CPHFs at 100,000 columns found by our search, CPHF(18; 100000, 25, 4), CPHF(17; 100000, 23, 4) and CPHF(21; 100000, 17, 4), giving CA(7031233; 4, 100000, 25), CA(4757281; 4, 100000, 23) and CA(1753921; 4, 100000, 17), each with its ca-tools certificate row, HOW.md and two exact checks (our refinement checker t4ref and the ca-tools cphfcheck in mode progression, both PASS); the builder and checker code/search/cphf4p/t4ref_v1.c and t4ref_v2.c (MIT) and the cells checker checker/t4cells.c, whose runs at this width are still going",
+      "tree": {
+        "sha": "8d5ed5bddf8a0c7956b550dc0913d2fbb39db6ca",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/8d5ed5bddf8a0c7956b550dc0913d2fbb39db6ca"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/7c9a370fd1da84a994ca61e84a34801412855cd8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQLDD0vWLtxe34zsRhxB4RLSnmIy5jiWIkiWUOEsI5eTnvcOEOV217Z7CbgSm8ipCYm\nT9VWOOG8cYE3Uy/mpzQw0=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 8d5ed5bddf8a0c7956b550dc0913d2fbb39db6ca\nparent 7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a\nauthor Arhan Canli <arhancanli@icloud.com> 1794367773 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794367773 +0400\n\nstrength4/: three partly cyclic strength-4 CPHFs at 100,000 columns found by our search, CPHF(18; 100000, 25, 4), CPHF(17; 100000, 23, 4) and CPHF(21; 100000, 17, 4), giving CA(7031233; 4, 100000, 25), CA(4757281; 4, 100000, 23) and CA(1753921; 4, 100000, 17), each with its ca-tools certificate row, HOW.md and two exact checks (our refinement checker t4ref and the ca-tools cphfcheck in mode progression, both PASS); the builder and checker code/search/cphf4p/t4ref_v1.c and t4ref_v2.c (MIT) and the cells checker checker/t4cells.c, whose runs at this width are still going\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/7c9a370fd1da84a994ca61e84a34801412855cd8",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/7c9a370fd1da84a994ca61e84a34801412855cd8",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/7c9a370fd1da84a994ca61e84a34801412855cd8/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a"
+      }
+    ]
+  },
+  {
+    "sha": "7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a",
+    "node_id": "C_kwDOVbaQ_toAKDdhNzQwMWJiMDNiN2VlODQyYzNmYjFjYjk0YWFhMGYzMzMwZjAxOGE",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-10T03:12:57Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-10T03:12:57Z"
+      },
+      "message": "strength2/: nine strength-2 families whose columns are all n-tuples of GF(q) (q = 8, 9, 11, 13, 16, 17, 19, 23, 25), giving the classical products CA(n(q^2 - q) + q; 2, k, q) up to 100,000 columns, each with its ca-tools certificate row, HOW.md and three checks (checker/t2pairs.c and checker/t2distinct.py, exact and written separately; checker/t2expand.c on the expanded array). Local absolute paths replaced by relative names in five check logs of checks/second.",
+      "tree": {
+        "sha": "debd4d15012b54f14f606c7cbb1d0e62f3309a36",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/debd4d15012b54f14f606c7cbb1d0e62f3309a36"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQPgZhsSJtg37tPG8Zgs90abS3CLqRaQBW5hEooTJmtCNTj77WddVc+lmh65ClF28E1\nSUYVUQBEg7oBnnSU7omwM=\n-----END SSH SIGNATURE-----",
+        "payload": "tree debd4d15012b54f14f606c7cbb1d0e62f3309a36\nparent c97dcf012e6a09a27b21e8b19b6828f2f6f65f63\nauthor Arhan Canli <arhancanli@icloud.com> 1794280377 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794280377 +0400\n\nstrength2/: nine strength-2 families whose columns are all n-tuples of GF(q) (q = 8, 9, 11, 13, 16, 17, 19, 23, 25), giving the classical products CA(n(q^2 - q) + q; 2, k, q) up to 100,000 columns, each with its ca-tools certificate row, HOW.md and three checks (checker/t2pairs.c and checker/t2distinct.py, exact and written separately; checker/t2expand.c on the expanded array). Local absolute paths replaced by relative names in five check logs of checks/second.\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/7a7401bb03b7ee842c3fb1cb94aaa0f3330f018a/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c97dcf012e6a09a27b21e8b19b6828f2f6f65f63",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/c97dcf012e6a09a27b21e8b19b6828f2f6f65f63",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/c97dcf012e6a09a27b21e8b19b6828f2f6f65f63"
+      }
+    ]
+  },
+  {
+    "sha": "c97dcf012e6a09a27b21e8b19b6828f2f6f65f63",
+    "node_id": "C_kwDOVbaQ_toAKGM5N2RjZjAxMmU2YTA5YTI3YjIxZThiMTliNjgyOGYyZjZmNjVmNjM",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-08T14:00:34Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-08T14:00:34Z"
+      },
+      "message": "Strength 6, q = 8: SCPHF(23; 3171, 8, 6) giving CA(6,029,136; 6, 3171, 8), its first exact check (scphf6_fast on the 4,600-column draw) and its second (fullcheck6, mode full, 4,199,552,135,592 steps, PASS); the v6 counting, subfield and archival-baseline code and logs; second checks of the q = 9 and q = 11 tails. Local absolute paths replaced by file names in three files (a test script, a checksum log, a check log).",
+      "tree": {
+        "sha": "9db8d422e5546195ad74a76bc7c37e3ebf9a3eaf",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/9db8d422e5546195ad74a76bc7c37e3ebf9a3eaf"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/c97dcf012e6a09a27b21e8b19b6828f2f6f65f63",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQIsccNY/sDEAabgHIkwlQIM9W6FsJfpXZkesl68DF1VcI/4Xlky5+5w3mDC++E97ph\nAVfcvC0NdNy4EG3sjgMQA=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 9db8d422e5546195ad74a76bc7c37e3ebf9a3eaf\nparent 512fd0d96561c6b4c98a98f3655ea052485db297\nauthor Arhan Canli <arhancanli@icloud.com> 1794146434 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794146434 +0400\n\nStrength 6, q = 8: SCPHF(23; 3171, 8, 6) giving CA(6,029,136; 6, 3171, 8), its first exact check (scphf6_fast on the 4,600-column draw) and its second (fullcheck6, mode full, 4,199,552,135,592 steps, PASS); the v6 counting, subfield and archival-baseline code and logs; second checks of the q = 9 and q = 11 tails. Local absolute paths replaced by file names in three files (a test script, a checksum log, a check log).\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/c97dcf012e6a09a27b21e8b19b6828f2f6f65f63",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/c97dcf012e6a09a27b21e8b19b6828f2f6f65f63",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/c97dcf012e6a09a27b21e8b19b6828f2f6f65f63/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "512fd0d96561c6b4c98a98f3655ea052485db297",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/512fd0d96561c6b4c98a98f3655ea052485db297",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/512fd0d96561c6b4c98a98f3655ea052485db297"
+      }
+    ]
+  },
+  {
+    "sha": "512fd0d96561c6b4c98a98f3655ea052485db297",
+    "node_id": "C_kwDOVbaQ_toAKDUxMmZkMGQ5NjU2MWM2YjRjOThhOThmMzY1NWVhMDUyNDg1ZGIyOTc",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-08T00:40:07Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-08T00:40:07Z"
+      },
+      "message": "wide/: CA(1,024; 3, 165,004, 4) from SCPHF(17; 165004, 4^2, 3), three exact checks; totals 4,403,175 cells",
+      "tree": {
+        "sha": "3cd7ca1617b1cc2bcf0a7f8ebb3e2cec2898f395",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/3cd7ca1617b1cc2bcf0a7f8ebb3e2cec2898f395"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/512fd0d96561c6b4c98a98f3655ea052485db297",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQMC943Rjl/0VeqaiH5ZJIhMi558ADLeAMBLPIHWG2TxxH2FdOgufOxyEHSsgUrsO12\nU+drDejs0721ynHtRq2gc=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 3cd7ca1617b1cc2bcf0a7f8ebb3e2cec2898f395\nparent 5da763ac8a0caf896d0f4a1c60300d4371de72f7\nauthor Arhan Canli <arhancanli@icloud.com> 1794098407 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794098407 +0400\n\nwide/: CA(1,024; 3, 165,004, 4) from SCPHF(17; 165004, 4^2, 3), three exact checks; totals 4,403,175 cells\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/512fd0d96561c6b4c98a98f3655ea052485db297",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/512fd0d96561c6b4c98a98f3655ea052485db297",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/512fd0d96561c6b4c98a98f3655ea052485db297/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5da763ac8a0caf896d0f4a1c60300d4371de72f7",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/5da763ac8a0caf896d0f4a1c60300d4371de72f7",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/5da763ac8a0caf896d0f4a1c60300d4371de72f7"
+      }
+    ]
+  },
+  {
+    "sha": "5da763ac8a0caf896d0f4a1c60300d4371de72f7",
+    "node_id": "C_kwDOVbaQ_toAKDVkYTc2M2FjOGEwY2FmODk2ZDBmNGExYzYwMzAwZDQzNzFkZTcyZjc",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-07T21:44:56Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-07T21:44:56Z"
+      },
+      "message": "wide/: 15 strength-3 families past 100,000 columns (q = 5 to 32), each with three exact checks (own coding, Conway field, fullcheck3) and a ca-tools certificate row; 4,338,171 cells no table lists (README). The ca-tools table keeps k <= 100,000 (Smolen, #54), so they live here.",
+      "tree": {
+        "sha": "7f97a6f1d0b6531944afbc317485d191674fcad1",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/7f97a6f1d0b6531944afbc317485d191674fcad1"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/5da763ac8a0caf896d0f4a1c60300d4371de72f7",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQFf+TfvCt3umBUbiww6YKBmv3AR9FnrG2S1EHnMlnx5x/y7oBtXGiknm6QbTExGzm7\nDXq2acgYX0PMaClQJSQAI=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 7f97a6f1d0b6531944afbc317485d191674fcad1\nparent a31a18e53ada8678684286d83839157ebced39b5\nauthor Arhan Canli <arhancanli@icloud.com> 1794087896 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794087896 +0400\n\nwide/: 15 strength-3 families past 100,000 columns (q = 5 to 32), each with three exact checks (own coding, Conway field, fullcheck3) and a ca-tools certificate row; 4,338,171 cells no table lists (README). The ca-tools table keeps k <= 100,000 (Smolen, #54), so they live here.\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/5da763ac8a0caf896d0f4a1c60300d4371de72f7",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/5da763ac8a0caf896d0f4a1c60300d4371de72f7",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/5da763ac8a0caf896d0f4a1c60300d4371de72f7/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a31a18e53ada8678684286d83839157ebced39b5",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/a31a18e53ada8678684286d83839157ebced39b5",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/a31a18e53ada8678684286d83839157ebced39b5"
+      }
+    ]
+  },
+  {
+    "sha": "a31a18e53ada8678684286d83839157ebced39b5",
+    "node_id": "C_kwDOVbaQ_toAKGEzMWExOGU1M2FkYTg2Nzg2ODQyODZkODM4MzkxNTdlYmNlZDM5YjU",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-07T13:09:12Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-07T13:09:12Z"
+      },
+      "message": "code/: the search programs (every revision), closure and counting, subfield computations (MIT); README for 196 families",
+      "tree": {
+        "sha": "0f2a80108302495af2a83758903b1e728a58233c",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/0f2a80108302495af2a83758903b1e728a58233c"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/a31a18e53ada8678684286d83839157ebced39b5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQCRh3+H7fQpwD77q1KVNMkK8p/23AmnrGH55zxfXaIGeRfqjzZ1BUpqVNhshnPykzY\nW07lh/JAnNCsRbUC5sagA=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 0f2a80108302495af2a83758903b1e728a58233c\nparent 6183ffe4a7cebd87c4a65d1f08d8314779062d60\nauthor Arhan Canli <arhancanli@icloud.com> 1794056952 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1794056952 +0400\n\ncode/: the search programs (every revision), closure and counting, subfield computations (MIT); README for 196 families\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/a31a18e53ada8678684286d83839157ebced39b5",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/a31a18e53ada8678684286d83839157ebced39b5",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/a31a18e53ada8678684286d83839157ebced39b5/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6183ffe4a7cebd87c4a65d1f08d8314779062d60",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/6183ffe4a7cebd87c4a65d1f08d8314779062d60",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/6183ffe4a7cebd87c4a65d1f08d8314779062d60"
+      }
+    ]
+  },
+  {
+    "sha": "6183ffe4a7cebd87c4a65d1f08d8314779062d60",
+    "node_id": "C_kwDOVbaQ_toAKDYxODNmZmU0YTdjZWJkODdjNGE2NWQxZjA4ZDgzMTQ3NzkwNjJkNjA",
+    "commit": {
+      "author": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-06T20:37:29Z"
+      },
+      "committer": {
+        "name": "Arhan Canli",
+        "email": "arhancanli@icloud.com",
+        "date": "2026-11-06T20:37:29Z"
+      },
+      "message": "Strength 3, q = 4: SCPHF(16; 90723, 4, 3), the missing rung of the ladder, with three exact checks and its ca-tools certificate\n\nCA(964; 3, k, 4) for every k <= 90,723. Checks of every column triple: pq_scphf3_bigcheck.c on our coding and on the released file (Conway coding), and fullcheck3.c, a second checker written separately (added to checker/). The certificate in the form of ca-tools pull request #51 is in ca-tools/submissions/canli-2026-11-t3-k90723/.",
+      "tree": {
+        "sha": "1178299a60a27ac1592ad6c675d0471b2c448dfd",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/trees/1178299a60a27ac1592ad6c675d0471b2c448dfd"
+      },
+      "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/git/commits/6183ffe4a7cebd87c4a65d1f08d8314779062d60",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "no_user",
+        "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgPoy/XxaZ/KA6fidGBqepddrrMD\nfTXNGJy177GnJOg/UAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQFJhhmv/0XJwgqf/An6jwwhw305q7rGKJct9K6nSsLYGzApGQVdL55B1UtbdNQNR2T\nuA9fGbt/17w7aHwZGitwE=\n-----END SSH SIGNATURE-----",
+        "payload": "tree 1178299a60a27ac1592ad6c675d0471b2c448dfd\nparent ea668c069c71513e3f6499aeb50a09c17a9779a8\nauthor Arhan Canli <arhancanli@icloud.com> 1793997449 +0400\ncommitter Arhan Canli <arhancanli@icloud.com> 1793997449 +0400\n\nStrength 3, q = 4: SCPHF(16; 90723, 4, 3), the missing rung of the ladder, with three exact checks and its ca-tools certificate\n\nCA(964; 3, k, 4) for every k <= 90,723. Checks of every column triple: pq_scphf3_bigcheck.c on our coding and on the released file (Conway coding), and fullcheck3.c, a second checker written separately (added to checker/). The certificate in the form of ca-tools pull request #51 is in ca-tools/submissions/canli-2026-11-t3-k90723/.\n",
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/6183ffe4a7cebd87c4a65d1f08d8314779062d60",
+    "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/6183ffe4a7cebd87c4a65d1f08d8314779062d60",
+    "comments_url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/6183ffe4a7cebd87c4a65d1f08d8314779062d60/comments",
+    "author": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "Arhancanli-cell",
+      "id": 272781308,
+      "node_id": "U_kgDOEEJP_A",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272781308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arhancanli-cell",
+      "html_url": "https://github.com/Arhancanli-cell",
+      "followers_url": "https://api.github.com/users/Arhancanli-cell/followers",
+      "following_url": "https://api.github.com/users/Arhancanli-cell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arhancanli-cell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arhancanli-cell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arhancanli-cell/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arhancanli-cell/orgs",
+      "repos_url": "https://api.github.com/users/Arhancanli-cell/repos",
+      "events_url": "https://api.github.com/users/Arhancanli-cell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arhancanli-cell/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ea668c069c71513e3f6499aeb50a09c17a9779a8",
+        "url": "https://api.github.com/repos/arhancanli/quantavane-covering-arrays/commits/ea668c069c71513e3f6499aeb50a09c17a9779a8",
+        "html_url": "https://github.com/arhancanli/quantavane-covering-arrays/commit/ea668c069c71513e3f6499aeb50a09c17a9779a8"
+      }
+    ]
+  }
+]

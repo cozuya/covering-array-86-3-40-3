@@ -1,0 +1,1068 @@
+{
+  "purpose": "Finite numerical prior-art implications, not an optimization search or proof of novelty",
+  "threshold": {
+    "N_max": 86,
+    "t_min": 3,
+    "k_min": 40,
+    "v_min": 3
+  },
+  "tables": [
+    {
+      "filename": "ca_frame.csv",
+      "sha256": "88065f07245c9eb69df6d28bee645b72f4d147bf827dc580b6cbd4e07bdd6059",
+      "total_rows": 9627,
+      "eligible_direct_rows": 4689,
+      "t3_v3_k40plus_rows": 110,
+      "direct_minimum": {
+        "csv_line": 3376,
+        "parameters": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "row": {
+          "t": "3",
+          "v": "3",
+          "k": "40",
+          "N": "87",
+          "basis": "row",
+          "tier": "VERIFIED",
+          "id": "t3-v3-k40-2",
+          "constant_rows": "1",
+          "constant_rows_basis": "exact",
+          "get": "file",
+          "get_ref": "table/arrays/CA_87_3_40_3.txt",
+          "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+          "family": "",
+          "constructions_all": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+          "ids_all": "t3-v3-k40-2",
+          "prev_id": "t3-v3-k40-1",
+          "entered": "2026-11-02",
+          "generated": "2026-11-13"
+        }
+      },
+      "best_guaranteed_reduction": {
+        "csv_line": 3376,
+        "source_parameters": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "source_row": {
+          "t": "3",
+          "v": "3",
+          "k": "40",
+          "N": "87",
+          "basis": "row",
+          "tier": "VERIFIED",
+          "id": "t3-v3-k40-2",
+          "constant_rows": "1",
+          "constant_rows_basis": "exact",
+          "get": "file",
+          "get_ref": "table/arrays/CA_87_3_40_3.txt",
+          "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+          "family": "",
+          "constructions_all": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+          "ids_all": "t3-v3-k40-2",
+          "prev_id": "t3-v3-k40-1",
+          "entered": "2026-11-02",
+          "generated": "2026-11-13"
+        },
+        "implied_N": 87,
+        "state": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "path": []
+      },
+      "group_best": {
+        "ternary_t3": {
+          "csv_line": 3376,
+          "source_parameters": [
+            87,
+            3,
+            40,
+            3
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "3",
+            "k": "40",
+            "N": "87",
+            "basis": "row",
+            "tier": "VERIFIED",
+            "id": "t3-v3-k40-2",
+            "constant_rows": "1",
+            "constant_rows_basis": "exact",
+            "get": "file",
+            "get_ref": "table/arrays/CA_87_3_40_3.txt",
+            "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+            "family": "",
+            "constructions_all": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+            "ids_all": "t3-v3-k40-2",
+            "prev_id": "t3-v3-k40-1",
+            "entered": "2026-11-02",
+            "generated": "2026-11-13"
+          },
+          "implied_N": 87,
+          "state": [
+            87,
+            3,
+            40,
+            3
+          ],
+          "path": []
+        },
+        "larger_alphabet_t3": {
+          "csv_line": 3495,
+          "source_parameters": [
+            184,
+            3,
+            42,
+            4
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "4",
+            "k": "42",
+            "N": "184",
+            "basis": "row",
+            "tier": "VERIFIED",
+            "id": "t3-v4-k42-1",
+            "constant_rows": "1",
+            "constant_rows_basis": "exact",
+            "get": "file",
+            "get_ref": "table/arrays/CA_184_3_42_4.txt",
+            "construction": "Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.7 (2-plication) with q=4",
+            "family": "",
+            "constructions_all": "Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.7 (2-plication) with q=4",
+            "ids_all": "t3-v4-k42-1",
+            "prev_id": "t3-v4-k46-1",
+            "entered": "2026-11-02",
+            "generated": "2026-11-13"
+          },
+          "implied_N": 182,
+          "state": [
+            182,
+            3,
+            42,
+            3
+          ],
+          "path": [
+            "fuse 4 to 3"
+          ]
+        },
+        "ternary_higher_strength": {
+          "csv_line": 4902,
+          "source_parameters": [
+            436,
+            4,
+            41,
+            3
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "3",
+            "k": "41",
+            "N": "436",
+            "basis": "row",
+            "tier": "CITED",
+            "id": "t4-v3-k41-1",
+            "constant_rows": "",
+            "constant_rows_basis": "",
+            "get": "none",
+            "get_ref": "",
+            "construction": "CPHF 3-stage (TJ-IM)",
+            "family": "",
+            "constructions_all": "CPHF 3-stage (TJ-IM)",
+            "ids_all": "t4-v3-k41-1",
+            "prev_id": "",
+            "entered": "2026-08-23",
+            "generated": "2026-11-13"
+          },
+          "implied_N": 145,
+          "state": [
+            145,
+            3,
+            40,
+            3
+          ],
+          "path": [
+            "derive at alphabet 3"
+          ]
+        },
+        "larger_alphabet_higher_strength": {
+          "csv_line": 5018,
+          "source_parameters": [
+            1225,
+            4,
+            41,
+            4
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "4",
+            "k": "41",
+            "N": "1225",
+            "basis": "row",
+            "tier": "CITED",
+            "id": "t4-v4-k41-1",
+            "constant_rows": "",
+            "constant_rows_basis": "",
+            "get": "none",
+            "get_ref": "",
+            "construction": "CPHF 3-stage (IM-TJ-AJ-AG)",
+            "family": "",
+            "constructions_all": "CPHF 3-stage (IM-TJ-AJ-AG)",
+            "ids_all": "t4-v4-k41-1",
+            "prev_id": "",
+            "entered": "2026-08-23",
+            "generated": "2026-11-13"
+          },
+          "implied_N": 304,
+          "state": [
+            304,
+            3,
+            40,
+            3
+          ],
+          "path": [
+            "derive at alphabet 4",
+            "fuse 4 to 3"
+          ]
+        }
+      },
+      "equal_or_stronger_rows": []
+    },
+    {
+      "filename": "ca_table.csv",
+      "sha256": "d8c5203832cca9de92323f63d1a1b1c03ede3c2bf9a04a50614a8b00a63b0147",
+      "total_rows": 15572,
+      "eligible_direct_rows": 9329,
+      "t3_v3_k40plus_rows": 113,
+      "direct_minimum": {
+        "csv_line": 14704,
+        "parameters": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "row": {
+          "t": "3",
+          "v": "3",
+          "k": "40",
+          "N": "87",
+          "tier": "VERIFIED",
+          "source_id": "S7",
+          "source_detail": "doi:10.5281/zenodo.23787055 (Bai XunDi 2026, covering arrays data and code), file arrays/CA_87_3_40_3.txt inside arrays_t3.zip; exhaustive checker code/cacheck.py in code.zip; construction: K. Shokri and L. Moura, New families of strength-3 covering arrays using linear feedback shift register sequences, J. Combin. Des. 33 (2025) 156-171, doi:10.1002/jcd.21963",
+          "snapshot_id": "pr-34",
+          "array_sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158",
+          "verify_stamp": "ca_verify 70c4201 2026-11-02 github-actions",
+          "entered": "2026-11-02",
+          "notes": "credit: Kianoosh Shokri and Lucia Moura 2025 (the ingredient CA(87; 3, 39, 3): q-plication, J. Combin. Des. 33 (2025), doi:10.1002/jcd.21963; Theorem 5.2.8 of K. Shokri's PhD thesis), Bai XunDi (the derivation); exceeds table: previous best 89 (row k=40, CITED S1 colbourn-2024-11-ug: Chateauneuf-Kreher doubling); submission bai-xundi-2026-11-part9; computed and checked with Claude (Anthropic)",
+          "lb": "",
+          "lb_evidence": "",
+          "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+          "builds_on": "lfsr-sm2025;deposit-bai2026",
+          "family_sha256": ""
+        }
+      },
+      "best_guaranteed_reduction": {
+        "csv_line": 14704,
+        "source_parameters": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "source_row": {
+          "t": "3",
+          "v": "3",
+          "k": "40",
+          "N": "87",
+          "tier": "VERIFIED",
+          "source_id": "S7",
+          "source_detail": "doi:10.5281/zenodo.23787055 (Bai XunDi 2026, covering arrays data and code), file arrays/CA_87_3_40_3.txt inside arrays_t3.zip; exhaustive checker code/cacheck.py in code.zip; construction: K. Shokri and L. Moura, New families of strength-3 covering arrays using linear feedback shift register sequences, J. Combin. Des. 33 (2025) 156-171, doi:10.1002/jcd.21963",
+          "snapshot_id": "pr-34",
+          "array_sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158",
+          "verify_stamp": "ca_verify 70c4201 2026-11-02 github-actions",
+          "entered": "2026-11-02",
+          "notes": "credit: Kianoosh Shokri and Lucia Moura 2025 (the ingredient CA(87; 3, 39, 3): q-plication, J. Combin. Des. 33 (2025), doi:10.1002/jcd.21963; Theorem 5.2.8 of K. Shokri's PhD thesis), Bai XunDi (the derivation); exceeds table: previous best 89 (row k=40, CITED S1 colbourn-2024-11-ug: Chateauneuf-Kreher doubling); submission bai-xundi-2026-11-part9; computed and checked with Claude (Anthropic)",
+          "lb": "",
+          "lb_evidence": "",
+          "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+          "builds_on": "lfsr-sm2025;deposit-bai2026",
+          "family_sha256": ""
+        },
+        "implied_N": 87,
+        "state": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "path": []
+      },
+      "group_best": {
+        "ternary_t3": {
+          "csv_line": 14704,
+          "source_parameters": [
+            87,
+            3,
+            40,
+            3
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "3",
+            "k": "40",
+            "N": "87",
+            "tier": "VERIFIED",
+            "source_id": "S7",
+            "source_detail": "doi:10.5281/zenodo.23787055 (Bai XunDi 2026, covering arrays data and code), file arrays/CA_87_3_40_3.txt inside arrays_t3.zip; exhaustive checker code/cacheck.py in code.zip; construction: K. Shokri and L. Moura, New families of strength-3 covering arrays using linear feedback shift register sequences, J. Combin. Des. 33 (2025) 156-171, doi:10.1002/jcd.21963",
+            "snapshot_id": "pr-34",
+            "array_sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158",
+            "verify_stamp": "ca_verify 70c4201 2026-11-02 github-actions",
+            "entered": "2026-11-02",
+            "notes": "credit: Kianoosh Shokri and Lucia Moura 2025 (the ingredient CA(87; 3, 39, 3): q-plication, J. Combin. Des. 33 (2025), doi:10.1002/jcd.21963; Theorem 5.2.8 of K. Shokri's PhD thesis), Bai XunDi (the derivation); exceeds table: previous best 89 (row k=40, CITED S1 colbourn-2024-11-ug: Chateauneuf-Kreher doubling); submission bai-xundi-2026-11-part9; computed and checked with Claude (Anthropic)",
+            "lb": "",
+            "lb_evidence": "",
+            "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.8 (q-plication), q=3",
+            "builds_on": "lfsr-sm2025;deposit-bai2026",
+            "family_sha256": ""
+          },
+          "implied_N": 87,
+          "state": [
+            87,
+            3,
+            40,
+            3
+          ],
+          "path": []
+        },
+        "ternary_higher_strength": {
+          "csv_line": 618,
+          "source_parameters": [
+            436,
+            4,
+            41,
+            3
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "3",
+            "k": "41",
+            "N": "436",
+            "tier": "CITED",
+            "source_id": "S1",
+            "source_detail": "CPHF 3-stage (TJ-IM)",
+            "snapshot_id": "colbourn-2024-11-ug",
+            "array_sha256": "",
+            "verify_stamp": "",
+            "entered": "2026-08-23",
+            "notes": "",
+            "lb": "",
+            "lb_evidence": "",
+            "construction": "CPHF 3-stage (TJ-IM)",
+            "builds_on": "cphf-smc2006;cphf-ti2018",
+            "family_sha256": ""
+          },
+          "implied_N": 145,
+          "state": [
+            145,
+            3,
+            40,
+            3
+          ],
+          "path": [
+            "derive at alphabet 3"
+          ]
+        },
+        "larger_alphabet_t3": {
+          "csv_line": 14707,
+          "source_parameters": [
+            184,
+            3,
+            42,
+            4
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "4",
+            "k": "42",
+            "N": "184",
+            "tier": "VERIFIED",
+            "source_id": "S7",
+            "source_detail": "doi:10.5281/zenodo.23787055 (Bai XunDi 2026, covering arrays data and code), file arrays/CA_184_3_42_4.txt inside arrays_t3.zip; exhaustive checker code/cacheck.py in code.zip; construction: K. Shokri and L. Moura, New families of strength-3 covering arrays using linear feedback shift register sequences, J. Combin. Des. 33 (2025) 156-171, doi:10.1002/jcd.21963",
+            "snapshot_id": "pr-34",
+            "array_sha256": "c52a7319473f9ff5b4521f0d1d0d582968284349474b7203b8f71ef4a4861492",
+            "verify_stamp": "ca_verify 70c4201 2026-11-02 github-actions",
+            "entered": "2026-11-02",
+            "notes": "credit: Kianoosh Shokri and Lucia Moura 2025 (the construction and the size: 2-plication, J. Combin. Des. 33 (2025), doi:10.1002/jcd.21963; Theorem 5.2.7 of K. Shokri's PhD thesis), Bai XunDi (the array, built from the published construction); exceeds table: previous best 191 (row k=46, CITED S1 colbourn-2024-11-ug: CPHF 3-stage (IM-TJ-AJ-AG)); submission bai-xundi-2026-11-part9; computed and checked with Claude (Anthropic)",
+            "lb": "",
+            "lb_evidence": "",
+            "construction": "Kianoosh Shokri, Lucia Moura, thesis Thm 5.2.7 (2-plication) with q=4",
+            "builds_on": "lfsr-sm2025",
+            "family_sha256": ""
+          },
+          "implied_N": 182,
+          "state": [
+            182,
+            3,
+            42,
+            3
+          ],
+          "path": [
+            "fuse 4 to 3"
+          ]
+        },
+        "larger_alphabet_higher_strength": {
+          "csv_line": 1302,
+          "source_parameters": [
+            1225,
+            4,
+            41,
+            4
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "4",
+            "k": "41",
+            "N": "1225",
+            "tier": "CITED",
+            "source_id": "S1",
+            "source_detail": "CPHF 3-stage (IM-TJ-AJ-AG)",
+            "snapshot_id": "colbourn-2024-11-ug",
+            "array_sha256": "",
+            "verify_stamp": "",
+            "entered": "2026-08-23",
+            "notes": "",
+            "lb": "",
+            "lb_evidence": "",
+            "construction": "CPHF 3-stage (IM-TJ-AJ-AG)",
+            "builds_on": "cphf-smc2006;cphf-itaa2018",
+            "family_sha256": ""
+          },
+          "implied_N": 304,
+          "state": [
+            304,
+            3,
+            40,
+            3
+          ],
+          "path": [
+            "derive at alphabet 4",
+            "fuse 4 to 3"
+          ]
+        }
+      },
+      "equal_or_stronger_rows": []
+    },
+    {
+      "filename": "colbourn_catalogue.csv",
+      "sha256": "41862afbf1910eb14df0d8ad0763b418039a6ca6d4cf7004eb0abadce60e1c46",
+      "total_rows": 13641,
+      "eligible_direct_rows": 8752,
+      "t3_v3_k40plus_rows": 108,
+      "direct_minimum": {
+        "csv_line": 488,
+        "parameters": [
+          89,
+          3,
+          40,
+          3
+        ],
+        "row": {
+          "t": "3",
+          "v": "3",
+          "k": "40",
+          "N": "89.0",
+          "Source": "Chateauneuf-Kreher doubling"
+        }
+      },
+      "best_guaranteed_reduction": {
+        "csv_line": 488,
+        "source_parameters": [
+          89,
+          3,
+          40,
+          3
+        ],
+        "source_row": {
+          "t": "3",
+          "v": "3",
+          "k": "40",
+          "N": "89.0",
+          "Source": "Chateauneuf-Kreher doubling"
+        },
+        "implied_N": 89,
+        "state": [
+          89,
+          3,
+          40,
+          3
+        ],
+        "path": []
+      },
+      "group_best": {
+        "ternary_t3": {
+          "csv_line": 488,
+          "source_parameters": [
+            89,
+            3,
+            40,
+            3
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "3",
+            "k": "40",
+            "N": "89.0",
+            "Source": "Chateauneuf-Kreher doubling"
+          },
+          "implied_N": 89,
+          "state": [
+            89,
+            3,
+            40,
+            3
+          ],
+          "path": []
+        },
+        "ternary_higher_strength": {
+          "csv_line": 618,
+          "source_parameters": [
+            436,
+            4,
+            41,
+            3
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "3",
+            "k": "41",
+            "N": "436.0",
+            "Source": "CPHF 3-stage (TJ-IM)"
+          },
+          "implied_N": 145,
+          "state": [
+            145,
+            3,
+            40,
+            3
+          ],
+          "path": [
+            "derive at alphabet 3"
+          ]
+        },
+        "larger_alphabet_t3": {
+          "csv_line": 1144,
+          "source_parameters": [
+            190,
+            3,
+            41,
+            4
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "4",
+            "k": "41",
+            "N": "190.0",
+            "Source": "CPHF 3-stage (IM-TJ-AJ-AG)"
+          },
+          "implied_N": 188,
+          "state": [
+            188,
+            3,
+            41,
+            3
+          ],
+          "path": [
+            "fuse 4 to 3"
+          ]
+        },
+        "larger_alphabet_higher_strength": {
+          "csv_line": 1302,
+          "source_parameters": [
+            1225,
+            4,
+            41,
+            4
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "4",
+            "k": "41",
+            "N": "1225.0",
+            "Source": "CPHF 3-stage (IM-TJ-AJ-AG)"
+          },
+          "implied_N": 304,
+          "state": [
+            304,
+            3,
+            40,
+            3
+          ],
+          "path": [
+            "derive at alphabet 4",
+            "fuse 4 to 3"
+          ]
+        }
+      },
+      "equal_or_stronger_rows": []
+    },
+    {
+      "filename": "derived.csv",
+      "sha256": "10d57431f982f14f57eabd4afe663e372fb59b9059246e6ce75e3027147ff62c",
+      "total_rows": 1082,
+      "eligible_direct_rows": 830,
+      "t3_v3_k40plus_rows": 17,
+      "direct_minimum": {
+        "csv_line": 186,
+        "parameters": [
+          348,
+          3,
+          7911,
+          3
+        ],
+        "row": {
+          "t": "3",
+          "v": "3",
+          "k": "7911",
+          "N": "348",
+          "lookup_N": "350",
+          "gain_pct": "0.57",
+          "law": "CMTW34",
+          "arithmetic": "CAN(3,2637,3)=264 + (3-1)xCAN(2,2637,3)=33 + 3^3-3^2",
+          "round": "1"
+        }
+      },
+      "best_guaranteed_reduction": {
+        "csv_line": 186,
+        "source_parameters": [
+          348,
+          3,
+          7911,
+          3
+        ],
+        "source_row": {
+          "t": "3",
+          "v": "3",
+          "k": "7911",
+          "N": "348",
+          "lookup_N": "350",
+          "gain_pct": "0.57",
+          "law": "CMTW34",
+          "arithmetic": "CAN(3,2637,3)=264 + (3-1)xCAN(2,2637,3)=33 + 3^3-3^2",
+          "round": "1"
+        },
+        "implied_N": 348,
+        "state": [
+          348,
+          3,
+          7911,
+          3
+        ],
+        "path": []
+      },
+      "group_best": {
+        "ternary_t3": {
+          "csv_line": 186,
+          "source_parameters": [
+            348,
+            3,
+            7911,
+            3
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "3",
+            "k": "7911",
+            "N": "348",
+            "lookup_N": "350",
+            "gain_pct": "0.57",
+            "law": "CMTW34",
+            "arithmetic": "CAN(3,2637,3)=264 + (3-1)xCAN(2,2637,3)=33 + 3^3-3^2",
+            "round": "1"
+          },
+          "implied_N": 348,
+          "state": [
+            348,
+            3,
+            7911,
+            3
+          ],
+          "path": []
+        },
+        "larger_alphabet_t3": {
+          "csv_line": 203,
+          "source_parameters": [
+            832,
+            3,
+            15180,
+            4
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "4",
+            "k": "15180",
+            "N": "832",
+            "lookup_N": "844",
+            "gain_pct": "1.42",
+            "law": "add1",
+            "arithmetic": "CAN(3,15179,4)=784 + 4x(4-1)x4",
+            "round": "1"
+          },
+          "implied_N": 830,
+          "state": [
+            830,
+            3,
+            15180,
+            3
+          ],
+          "path": [
+            "fuse 4 to 3"
+          ]
+        },
+        "ternary_higher_strength": {
+          "csv_line": 295,
+          "source_parameters": [
+            2137,
+            4,
+            4713,
+            3
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "3",
+            "k": "4713",
+            "N": "2137",
+            "lookup_N": "2149",
+            "gain_pct": "0.56",
+            "law": "add1",
+            "arithmetic": "CAN(4,4712,3)=1921 + 3x(3-1)xCAN(2,4711,3)=36",
+            "round": "1"
+          },
+          "implied_N": 712,
+          "state": [
+            712,
+            3,
+            4712,
+            3
+          ],
+          "path": [
+            "derive at alphabet 3"
+          ]
+        },
+        "larger_alphabet_higher_strength": {
+          "csv_line": 307,
+          "source_parameters": [
+            9257,
+            4,
+            58,
+            6
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "6",
+            "k": "58",
+            "N": "9257",
+            "lookup_N": "9390",
+            "gain_pct": "1.42",
+            "law": "fuse",
+            "arithmetic": "CAN(4,58,7)=9259 - 2x1",
+            "round": "1"
+          },
+          "implied_N": 1536,
+          "state": [
+            1536,
+            3,
+            57,
+            3
+          ],
+          "path": [
+            "derive at alphabet 6",
+            "fuse 6 to 5",
+            "fuse 5 to 4",
+            "fuse 4 to 3"
+          ]
+        }
+      },
+      "equal_or_stronger_rows": []
+    },
+    {
+      "filename": "bai_records.csv",
+      "sha256": "95d4beaaf9c5b3ad0de2d065e4e25f5a0d68676355b826b97baedc1cc25e9179",
+      "total_rows": 301,
+      "eligible_direct_rows": 82,
+      "t3_v3_k40plus_rows": 3,
+      "direct_minimum": {
+        "csv_line": 8,
+        "parameters": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "row": {
+          "t": "3",
+          "v": "3",
+          "k": "40",
+          "N": "87",
+          "table_N": "89",
+          "gain": "2",
+          "class": "post-optimised from CA(87;3,39,3), Kianoosh Shokri, Lucia Moura (Shokri-Moura, J. Combin. Des. 33(4) (2025), doi:10.1002/jcd.21963, Thm 5.2.8 (q-plication); reconstructed)",
+          "credit": "Kianoosh Shokri and Lucia Moura 2025 (the ingredient CA(87; 3, 39, 3): q-plication, J. Combin. Des. 33 (2025), doi:10.1002/jcd.21963; Theorem 5.2.8 of K. Shokri's PhD thesis), Bai XunDi (the derivation)",
+          "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, Thm 5.2.8 (q-plication), q=3",
+          "evidence": "EXH: explicit array; exhaustive check of all C(40,3) 3-sets + negative control (code/cacheck.py: every t-tuple on every t-set of columns occurs, 0 uncovered)",
+          "file": "arrays/CA_87_3_40_3.txt",
+          "sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158"
+        }
+      },
+      "best_guaranteed_reduction": {
+        "csv_line": 8,
+        "source_parameters": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "source_row": {
+          "t": "3",
+          "v": "3",
+          "k": "40",
+          "N": "87",
+          "table_N": "89",
+          "gain": "2",
+          "class": "post-optimised from CA(87;3,39,3), Kianoosh Shokri, Lucia Moura (Shokri-Moura, J. Combin. Des. 33(4) (2025), doi:10.1002/jcd.21963, Thm 5.2.8 (q-plication); reconstructed)",
+          "credit": "Kianoosh Shokri and Lucia Moura 2025 (the ingredient CA(87; 3, 39, 3): q-plication, J. Combin. Des. 33 (2025), doi:10.1002/jcd.21963; Theorem 5.2.8 of K. Shokri's PhD thesis), Bai XunDi (the derivation)",
+          "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, Thm 5.2.8 (q-plication), q=3",
+          "evidence": "EXH: explicit array; exhaustive check of all C(40,3) 3-sets + negative control (code/cacheck.py: every t-tuple on every t-set of columns occurs, 0 uncovered)",
+          "file": "arrays/CA_87_3_40_3.txt",
+          "sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158"
+        },
+        "implied_N": 87,
+        "state": [
+          87,
+          3,
+          40,
+          3
+        ],
+        "path": []
+      },
+      "group_best": {
+        "ternary_t3": {
+          "csv_line": 8,
+          "source_parameters": [
+            87,
+            3,
+            40,
+            3
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "3",
+            "k": "40",
+            "N": "87",
+            "table_N": "89",
+            "gain": "2",
+            "class": "post-optimised from CA(87;3,39,3), Kianoosh Shokri, Lucia Moura (Shokri-Moura, J. Combin. Des. 33(4) (2025), doi:10.1002/jcd.21963, Thm 5.2.8 (q-plication); reconstructed)",
+            "credit": "Kianoosh Shokri and Lucia Moura 2025 (the ingredient CA(87; 3, 39, 3): q-plication, J. Combin. Des. 33 (2025), doi:10.1002/jcd.21963; Theorem 5.2.8 of K. Shokri's PhD thesis), Bai XunDi (the derivation)",
+            "construction": "column extension + tabu repair and row-deletion post-optimisation starting from CA(87;3,39,3) = Kianoosh Shokri, Lucia Moura, Thm 5.2.8 (q-plication), q=3",
+            "evidence": "EXH: explicit array; exhaustive check of all C(40,3) 3-sets + negative control (code/cacheck.py: every t-tuple on every t-set of columns occurs, 0 uncovered)",
+            "file": "arrays/CA_87_3_40_3.txt",
+            "sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158"
+          },
+          "implied_N": 87,
+          "state": [
+            87,
+            3,
+            40,
+            3
+          ],
+          "path": []
+        },
+        "larger_alphabet_t3": {
+          "csv_line": 11,
+          "source_parameters": [
+            184,
+            3,
+            42,
+            4
+          ],
+          "source_row": {
+            "t": "3",
+            "v": "4",
+            "k": "42",
+            "N": "184",
+            "table_N": "191",
+            "gain": "7",
+            "class": "published-missing (reconstructed from Shokri-Moura, J. Combin. Des. 33(4) (2025), doi:10.1002/jcd.21963, Thm 5.2.7 (2-plication))",
+            "credit": "Kianoosh Shokri and Lucia Moura 2025 (the construction and the size: 2-plication, J. Combin. Des. 33 (2025), doi:10.1002/jcd.21963; Theorem 5.2.7 of K. Shokri's PhD thesis), Bai XunDi (the array, built from the published construction)",
+            "construction": "Kianoosh Shokri, Lucia Moura, Thm 5.2.7 (2-plication) with q=4",
+            "evidence": "EXH: explicit array; exhaustive check of all C(42,3) 3-sets + negative control (code/cacheck.py: every t-tuple on every t-set of columns occurs, 0 uncovered)",
+            "file": "arrays/CA_184_3_42_4.txt",
+            "sha256": "c52a7319473f9ff5b4521f0d1d0d582968284349474b7203b8f71ef4a4861492"
+          },
+          "implied_N": 182,
+          "state": [
+            182,
+            3,
+            42,
+            3
+          ],
+          "path": [
+            "fuse 4 to 3"
+          ]
+        },
+        "larger_alphabet_higher_strength": {
+          "csv_line": 84,
+          "source_parameters": [
+            43919,
+            4,
+            61,
+            10
+          ],
+          "source_row": {
+            "t": "4",
+            "v": "10",
+            "k": "61",
+            "N": "43919",
+            "table_N": "55889",
+            "gain": "11970",
+            "class": "derived by fusion from CA(43921;4,61,11) (Shokri-Moura-Stevens, arXiv:2510.13122, thesis Thm 4.3.1 = arXiv v2 Thm 5.1; reconstructed)",
+            "credit": "Kianoosh Shokri, Lucia Moura and Brett Stevens 2025 (the ingredient CA(43921; 4, 61, 11), arXiv:2510.13122v2 Theorem 5.1), Bai XunDi (the derivation)",
+            "construction": "Kianoosh Shokri, Lucia Moura, Brett Stevens, thesis Thm 4.3.1 = arXiv v2 Thm 5.1 with q=11 (reconstructed), then symbol fusion CKRS 2010 Lemma 3.1, CAN(t,k,v-1) <= CAN(t,k,v) - 2",
+            "evidence": "EXH: explicit array; exhaustive check of all C(61,4) 4-sets + negative control (code/cacheck.py: every t-tuple on every t-set of columns occurs, 0 uncovered)",
+            "file": "arrays/CA_43919_4_61_10.txt",
+            "sha256": "7bc10ca28ab82e0ecedbf7219f0c00725a597f1546f71c02c6284845094c8bee"
+          },
+          "implied_N": 4377,
+          "state": [
+            4377,
+            3,
+            60,
+            3
+          ],
+          "path": [
+            "derive at alphabet 10",
+            "fuse 10 to 9",
+            "fuse 9 to 8",
+            "fuse 8 to 7",
+            "fuse 7 to 6",
+            "fuse 6 to 5",
+            "fuse 5 to 4",
+            "fuse 4 to 3"
+          ]
+        }
+      },
+      "equal_or_stronger_rows": []
+    }
+  ],
+  "prior_array_check": {
+    "file": "CA_87_3_40_3.txt",
+    "sha256": "677f089f0d797eec1fcbe9b6ffabe81f665b1405a83b06ee151ca59913504158",
+    "rows": 87,
+    "columns": 40,
+    "requirements": 266760,
+    "missing_requirements": 0,
+    "min_unique_witnesses_per_row": 25,
+    "max_unique_witnesses_per_row": 273,
+    "total_unique_witnesses": 15772,
+    "redundant_row_indices_zero_based": [],
+    "unique_witnesses_by_row": [
+      257,
+      211,
+      238,
+      218,
+      208,
+      216,
+      220,
+      247,
+      238,
+      234,
+      252,
+      212,
+      233,
+      214,
+      228,
+      247,
+      247,
+      217,
+      240,
+      188,
+      210,
+      242,
+      233,
+      232,
+      199,
+      234,
+      216,
+      273,
+      211,
+      252,
+      214,
+      210,
+      242,
+      218,
+      210,
+      225,
+      231,
+      234,
+      212,
+      246,
+      236,
+      244,
+      217,
+      240,
+      215,
+      233,
+      228,
+      219,
+      227,
+      215,
+      215,
+      200,
+      212,
+      221,
+      213,
+      216,
+      242,
+      234,
+      221,
+      205,
+      60,
+      97,
+      34,
+      207,
+      208,
+      186,
+      220,
+      255,
+      210,
+      54,
+      32,
+      25,
+      40,
+      58,
+      45,
+      35,
+      38,
+      60,
+      43,
+      38,
+      31,
+      40,
+      39,
+      45,
+      51,
+      31,
+      28
+    ]
+  }
+}

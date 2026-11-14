@@ -1,0 +1,169 @@
+{
+  "cutoff": "2026-11-14",
+  "type": "Consolidated root search log; query grouping reconstructed from executed searches, not exhaustive event telemetry",
+  "groups": [
+    {
+      "date": "2026-11-14",
+      "purpose": "Exact target / source discovery",
+      "queries": [
+        "\"CAN(3,40,3)\"",
+        "\"covering array\" \"86\" \"40\"",
+        "\"ca-tools\" covering array Smolen"
+      ],
+      "finding": "Located maintained table and lineage; no competing target disclosure."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Repository and formatting variants",
+      "queries": [
+        "site:github.com/chrispbsmolen/ca-tools \"3,3,40\" \"87\"",
+        "site:github.com/chrispbsmolen/ca-tools \"86\" \"40\" \"table\"",
+        "\"covering\" \"CA(86\" \"40\"",
+        "\"covering array\" \"3, 40, 3\""
+      ],
+      "finding": "Direct table/API retrieval followed because indexed raw CSV coverage was weak."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Recent bound / Bai lineage",
+      "queries": [
+        "\"covering arrays\" \"86\" \"40\" \"2026\"",
+        "\"CAN(3,40,3)\" \"87\"",
+        "\"ca-tools\" \"Bai\""
+      ],
+      "finding": "Original fixed Zenodo sources and current GitHub submissions inspected."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Larger-alphabet / lower-bound routing",
+      "queries": [
+        "\"covering arrays\" \"4\" \"21\" \"lower bound\" strength two",
+        "\"CAN(2,39,4)\"",
+        "\"covering array\" \"Rao\" lower bounds"
+      ],
+      "finding": "Used to test stronger-source routes; primary CKRS formulas and elementary OA reasoning retained."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Filename and terminology variants",
+      "queries": [
+        "\"CA_86_3_40_3\"",
+        "\"CAN(3,40,3)\" -site:roadrescuenetwork.com",
+        "\"covering array\" \"86-run\"",
+        "\"ternary\" \"covering\" \"40\" \"87\""
+      ],
+      "finding": "No concrete equal-or-stronger construction identified."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Exact notation and recent ternary bounds",
+      "queries": [
+        "\"covering arrays\" \"86\" \"40\" -site:academia.edu -site:researchgate.net",
+        "\"CA(86;3,40,3)\" OR \"CA(86; 3, 40, 3)\" OR \"CA(86,3,40,3)\"",
+        "\"covering array\" \"40 factors\" \"3\" tests",
+        "\"covering arrays\" \"40\" \"ternary\" 2025 2026"
+      ],
+      "finding": "Followed primary papers/datasets; numeric 86 hits often referred to other strengths or small widths."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Academic/deposit domain search",
+      "queries": [
+        "\"covering array\" \"86\" site:scholar.google.com",
+        "\"covering arrays\" \"40\" \"86\" site:arxiv.org",
+        "\"covering arrays\" \"86\" site:zenodo.org"
+      ],
+      "finding": "Indexed search only for inaccessible direct platforms; individual public papers and deposits retrieved."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Multilingual / informal / deposit",
+      "queries": [
+        "\"arreglos de cobertura\" \"40\" \"86\"",
+        "\"覆盖阵列\" \"86\" \"40\"",
+        "\"covering arrays\" \"86\" site:mathoverflow.net",
+        "\"covering array\" \"40\" site:zenodo.org"
+      ],
+      "finding": "No concrete rival target disclosed in inspected results."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Stronger row counts and older techniques",
+      "queries": [
+        "\"Methods to Construct Uniform Covering Arrays\" \"40\"",
+        "\"covering array\" \"85\" \"40\" \"3\"",
+        "\"covering array\" \"81\" \"40\" \"3\"",
+        "\"covering array\" \"87\" \"40\" \"3\""
+      ],
+      "finding": "Avoided limiting search to86; older heuristic and supplemental routes checked."
+    },
+    {
+      "date": "2026-11-14",
+      "purpose": "Primary product-theorem correction",
+      "queries": [
+        "site:cse.unl.edu/~myra/papers/auga.pdf \"Theorem 3\"",
+        "site:cse.unl.edu/~myra/papers/auga.pdf \"CAN\" \"DCAN\""
+      ],
+      "finding": "Indexed full theorem shows both CA ingredients strength3, resolving misleading secondary formula."
+    }
+  ],
+  "direct_retrieval_groups": [
+    {
+      "source": "ca-tools",
+      "urls": [
+        "https://api.github.com/repos/chrispbsmolen/ca-tools/branches/main",
+        "https://api.github.com/repos/chrispbsmolen/ca-tools/commits/26270ecbd9dadd43a463cf5637606cb964577e4f",
+        "https://raw.githubusercontent.com/chrispbsmolen/ca-tools/26270ecbd9dadd43a463cf5637606cb964577e4f/table/ca_frame.csv",
+        "https://raw.githubusercontent.com/chrispbsmolen/ca-tools/26270ecbd9dadd43a463cf5637606cb964577e4f/table/ca_table.csv"
+      ],
+      "result": "Pinned/current frame comparison, all direct/stronger entries, full provenance, derived table, issue/PR history."
+    },
+    {
+      "source": "Bai Zenodo",
+      "urls": [
+        "https://zenodo.org/api/records/23787055",
+        "https://zenodo.org/api/records/23787055/files/arrays_t3.zip",
+        "https://zenodo.org/api/records/23787055/files/records.csv",
+        "https://zenodo.org/api/records/23787055/versions"
+      ],
+      "result": "Actual file timestamps/versions and downloaded checksums verified. Six neighboring arrays independently checked."
+    },
+    {
+      "source": "OpenAlex",
+      "urls": [
+        "https://api.openalex.org/works?search=ternary%20covering%20arrays&per-page=50",
+        "https://api.openalex.org/works/https://doi.org/10.1002/jcd.21963"
+      ],
+      "result": "50 ternary results plus original Shokri record and5 indexed direct citers. Separate literature branch adds100 recent results."
+    },
+    {
+      "source": "Crossref",
+      "urls": [
+        "https://api.crossref.org/works?query.bibliographic=ternary%20covering%20arrays&rows=50"
+      ],
+      "result": "50 ternary results. Separate literature branch adds100 recent covering-array results."
+    },
+    {
+      "source": "PLOS2017",
+      "urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189283"
+      ],
+      "result": "Full article XML and all3 supplement archives inspected;562 array headers checked."
+    },
+    {
+      "source": "Primary theorem retrieval",
+      "urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/jcd.21963",
+        "https://old.sztaki.hu/~keri/arrays/Colbourn_Keri_Rivas-Soriano_Schlage-Puchta.pdf",
+        "https://www.researchgate.net/publication/378413470_Recursive_constructions_for_covering_schemes_of_strength_3",
+        "https://cse.unl.edu/~myra/papers/auga.pdf"
+      ],
+      "result": "Full relevant theorem text inspected, with author public copy/indexed primary full text where a direct fetch failed."
+    }
+  ],
+  "limits": [
+    "Not a complete export of every scholarly or repository platform.",
+    "Exact-target absence was not used as the sole basis for novelty.",
+    "Final material coverage gaps and invalid implications are in report.txt and final source indexes."
+  ]
+}

@@ -1,0 +1,324 @@
+# CA86 — Wide-RAG novelty investigation
+## Claimed new covering-array record: CA(86;3,40,3)
+
+You are conducting an independent, adversarial prior-art investigation into a potentially new mathematical record produced by CA86 on November 14, 2026.
+
+Your objective is to determine whether this result was already known, published, derivable from existing literature, or independently discovered elsewhere.
+
+**This is a WIDE research task.** Search broadly and deeply across mathematical literature, repositories, datasets, record tables, preprints, supplementary materials, and historical archives. Do not stop after checking the obvious databases.
+
+Do not attempt to discover a better covering array. Your job is to investigate the novelty of the existing result.
+
+## 1. The claimed accomplishment
+
+CA86 generated an explicit covering array:
+
+    CA(86; 3, 40, 3)
+
+Meaning:
+
+- 86 rows (test configurations).
+- 40 columns (variables).
+- 3 possible symbols per column.
+- Every combination of values for every selection of 3 distinct columns appears in at least one row.
+
+There are 9,880 three-column selections, each requiring 27 combinations, for 266,760 total coverage requirements.
+
+The construction has passed multiple independent exhaustive verifiers, including a separately implemented reviewer checker.
+
+Candidate SHA-256:
+
+    7dc7ab1e231dce3cde5cc1c6b35c4911f34145fd4dfe5d80f8ea26b235b27f8a
+
+The mathematical consequence is:
+
+    CAN(3,40,3) ≤ 86
+
+Here CAN(t,k,v) denotes the minimum number of rows in a covering array of strength t, with k columns and v symbols.
+
+### The previous published record
+
+On November 14, 2026, the maintained `ca-tools` tables reported 87 rows as the best-known upper bound for these parameters.
+
+A prior search checked 110 applicable frame entries and 113 provenance entries, including wider arrays that imply constructions on 40 columns. None established 86 or fewer rows.
+
+The new construction improves that published upper bound from 87 to 86.
+
+The construction was not submitted or publicly published when the handoff was produced.
+
+**Your task is to challenge the novelty claim, not to accept the previous search's conclusion.**
+
+## 2. Starting sources
+
+Maintained covering-array repository:
+https://github.com/chrispbsmolen/ca-tools
+
+Best-known bounds:
+https://raw.githubusercontent.com/chrispbsmolen/ca-tools/main/table/ca_frame.csv
+
+Full provenance:
+https://raw.githubusercontent.com/chrispbsmolen/ca-tools/main/table/ca_table.csv
+
+Original 87-row construction:
+https://raw.githubusercontent.com/chrispbsmolen/ca-tools/main/table/arrays/CA_87_3_40_3.txt
+
+Original source repository commit:
+
+    26270ecbd9dadd43a463cf5637606cb964577e4f
+
+Relevant construction literature:
+
+Kianoosh Shokri and Lucia Moura:
+https://doi.org/10.1002/jcd.21963
+
+Bai XunDi's 2026 derived constructions:
+https://doi.org/10.5281/zenodo.23787055
+
+The original 87-row array reportedly comes from Bai XunDi's derivations building on the Shokri–Moura q-plication construction.
+
+These sources are starting points, not the boundaries of your investigation.
+
+If the candidate file or handoff is available locally, inspect it. However, finding the original construction is not required to investigate whether the numerical upper bound was already known.
+
+## 3. Search requirements
+
+### A. Search the established mathematical record
+
+Investigate:
+
+- Covering-array databases and best-known-bound tables.
+- NIST combinatorial-testing resources and construction tables.
+- Academic papers, survey articles, and books.
+- arXiv and other preprint archives.
+- Google Scholar, Semantic Scholar, OpenAlex, Crossref, and relevant bibliographies.
+- Dissertations, theses, and technical reports.
+- Conference proceedings on combinatorial designs, covering arrays, software testing, and discrete mathematics.
+- Supplemental data, archived construction files, and machine-readable tables.
+- Historical snapshots of maintained databases.
+
+Follow references backward and forward. A result may appear in a supplementary dataset without being explicitly highlighted in the paper's abstract.
+
+### B. Search software and research repositories
+
+Search GitHub, GitLab, Codeberg, research-code archives, Zenodo, institutional repositories, and relevant software packages.
+
+Look for:
+
+- Explicit covering-array constructions.
+- Generated array files.
+- Best-known-bound tables.
+- Experimental results.
+- SAT/constraint-solving output.
+- Scripts capable of producing the relevant parameter combination.
+- Unmerged PRs, issues, discussions, and release assets.
+- Archived or superseded records.
+
+Inspect actual data when possible rather than relying on repository descriptions.
+
+### C. Search alternate mathematical representations
+
+Do not search only the exact string `CA(86;3,40,3)`.
+
+Try variations such as:
+
+    CA(86,3,40,3)
+    CAN(3,40,3)
+    CAN(3,40,3) <= 86
+    CAN(3,40,3) ≤ 86
+    covering array 86 40 3 3
+    covering array strength 3 40 factors 3 levels
+    ternary 3-covering array 40 columns
+    three-way covering array 40 parameters 86 tests
+    86-run 40-factor covering array
+    covering array upper bounds 2026
+    covering array q-plication 40
+    3-covering array 40 87
+    3-covering array 40 86
+
+Also search without the value 86. A more powerful construction could establish the bound indirectly.
+
+Use alternate notation, terminology, languages, and source-specific formatting when justified.
+
+### D. Search for stronger constructions that imply this result
+
+This is critical.
+
+A previous construction can defeat the record claim without having exactly the parameters (86,3,40,3).
+
+Check for:
+
+1. Arrays with **86 or fewer rows and 40 or more columns**, with strength 3 and alphabet size 3.
+2. Stronger arrays with strength greater than 3 that imply the required three-way coverage.
+3. Constructions over larger alphabets that can be collapsed to three symbols while preserving coverage.
+4. Suitable mixed-level covering arrays with at least 40 factors having three or more levels.
+5. Orthogonal arrays, algebraic designs, coding-theoretic constructions, or other combinatorial structures implying the desired bound.
+6. Published general upper-bound theorems or recursive constructions that establish CAN(3,40,3) ≤ 86, even without an explicit 86×40 array.
+7. Parametric construction families whose stated parameter ranges include a construction meeting this bound.
+
+Do not require an older result to look like our exact array.
+
+However, **verify every claimed implication mathematically**. Do not assume a general construction proves this bound merely because it appears relevant.
+
+For each potentially stronger result, show the actual parameter substitution or reduction.
+
+### E. Investigate the construction's lineage
+
+Trace the original Shokri–Moura work and Bai XunDi's derivations.
+
+Determine:
+
+- Whether their published methods already imply 86 rows for 40 columns.
+- Whether other parameter choices in their families achieve the same result.
+- Whether their supplemental constructions include an overlooked equivalent or stronger array.
+- Whether later papers improve those constructions.
+- Whether the maintained table missed a result already present in the underlying literature.
+
+This is a particularly important search direction because CA86's new array was obtained by modifying an existing construction from this lineage.
+
+### F. Search informal and unpublished disclosures
+
+Look through relevant public posts, research discussions, GitHub issues, mailing lists, computational mathematics communities, and other discoverable disclosures.
+
+An unpublished but publicly documented 86-row construction matters for the priority claim.
+
+Distinguish a concrete earlier result from speculation, a failed search, or a casual assertion without evidence.
+
+## 4. Historical priority
+
+Establish the earliest verifiable disclosure date for every relevant finding.
+
+The CA86 construction dates to **November 14, 2026**.
+
+Distinguish:
+
+- Results demonstrably available before November 14.
+- Results first appearing on November 14, where exact ordering may matter.
+- Later independent discoveries.
+- Older work that implicitly establishes the same bound.
+- Database entries added later but attributed to earlier research.
+
+Use repository commit histories, publication metadata, archived pages, dataset timestamps, and primary-source documents where available.
+
+Do not treat a modern web page's update date as the original discovery date.
+
+If the record table changes during your investigation, compare its history against the pinned November 14 snapshot.
+
+## 5. Evaluate novelty at three separate levels
+
+### Level 1 — Numerical record
+
+Was the bound
+
+    CAN(3,40,3) ≤ 86
+
+already established before CA86?
+
+This is the primary question.
+
+### Level 2 — Explicit construction
+
+Did anyone already publish an explicit covering array with 86 or fewer rows that establishes the same bound?
+
+An equivalent construction under row permutations, column permutations, or symbol relabelings counts as prior work.
+
+### Level 3 — Search technique
+
+Did the particular approach—row deletion, tabu repair, followed by structure-aware block swapping—introduce anything independently novel?
+
+This is secondary.
+
+Do not conflate a new numerical bound with a new algorithmic technique. A standard optimization method can still produce a genuinely new record.
+
+## 6. Research discipline
+
+Use actual web research and retrieval tools. Do not answer from model training knowledge alone.
+
+Search broadly before narrowing. Follow promising references until they are resolved or genuinely inaccessible.
+
+For consequential claims:
+
+- Prefer primary sources over summaries.
+- Inspect the relevant theorem, table entry, code, or construction.
+- Provide direct links to the supporting material.
+- State exact parameter values and dates.
+- Reproduce any calculation needed to derive the bound.
+- Distinguish verified prior results from unverified claims.
+- Record inaccessible or ambiguous sources that could change the conclusion.
+
+Keep a search log with source families, substantive queries, findings, and dates.
+
+Do not interpret absence from a single table as proof of novelty.
+
+Conversely, do not reject novelty merely because someone previously published the general optimization technique used to obtain the construction.
+
+**An exact or stronger preexisting result is the strongest possible negative finding. Prioritize investigating plausible counterexamples to novelty.**
+
+## 7. Final verdict
+
+Lead your report with exactly one of these:
+
+**PREVIOUSLY KNOWN**
+A verifiable earlier result establishes CAN(3,40,3) ≤ 86. Identify the earliest supported source and demonstrate the implication.
+
+**LIKELY NOVEL**
+No earlier equal-or-stronger result was found after the wide investigation. Identify the strongest sources checked and explain the remaining uncertainty.
+
+**INDETERMINATE**
+A material unresolved prior-art lead prevents a confident assessment. State precisely what evidence would resolve it.
+
+Do not claim mathematical proof of novelty from an unsuccessful literature search.
+
+## 8. Required final report
+
+Produce a self-contained handoff containing:
+
+### Executive conclusion
+
+A concise answer to whether CA86 appears to have beaten the previously known record.
+
+### Strongest prior-art candidates
+
+A table containing:
+
+| Source | Date | Parameters/result | Relevance | Verdict |
+|---|---|---|---|---|
+
+Include the most credible potential conflicts, even when ultimately ruled out.
+
+### Established record history
+
+Reconstruct the best-known upper bound for CAN(3,40,3), including any important improvement dates and original sources.
+
+### Construction-family analysis
+
+Explicitly examine the Shokri–Moura/Bai XunDi lineage and any relevant stronger or derived constructions.
+
+### Search coverage
+
+List the databases, repositories, paper collections, citation networks, and informal sources actually examined. Include representative query groups.
+
+Identify coverage gaps rather than presenting a superficial search as exhaustive.
+
+### Novelty assessment
+
+Separate numerical-bound novelty, explicit-construction novelty, and algorithmic-method novelty.
+
+### Final recommendation
+
+State whether the evidence supports submitting the 86-row construction as a new best-known upper bound.
+
+If yes, identify the most appropriate maintained record table or mathematical venue and what evidence the submission should contain.
+
+Do not submit or contact anyone.
+
+## Final instructions
+
+This investigation should be substantially broader than the novelty check already performed during the original construction attempt.
+
+Treat the claimed improvement as a hypothesis to test adversarially.
+
+Don't merely confirm that the `ca-tools` table still says 87. Investigate whether that table is incomplete, stale, or misses implications of other published mathematics.
+
+Prioritize finding disconfirming evidence.
+
+**The central question is whether, before November 14, 2026, anyone had already established—explicitly or by a demonstrable consequence of existing work—that CAN(3,40,3) ≤ 86.**

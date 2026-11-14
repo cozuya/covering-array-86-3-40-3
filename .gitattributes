@@ -1,0 +1,7 @@
+# Keep certificates, generated sources, and archived evidence byte-identical on every platform.
+* -text
+*.zip binary
+*.pdf binary
+# Preserve original whitespace in supplied historical material.
+prior-art/** -whitespace
+provenance/** -whitespace
